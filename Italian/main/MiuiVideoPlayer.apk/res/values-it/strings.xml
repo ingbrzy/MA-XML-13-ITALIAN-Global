@@ -128,7 +128,6 @@
     <string name="cast_forward">Avanti</string>
     <string name="cast_forward_10">Avanti di dieci secondi</string>
     <string name="cast_forward_30">Avanti di trenta secondi</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">IN DIRETTA</string>
     <string name="cast_mute">Disattiva audio</string>
     <string name="cast_notification_connected_message">Connesso a %1$s</string>
