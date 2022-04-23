@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Attenzione</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Questo video non è valido per lo streaming su questo dispositivo.</string>
     <string name="selectTextMode">Seleziona testo</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">"Icona dell'impronta"</string>
     <string name="paste_as_plain_text">Incolla come testo normale</string>
     <string name="autofill">Compilazione automatica</string>
@@ -320,7 +321,7 @@ Puoi associare questa scorciatoia a un'altra funzionalità in Impostazioni > Acc
     <string name="autofill_save_title">Vuoi salvare su <b>%1$s</b>?</string>
     <string name="autofill_save_title_with_2types">Vuoi salvare %1$s e %2$s su <b>%3$s</b>?</string>
     <string name="autofill_save_title_with_3types">Vuoi salvare %1$s, %2$s e %3$s su <b>%4$s</b>?</string>
-    <string name="autofill_save_title_with_type">Vuoi salvare %1$s su <b>%2$s</b>?</string>
+    <string name="autofill_save_title_with_type">Vuoi salvare la %1$s su <b>%2$s</b>?</string>
     <string name="autofill_save_type_address">indirizzo</string>
     <string name="autofill_save_type_credit_card">carta di credito</string>
     <string name="autofill_save_type_debit_card">carta di debito</string>
@@ -345,14 +346,14 @@ Puoi associare questa scorciatoia a un'altra funzionalità in Impostazioni > Acc
     <string name="battery_saver_charged_notification_summary">Il telefono ha carica sufficiente. Funzionalità non più limitate.</string>
     <string name="battery_saver_description">"Per estendere la durata della batteria, la funzionalità di risparmio energetico:
 
-•Attiva il tema scuro
-•Disattiva o limita le attività in background, alcuni effetti visivi e altre funzionalità come \"Ok Google\""</string>
+• Attiva il tema scuro
+• Disattiva o limita le attività in background, alcuni effetti visivi e altre funzionalità come \"Hey Google\""</string>
     <string name="battery_saver_description_with_learn_more">"Per estendere la durata della batteria, la funzionalità di risparmio energetico:
 
-•Attiva il tema scuro
-•Disattiva o limita le attività in background, alcuni effetti visivi e altre funzionalità come \"Ok Google\"
+• Attiva il tema scuro
+• Disattiva o limita le attività in background, alcuni effetti visivi e altre funzionalità come \"Hey Google\"
 
-"<annotation id="url">Ulteriori informazioni</annotation></string>
+"<annotation id="url">Scopri di più</annotation></string>
     <string name="battery_saver_notification_channel_name">Risparmio energetico</string>
     <string name="battery_saver_off_notification_title">Risparmio energetico disattivato</string>
     <string name="beforeOneMonthDurationPast">Oltre 1 mese fa</string>
@@ -626,6 +627,7 @@ Per eventuali domande, contatta l'amministratore della tua organizzazione."</str
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Codice funzione completo.</string>
     <string name="fcError">Problema di connessione o codice funzione non valido.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Trova</string>
     <string name="find_next">Trova successivo</string>
     <string name="find_on_page">Trova nella pagina</string>
@@ -833,6 +835,7 @@ Visita "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Rimuovi</string>
     <string name="kg_sim_pin_instructions">Inserisci il PIN della SIM</string>
     <string name="kg_sim_unlock_progress_dialog_message">Sblocco scheda SIM…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Hai digitato la tua password %1$d volte in modo errato. 
 
 Riprova tra %2$d secondi."</string>
@@ -878,7 +881,7 @@ Per rimuoverlo, tieni premuti contemporaneamente il tasto Home e il tasto di acc
     <string name="lockscreen_access_pattern_detected">Sequenza completata</string>
     <string name="lockscreen_access_pattern_start">Sequenza iniziata</string>
     <string name="lockscreen_carrier_default">Nessun servizio</string>
-    <string name="lockscreen_emergency_call">Emergenza</string>
+    <string name="lockscreen_emergency_call">Chiamata di emergenza</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">Hai erroneamente tentato di sbloccare il telefono %1$d volte. Dopo altri %2$d tentativi non riusciti, il telefono verrà sottoposto a un ripristino dati di fabbrica e tutti i dati utente andranno persi.</string>
     <string name="lockscreen_failed_attempts_almost_glogin">"%1$d tentativi errati di inserimento della sequenza di sblocco. Dopo altri %2$d tentativi falliti, ti verrà chiesto di sbloccare il telefono con i tuoi dati di accesso Google.
 
@@ -1152,6 +1155,7 @@ Riprova tra %2$d secondi."</string>
     <string name="notification_hidden_text">Nuova notifica</string>
     <string name="notification_history_title_placeholder">Notifica app personalizzata</string>
     <string name="notification_listener_binding_label">Listener di notifica</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Servizio di classificazione delle notifiche</string>
     <string name="notification_reply_button_accessibility">Rispondi</string>
     <string name="notification_title">Errore di accesso relativo a %1$s</string>
@@ -1601,7 +1605,7 @@ per l'account %s."</string>
     <string name="ringtone_picker_title">Suonerie</string>
     <string name="ringtone_picker_title_alarm">Suoni delle sveglie</string>
     <string name="ringtone_picker_title_notification">Suoni di notifica</string>
-    <string name="ringtone_silent">Nessuna</string>
+    <string name="ringtone_silent">Nessuno</string>
     <string name="ringtone_unknown">Sconosciuta</string>
     <string name="roamingText0">Indicatore roaming attivato</string>
     <string name="roamingText1">Indicatore roaming disattivato</string>
@@ -1700,7 +1704,7 @@ L'ascolto ad alto volume per lunghi periodi di tempo potrebbe danneggiare l'udit
     <string name="sipAddressTypeHome">Casa</string>
     <string name="sipAddressTypeOther">Altro</string>
     <string name="sipAddressTypeWork">Lavoro</string>
-    <string name="skip_button_label">Ignora</string>
+    <string name="skip_button_label">Salta</string>
     <string name="slice_more_content">+ %1$d</string>
     <string name="slices_permission_request">"L'app %1$s vuole mostrare porzioni dell'app %2$s"</string>
     <string name="sms_control_message">"&lt;b>%1$s&lt;/b> sta inviando molti SMS. Vuoi consentire all'applicazione di continuare a inviare messaggi?"</string>
@@ -1751,6 +1755,7 @@ L'ascolto ad alto volume per lunghi periodi di tempo potrebbe danneggiare l'udit
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Ripristina le impostazioni di fabbrica per disattivare la modalità test harness.</string>
     <string name="test_harness_mode_notification_title">Modalità test harness attivata</string>
+    <string name="tethered_notification_message">Tocca per impostare.</string>
     <string name="tethered_notification_multi_device_message">%1$s dispositivi connessi</string>
     <string name="tethered_notification_no_device_message">Nessun dispositivo connesso</string>
     <string name="tethered_notification_one_device_message">%1$s dispositivi connessi</string>
@@ -1917,6 +1922,7 @@ Vuoi chiuderla?"</string>
     <string name="zen_mode_feature_name">Non disturbare</string>
     <string name="zen_mode_forever">Fino alla disattivazione</string>
     <string name="zen_mode_forever_dnd">Fino alla disattivazione di Non disturbare</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Fino a %1$s</string>
     <string name="zen_upgrade_notification_content">Tocca per controllare le notifiche bloccate.</string>
     <string name="zen_upgrade_notification_title">"L'impostazione Non disturbare è cambiata"</string>
