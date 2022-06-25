@@ -40,6 +40,49 @@
         <item>zeus</item>
         <item>cupid</item>
     </string-array>
+    <string-array name="config_Poland_Orange_IPV6_array">
+        <item>lavender</item>
+        <item>onc</item>
+        <item>pine</item>
+        <item>grus</item>
+    </string-array>
+    <string-array name="device_on_platform_x250">
+        <item>apollo</item>
+        <item>cas</item>
+        <item>alioth</item>
+        <item>cmi</item>
+        <item>psyche</item>
+        <item>thyme</item>
+        <item>umi</item>
+        <item>lmi</item>
+    </string-array>
+    <string-array name="device_on_platform_x350">
+        <item>haydn</item>
+        <item>asterisco</item>
+        <item>cetus</item>
+        <item>venus</item>
+        <item>renoir</item>
+        <item>odin</item>
+    </string-array>
+    <string-array name="device_on_platform_x450">
+        <item>zeus</item>
+        <item>cupid</item>
+        <item>ingres</item>
+        <item>thor</item>
+        <item>zizhan</item>
+        <item>ziyi</item>
+    </string-array>
+    <string-array name="device_on_platform_x475">
+        <item>thor</item>
+        <item>unicorn</item>
+        <item>mayfly</item>
+        <item>zizhan</item>
+        <item>diting</item>
+    </string-array>
+    <string-array name="devices_support_multi_freeform">
+        <item>zizhan</item>
+        <item>cetus</item>
+    </string-array>
     <string-array name="float_notification_whitelist">
         <item>com.google.android.apps.messaging</item>
         <item>com.mi.oa</item>
@@ -103,10 +146,6 @@
         <item>com.taobao.taobao</item>
         <item>com.miui.systemAdSolution</item>
         <item>com.miui.hybrid.accessory</item>
-    </string-array>
-    <string-array name="fullscreen_landscape_list">
-        <item>com.android.launcher3</item>
-        <item>com.taobao.taobao,nr</item>
     </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.apps.messaging</item>
@@ -1255,6 +1294,14 @@
         <item>com.android.gallery3d</item>
         <item>com.android.systemui:sliderview</item>
         <item>com.android.camera</item>
+        <item>com.tencent.mm</item>
+        <item>com.tencent.mm:push</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.mobileqq:MSF</item>
+        <item>com.xiaomi.joyose</item>
+        <item>com.phonetest.application:CameraMemoryWatcher</item>
+        <item>com.miui.securitycenter.bootaware</item>
+        <item>com.xiaomi.metoknlp</item>
     </string-array>
     <string-array name="process_disable_trim_list">
         <item>com.android.launcher3</item>
@@ -1263,6 +1310,7 @@
     </string-array>
     <string-array name="process_display_size_protect_list">
         <item>com.android.settings:remote</item>
+        <item>com.android.settings:CryptKeeper</item>
         <item>com.android.providers.calendar</item>
         <item>com.android.vending:download_service</item>
         <item>com.qualcomm.telephony</item>
@@ -1880,5 +1928,17 @@
         <item>xiyuan.hoping.org.xiyuan</item>
         <item>yong.universalplayer</item>
         <item>youi.tech.com.wangying</item>
+    </string-array>
+    <string-array name="white_list_device">
+        <item>rainbow</item>
+        <item>sunny</item>
+        <item>violet</item>
+        <item>renoir</item>
+        <item>lisa</item>
+        <item>mona</item>
+        <item>taoyao</item>
+        <item>zijin</item>
+        <item>veux</item>
+        <item>peux</item>
     </string-array>
 </resources>

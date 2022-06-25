@@ -38,6 +38,8 @@
     <string name="align_type">Allineamento</string>
     <string name="always_style">Sempre</string>
     <string name="always_style_symmary">Consuma più batteria</string>
+    <string name="ambient_display_screen_title">Always-on display</string>
+    <string name="ambient_display_screen_title_sp">Ambient display</string>
     <string name="animation_clock_panel">Composizione Onda</string>
     <string name="aod_close_color_inversion">"Questa funzione non può essere combinata con l'inversione dei colori. Disattivala prima."</string>
     <string name="aod_component">Elementi visualizzati</string>
@@ -56,8 +58,9 @@ dd/MM"</string>
     <string name="aod_mode_style">Stile e sfondo orologio</string>
     <string name="aod_mode_style_title">Altre opzioni</string>
     <string name="aod_mode_summary">Mostra ora, data, notifiche e immagini di sfondo quando lo schermo è spento</string>
-    <string name="aod_mode_time_summary">Pianifica l\'attivazioe e disattivazione della modalità Always on</string>
+    <string name="aod_mode_time_summary">Pianifica l\'attivazioe e disattivazione della mod. Always on</string>
     <string name="aod_mode_time_title">Pianifica</string>
+    <string name="aod_mode_title">Always-on display</string>
     <string name="aod_show_date_and_time">Mostra data e ora</string>
     <string name="aod_show_style_title">Visualizza elementi</string>
     <string name="aod_signature_12">hh:mm aa</string>
@@ -67,12 +70,12 @@ dd/MM"</string>
     <string name="apply">Applica</string>
     <string name="apply_succeed">Applicato correttamente</string>
     <string name="background_icon">Sfondo</string>
-    <string name="battery_meter_progress_mask_path">M2.5638852 0C1.6723665 0 1.3490802 0.09282561 1.0231543 0.2671327 0.69722837 0.4414398 0.4414398 0.69722837 0.2671327 1.0231543 0.09282561 1.3490802 0 1.6723665 0 2.5638852L0 0 2.5638852 0Zm0 18L0 18 0 15.436115c0 0.891518 0.09282561 1.214805 0.2671327 1.540731 0.1743071 0.325926 0.43009567 0.581714 0.7560216 0.756021C1.3490802 17.907174 1.6723665 18 2.5638852 18Z</string>
     <string name="below_image">Giù</string>
     <string name="btn_know">Ok</string>
     <string name="cancel">Annulla</string>
     <string name="character_counter_content_description">Limite caratteri superato %1$d di %2$d</string>
     <string name="character_counter_overflowed_content_description">Limite caratteri superato %1$d di %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
     <string name="chinese_day_1">1</string>
     <string name="chinese_day_10">10</string>
     <string name="chinese_day_11">11</string>
@@ -227,6 +230,7 @@ dd/MM"</string>
     <string name="friday">Venerdì</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
+    <string name="garbage_count">Ci sono %1$s vecchie istanze</string>
     <string name="heavenly_stems_bing">Bing</string>
     <string name="heavenly_stems_ding">Ding</string>
     <string name="heavenly_stems_geng">Geng</string>
@@ -244,9 +248,12 @@ dd/MM"</string>
     <string name="line_space">Spaziatura linea</string>
     <string name="material_slider_range_end">Fine intervallo,</string>
     <string name="material_slider_range_start">Inizio intervallo,</string>
+    <string name="memory_leak">Memory leak</string>
     <string name="midnight">Notte</string>
     <string name="mini_time">Orologio piccolo</string>
     <string name="minimalist_clock">Orologio semplice</string>
+    <string name="miuix_access_state_desc">Selezionato</string>
+    <string name="miuix_alphabet_indexer_name">Barra degli indici</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleziona</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleziona tutto</string>
     <string name="miuix_appcompat_action_mode_title_empty">Seleziona elementi</string>
@@ -261,6 +268,8 @@ dd/MM"</string>
     <string name="miuix_appcompat_select_all">Seleziona tutto</string>
     <string name="miuix_appcompat_select_all_description">Seleziona tutto</string>
     <string name="miuix_appcompat_select_item">Seleziona elementi</string>
+    <string name="miuix_indexer_collect">Raccolte</string>
+    <string name="miuix_indexer_selected">Selezionato %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tira in giù per aggiornare</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Aggiornato</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Aggiornamento…</string>
@@ -315,6 +324,7 @@ dd/MM"</string>
     <string name="mtrl_badge_numberless_content_description">Nuove notifiche</string>
     <string name="mtrl_chip_close_icon_content_description">Rimuovi %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Piu di %1$d nuove notifiche</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
     <string name="mtrl_picker_a11y_next_month">Passa al mese successivo</string>
     <string name="mtrl_picker_a11y_prev_month">Passa al mese precedente</string>
     <string name="mtrl_picker_announce_current_selection">Selezione corrente: %1$s</string>
@@ -335,10 +345,10 @@ dd/MM"</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data di fine</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Data di inizio</string>
-    <string name="mtrl_picker_text_input_day_abbr">dd</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambia a modalità inserimento calendario</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambia a mod. inserimento calendario</string>
     <string name="mtrl_picker_toggle_to_day_selection">Tocca cambia per scegliere un giorno</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">Passa a modalità inserimento testo</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passa a mod. inserimento testo</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tocca per selezionare un anno</string>
     <string name="my_style_title">Il mio tema</string>
     <string name="night">Sera</string>
@@ -347,6 +357,7 @@ dd/MM"</string>
     <string name="notification_anim_pulse">Pulsazione</string>
     <string name="notification_anim_rhythm">Ritmo</string>
     <string name="notification_anim_star">Stellare</string>
+    <string name="notification_channel_alerts">Avvisi</string>
     <string name="notification_nothing">Nessuno</string>
     <string name="notification_screen_on">Accendi lo schermo</string>
     <string name="off">Disattivato</string>
@@ -377,7 +388,7 @@ dd/MM"</string>
     <string name="select_notification_notify_style">Seleziona effetto notifica</string>
     <string name="send">Invia</string>
     <string name="share">Condividi</string>
-    <string name="share_to_community">Condividi su Mi Community</string>
+    <string name="share_to_community">Condividi su Xiaomi Community</string>
     <string name="show_battery">Mostra stato batteria</string>
     <string name="show_battery_status">Mostra stato batteria</string>
     <string name="show_lunar">Mostra calendario cinese tradizionale</string>
@@ -386,6 +397,8 @@ dd/MM"</string>
     <string name="show_notificaton">Mostra notifiche</string>
     <string name="shownone_arround_image">Nessuno</string>
     <string name="signature">Firma</string>
+    <string name="signature_default_content">"Always believe that something
+wonderful is about to happen"</string>
     <string name="solar_term_autumn_begins">Inizia l\'autunno</string>
     <string name="solar_term_autumn_equinox">Equinozio d\'autunno</string>
     <string name="solar_term_clear_and_bright">Chiaro e luminoso</string>
@@ -416,7 +429,7 @@ dd/MM"</string>
  i termini e le condizioni di Salute per continuare.</string>
     <string name="step_component_info_desc">Il conteggio dei passi si trasformerà in un trofeo quando il tuo obiettivo sarà raggiunto. Il conteggio dei passi è fornito da Xiaomi Health.</string>
     <string name="step_component_info_tip">Il conteggio dei passi è fornito da Xiaomi Health. Installa o aggiorna Xiaomi Health e accetta i termini e le condizioni per continuare.</string>
-    <string name="step_to_image_community">Trova altri in Mi Community</string>
+    <string name="step_to_image_community">Trova altro in Xiaomi Community</string>
     <string name="summary">"Per ridurre il consumo di energia, gli elementi non verranno visualizzati quando il dispositivo si trova al buio per molto tempo."</string>
     <string name="sunday">Domenica</string>
     <string name="sunday_short">Dom</string>
@@ -428,6 +441,7 @@ dd/M"</string>
     <string name="super_wallpaper_date_lunar">"EEEE
 dd/MM"</string>
     <string name="temporary_style">Per 10 secondi dopo aver toccato</string>
+    <string name="temporary_style_5">Per 5 secondi dopo aver toccato</string>
     <string name="temporary_style_summary">Consigliato</string>
     <string name="text_color">Colore del testo</string>
     <string name="text_length_exceed_limit_alert">*Il testo inserito è troppo lungo</string>
@@ -473,6 +487,7 @@ dd/MM"</string>
     <string name="the_valentines_day">"San Valentino"</string>
     <string name="the_water_lantern_festival">Festa delle Lanterne d\'Acqua</string>
     <string name="theme_cate_title">tema</string>
+    <string name="theme_manager_other">Altri elementi</string>
     <string name="thursday">Giovedì</string>
     <string name="thursday_short">Gio</string>
     <string name="thursday_shortest">Gio</string>

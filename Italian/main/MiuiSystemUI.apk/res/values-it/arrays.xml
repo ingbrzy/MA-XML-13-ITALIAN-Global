@@ -17,6 +17,11 @@
         <item>Massimo 3 processi</item>
         <item>Massimo 4 processi</item>
     </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
     <string-array name="battery_options">
         <item>Mostra sempre la percentuale</item>
         <item>Mostra la percentuale quando in carica (predefinito)</item>
@@ -523,6 +528,8 @@
         <item>com.miui.accessibility</item>
         <item>com.miui.systemAdSolution</item>
         <item>android</item>
+        <item>com.miui.voiceassist</item>
+        <item>com.twitter.android</item>
     </string-array>
     <string-array name="config_canShowBadgePackages">
         <item>com.kddi.android.smartpass</item>
@@ -629,6 +636,33 @@
         <item>asterisco</item>
         <item>mars</item>
     </string-array>
+    <string-array name="config_charge_support_lite">
+        <item>ginkgo</item>
+        <item>wayne</item>
+        <item>whyred</item>
+        <item>tulip</item>
+        <item>lavender</item>
+        <item>lotus</item>
+        <item>laurus</item>
+        <item>merlin</item>
+        <item>lancelot</item>
+        <item>galahad</item>
+        <item>citrus</item>
+        <item>pomelo</item>
+        <item>lemon</item>
+        <item>shiva</item>
+        <item>lime</item>
+        <item>cannon</item>
+        <item>sunny</item>
+        <item>camellia</item>
+        <item>camellian</item>
+    </string-array>
+    <string-array name="config_except_charge_support_lite">
+        <item>curtana</item>
+        <item>excalibur</item>
+        <item>joyeuse</item>
+        <item>gram</item>
+    </string-array>
     <string-array name="config_statusBarIcons">
         <item>micphone</item>
         <item>headset</item>
@@ -637,18 +671,18 @@
         <item>privacy_mode</item>
         <item>ble_unlock_mode</item>
         <item>zen</item>
+        <item>nfc</item>
+        <item>zen</item>
         <item>gps</item>
         <item>missed_call</item>
-        <item>managed_profile</item>
         <item>ime</item>
-        <item>sync_failing</item>
-        <item>sync_active</item>
+        <item>second_space</item>
+        <item>ime</item>
         <item>cast</item>
         <item>location</item>
         <item>bluetooth</item>
         <item>bluetooth_handsfree_battery</item>
         <item>stealth</item>
-        <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
         <item>volume</item>
@@ -677,10 +711,29 @@
         <item>Promemoria</item>
         <item>FloatAndKeyguard</item>
     </string-array>
+    <string-array name="data_type_name_default_value">
+        <item></item>
+        <item>G</item>
+        <item>E</item>
+        <item>3G</item>
+        <item>H</item>
+        <item>H+</item>
+        <item>4G</item>
+        <item>4G+</item>
+        <item></item>
+        <item>LTE</item>
+        <item>5G</item>
+        <item>5G+</item>
+    </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Spenta</item>
         <item>Mostra aree sovradisegnate</item>
         <item>Mostra aree per Deuteranomalia</item>
+    </string-array>
+    <string-array name="device_support_pickup_by_MTK">
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>lotus</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Nessuno</item>
@@ -697,6 +750,11 @@
         <item>Non controllare mai</item>
         <item>Controlla solo per contenuti DRM</item>
         <item>Controlla sempre</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
     </string-array>
     <string-array name="important_section_whitelist">
         <item>com.tencent.mm</item>
@@ -981,47 +1039,6 @@
         <item>Area ritaglio non rettangolare blu</item>
         <item>Evidenzia comandi di disegno test in verde</item>
     </string-array>
-    <string-array name="system_foreground_notification_whitelist">
-        <item>com.xiaomi.joyose</item>
-        <item>com.android.launcher3</item>
-        <item>com.mi.android.globallauncher</item>
-        <item>com.android.providers.contacts</item>
-        <item>com.android.updater</item>
-        <item>com.android.gallery3d</item>
-        <item>com.mi.android.globalFileexplorer</item>
-        <item>com.miui.securitycenter</item>
-        <item>com.miui.cloudappbackup</item>
-        <item>com.miui.fmradio</item>
-        <item>com.android.systemui</item>
-        <item>com.miui.contentextension</item>
-        <item>com.android.mms</item>
-        <item>com.miui.smsextra</item>
-        <item>com.miui.securitycore</item>
-        <item>com.miui.notification</item>
-        <item>com.mi.health</item>
-        <item>com.xiaomi.market:com.xiaomi.market_hide</item>
-        <item>com.xiaomi.mipicks</item>
-        <item>com.xiaomi.discover</item>
-        <item>com.miui.mishare.connectivity</item>
-        <item>com.qualcomm.wfd.service</item>
-        <item>com.miui.notes</item>
-        <item>com.miui.tsmclient</item>
-        <item>com.mi.android.globalminusscreen</item>
-        <item>com.mfashiongallery.emag</item>
-        <item>com.android.thememanager</item>
-        <item>com.miui.voiceassist:com.miui.voiceassistforeground</item>
-        <item>com.tencent.tim</item>
-        <item>com.twitter.android</item>
-        <item>com.miui.personalassistant</item>
-        <item>com.xiaomi.miplay_client</item>
-        <item>com.miui.screenshot</item>
-        <item>com.tobila.tobilaphone.mobile.android.au</item>
-        <item>com.miui.cleanmaster</item>
-        <item>com.miui.cleaner</item>
-        <item>com.instagram.android</item>
-        <item>com.milink.service:hide_foreground</item>
-        <item>com.xiaomi.aiasst.vision:ai_toolbox_fs</item>
-    </string-array>
     <string-array name="tile_states_airplane">
         <item>Non disponibile</item>
         <item>Spenta</item>
@@ -1165,6 +1182,14 @@
         <item>Scala animazione 2x</item>
         <item>Scala animazione 5x</item>
         <item>Scala animazione 10x</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+        <item>이것은 한국어 음성 합성의 예입니다.</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>Molto lento</item>

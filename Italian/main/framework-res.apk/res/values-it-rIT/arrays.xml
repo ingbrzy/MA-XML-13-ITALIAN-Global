@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string-array name="config_callBarringMMI">
+    <item>33</item>
+    <item>331</item>
+    <item>332</item>
+    <item>35</item>
+    <item>351</item>
+    <item>330</item>
+    <item>333</item>
+    <item>353</item>
+  </string-array>
+  <string-array name="config_callBarringMMI_for_ims">
+    <item>33</item>
+    <item>331</item>
+    <item>332</item>
+    <item>35</item>
+    <item>351</item>
+    <item>330</item>
+    <item>333</item>
+    <item>353</item>
+  </string-array>
   <string-array name="config_display_no_service_when_sim_unready">
     <item>DE</item>
     <item>GB</item>
@@ -8,15 +28,6 @@
   <string-array name="config_forceQueryablePackages">
     <item>com.android.settings</item>
     <item>com.android.bluetooth</item>
-  </string-array>
-  <string-array name="config_globalActionsList">
-    <item>emergency</item>
-    <item>lockdown</item>
-    <item>potenza</item>
-    <item>restart</item>
-    <item>logout</item>
-    <item>screenshot</item>
-    <item>bugreport</item>
   </string-array>
   <string-array name="config_miuiNonBlockableNotificationPackages">
     <item>android</item>
@@ -32,41 +43,6 @@
     <item>com.android.phone:demo_Version</item>
     <item>com.miui.securitycore</item>
     <item>com.android.nfc:tag_dispatch</item>
-  </string-array>
-  <string-array name="config_statusBarIcons">
-    <item>micphone</item>
-    <item>headset</item>
-    <item>mikey</item>
-    <item>call_record</item>
-    <item>privacy_mode</item>
-    <item>ble_unlock_mode</item>
-    <item>quiet</item>
-    <item>gps</item>
-    <item>missed_call</item>
-    <item>ime</item>
-    <item>ime</item>
-    <item>sync_failing</item>
-    <item>sync_active</item>
-    <item>cast</item>
-    <item>location</item>
-    <item>bluetooth</item>
-    <item>bluetooth_handsfree_battery</item>
-    <item>nfc</item>
-    <item>tty</item>
-    <item>speakerphone</item>
-    <item>zen</item>
-    <item>silenzioso</item>
-    <item>volume</item>
-    <item>wifi</item>
-    <item>wimax</item>
-    <item>cdma_eri</item>
-    <item>data_connection</item>
-    <item>phone_evdo_signal</item>
-    <item>phone_signal</item>
-    <item>battery</item>
-    <item>alarm_clock</item>
-    <item>secure</item>
-    <item>clock</item>
   </string-array>
   <string-array name="config_udfps_enroll_stage_thresholds">
     <item>0.25</item>
@@ -114,8 +90,18 @@
     <item>Altro</item>
     <item>Personalizzato</item>
   </string-array>
+  <string-array name="imProtocols">
+    <item>AIM</item>
+    <item>Windows Live</item>
+    <item>Yahoo</item>
+    <item>Skype</item>
+    <item>QQ</item>
+    <item>Google Talk</item>
+    <item>ICQ</item>
+    <item>Jabber</item>
+  </string-array>
   <string-array name="network_switch_type_name">
-    <item>dati mobili</item>
+    <item>dati</item>
     <item>Wi-Fi</item>
     <item>Bluetooth</item>
     <item>LAN</item>
@@ -170,6 +156,11 @@
     <item>com.jeejen.family.miui</item>
     <item>com.android.providers.downloads.ui</item>
     <item>com.android.documentsui</item>
+  </string-array>
+  <string-array name="special_locale_names">
+    <item>العربية</item>
+    <item>中文 (简体)</item>
+    <item>中文 (繁體)</item>
   </string-array>
   <string-array name="wfcOperatorErrorAlertMessages">
     <item>Per effettuare chiamate e inviare messaggi tramite Wi-Fi, chiedi prima al tuo operatore di impostare questo servizio. Dopodiché, attiva di nuovo la funzione Chiamate Wi-Fi nelle impostazioni. (Codice di errore: %1$s)</item>

@@ -13,22 +13,6 @@
         <item>Infrasettimanale</item>
         <item>Personalizza</item>
     </string-array>
-    <string-array name="always_enabled_app_list">
-        <item>com.android.providers.applications</item>
-        <item>com.android.providers.calendar</item>
-        <item>com.android.providers.contacts</item>
-        <item>com.jeejen.family.miui</item>
-        <item>com.android.providers.drm</item>
-        <item>com.android.providers.media</item>
-        <item>com.android.providers.telephony</item>
-        <item>com.android.providers.userdictionary</item>
-        <item>com.miui.providers.userbook</item>
-        <item>com.miui.providers.weather</item>
-        <item>com.miui.yellowpage</item>
-        <item>com.miui</item>
-        <item>com.google.android.packageinstaller</item>
-        <item>com.miui.core</item>
-    </string-array>
     <string-array name="app_behavior_type_menu">
         <item>Tutti i dati</item>
         <item>Avvio automatico</item>
@@ -41,13 +25,22 @@
         <item>PIN</item>
         <item>Password</item>
     </string-array>
+    <string-array name="auto_task_screen_zoom_level">
+        <item>XS</item>
+        <item>S</item>
+        <item>L</item>
+    </string-array>
     <string-array name="auto_task_text_layout_size_level">
-        <item>Extra small</item>
+        <item>Molto piccolo</item>
         <item>Piccolo</item>
         <item>Media</item>
         <item>Largo</item>
-        <item>Extra large</item>
+        <item>Molto grande</item>
         <item>XXL</item>
+    </string-array>
+    <string-array name="cache_sort_type">
+        <item>Dimensione</item>
+        <item>Nome</item>
     </string-array>
     <string-array name="cellular_data_unit">
         <item>GB</item>
@@ -72,10 +65,10 @@
         <item>Carta Tencent</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>"Ieri (dati mobili) "</item>
-        <item>"Oggi (dati mobili) "</item>
-        <item>"Ultimo mese (dati mobili) "</item>
-        <item>"Questo mese (dati mobili) "</item>
+        <item>"Ieri (dati) "</item>
+        <item>"Oggi (dati) "</item>
+        <item>"Ultimo mese (dati) "</item>
+        <item>"Questo mese (dati) "</item>
         <item>"Ieri (Wi-Fi) "</item>
         <item>"Oggi (Wi-Fi) "</item>
         <item>"Ultimo mese (Wi-Fi) "</item>
@@ -141,21 +134,28 @@
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
         <item>Mostra avviso</item>
-        <item>Avvisa e disattiva i dati mobili</item>
+        <item>Avvisa e disattiva i dati</item>
+    </string-array>
+    <string-array name="pc_fast_charge_entry">
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">
         <item>Predefinita</item>
         <item>Priorità alle prestazioni</item>
     </string-array>
     <string-array name="pc_settings_thermal_summaries">
-        <item>Uso della modalità predefinita di controllo della temperatura</item>
+        <item>Uso della mod. predefinita di controllo della temperatura</item>
         <item>Priorità alle prestazioni</item>
     </string-array>
     <string-array name="perm_intercept_notification">
         <item>Leggi tutte le tue notifiche, incluso il contenuto dei tuoi messaggi di testo e altri elementi che potrebbero contenere informazioni personali</item>
         <item>Limita i permessi di notifica per alcune app</item>
         <item>Simula il tocco sulla notifica e apre le app</item>
-        <item>Attiva e disattiva la modalità ND</item>
+        <item>Attiva e disattiva la mod. ND</item>
     </string-array>
     <string-array name="perm_intercept_statitics">
         <item>Raccoglie i dati sui tuoi interessi e comportamenti imparando quali app usi e quanto spesso le usi</item>
@@ -178,15 +178,13 @@
         <item>Utilizzo Dati</item>
         <item>Saldo telefonico</item>
     </string-array>
-    <string-array name="sort_title">
-        <item>Ordina per stato</item>
+    <string-array name="sort_title_new">
         <item>Ordina per nome app</item>
-        <item>Ordina per frequenza d\'uso</item>
-        <item>Ordina per memoria utilizzata</item>
+        <item>Ordina per frequenza di utilizzo</item>
+        <item>Ordina per memoria usata</item>
         <item>Ordina per data di installazione</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>Stato</item>
+    <string-array name="sort_type_new">
         <item>Nome app</item>
         <item>Frequenza di utilizzo</item>
         <item>Memoria utilizzata</item>
@@ -208,7 +206,7 @@
         <item>Piano dati illimitato</item>
     </string-array>
     <string-array name="traffic_type">
-        <item>"Utilizzo dati mobili "</item>
+        <item>"Utilizzo dati "</item>
         <item>"Utilizzo Wi-Fi "</item>
     </string-array>
 </resources>

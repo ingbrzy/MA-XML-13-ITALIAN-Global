@@ -38,7 +38,7 @@
     </plurals>
     <plurals name="birthday_format">
         <item quantity="other">" (%1$d anni)"</item>
-        <item quantity="one">" (%1$d anni)"</item>
+        <item quantity="one">" (%1$d anno)"</item>
     </plurals>
     <plurals name="count_duration_standard">
         <item quantity="other">%1$d-%2$d volte</item>
@@ -81,8 +81,8 @@
         <item quantity="one">%1$d registrazione</item>
     </plurals>
     <plurals name="dream_talk_segment_unit">
-        <item quantity="other">"registrazioni"</item>
-        <item quantity="one">"registrazione"</item>
+        <item quantity="other">" istanze"</item>
+        <item quantity="one">" istanza"</item>
     </plurals>
     <plurals name="duration_unit_hour_format">
         <item quantity="other">%1$d ore</item>
@@ -201,12 +201,12 @@
         <item quantity="one">Obiettivo: %1$d ora</item>
     </plurals>
     <plurals name="sleep_management_exp_hours">
-        <item quantity="other">"Le impostazioni attuali non ti garantiranno %1$d ore di sonno al giorno. Hai bisogno di dormire di più."</item>
-        <item quantity="one">"Le impostazioni attuali non ti garantiranno %1$d ora di sonno al giorno. Hai bisogno di dormire di più."</item>
+        <item quantity="other">"Le impostazioni attuali non garantiranno %1$d ore di sonno al giorno. Hai bisogno di dormire di più."</item>
+        <item quantity="one">"Le impostazioni attuali non garantiranno %1$d ora di sonno al giorno. Hai bisogno di dormire di più."</item>
     </plurals>
     <plurals name="sport_tts_goal_consume">
-        <item quantity="other">%s Calorie rimaste da bruciare al raggiungimento dell\'obiettivo</item>
-        <item quantity="one">%s Caloria rimasta da bruciare al raggiungimento dell\'obiettivo</item>
+        <item quantity="other">%s Calorie rimaste da bruciare per il raggiungimento dell\'obiettivo</item>
+        <item quantity="one">%s Caloria rimasta da bruciare per il raggiungimento dell\'obiettivo</item>
     </plurals>
     <plurals name="sport_tts_goal_distance">
         <item quantity="other">%s chilometri rimasti al raggiungimento dell\'obiettivo</item>

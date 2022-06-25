@@ -4,6 +4,300 @@
         <item>Maschio</item>
         <item>Femmina</item>
     </string-array>
+    <string-array name="baidu">
+        <item>Baidu</item>
+        <item>baidu.com</item>
+        <item>https://m.baidu.com/favicon.ico</item>
+        <item>https://m.baidu.com/s?from=1269a&amp;wd={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>https://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="baidu_in_list">
+        <item>search_baidu</item>
+        <item>ic_search_engine_baidu</item>
+        <item>baidu</item>
+    </string-array>
+    <string-array name="bing">
+        <item>Bing</item>
+        <item>bing.com</item>
+        <item>https://www.bing.com/s/wlflag.ico</item>
+        <item>https://www.bing.com/search?q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>https://api.bing.com/osjson.aspx?query={searchTerms}&amp;market={language}</item>
+    </string-array>
+    <string-array name="bing_in_list">
+        <item>search_bing</item>
+        <item>ic_search_engine_bing</item>
+        <item>bing</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>Google</item>
+        <item>http://www.google.com/</item>
+        <item>Picasa</item>
+        <item>http://picasaweb.google.com/</item>
+        <item>Yahoo!</item>
+        <item>http://www.yahoo.com/</item>
+        <item>MSN</item>
+        <item>http://www.msn.com/</item>
+        <item>Twitter</item>
+        <item>http://twitter.com/</item>
+        <item>Facebook</item>
+        <item>http://www.facebook.com/</item>
+        <item>Wikipedia</item>
+        <item>http://www.wikipedia.org/</item>
+        <item>eBay</item>
+        <item>http://www.ebay.com/</item>
+        <item>CNN</item>
+        <item>http://www.cnn.com/</item>
+        <item>NY Times</item>
+        <item>http://www.nytimes.com/</item>
+        <item>ESPN</item>
+        <item>http://espn.com/</item>
+        <item>Amazon</item>
+        <item>http://www.amazon.com/</item>
+        <item>Weather Channel</item>
+        <item>http://www.weather.com/</item>
+        <item>BBC</item>
+        <item>http://www.bbc.co.uk/</item>
+    </string-array>
+    <string-array name="bypass_private_route">
+        <item>1.0.0.0/8</item>
+        <item>2.0.0.0/7</item>
+        <item>4.0.0.0/6</item>
+        <item>8.0.0.0/7</item>
+        <item>11.0.0.0/8</item>
+        <item>12.0.0.0/6</item>
+        <item>16.0.0.0/4</item>
+        <item>32.0.0.0/3</item>
+        <item>64.0.0.0/3</item>
+        <item>96.0.0.0/6</item>
+        <item>100.0.0.0/10</item>
+        <item>100.128.0.0/9</item>
+        <item>101.0.0.0/8</item>
+        <item>102.0.0.0/7</item>
+        <item>104.0.0.0/5</item>
+        <item>112.0.0.0/10</item>
+        <item>112.64.0.0/11</item>
+        <item>112.96.0.0/12</item>
+        <item>112.112.0.0/13</item>
+        <item>112.120.0.0/14</item>
+        <item>112.124.0.0/19</item>
+        <item>112.124.32.0/21</item>
+        <item>112.124.40.0/22</item>
+        <item>112.124.44.0/23</item>
+        <item>112.124.46.0/24</item>
+        <item>112.124.48.0/20</item>
+        <item>112.124.64.0/18</item>
+        <item>112.124.128.0/17</item>
+        <item>112.125.0.0/16</item>
+        <item>112.126.0.0/15</item>
+        <item>112.128.0.0/9</item>
+        <item>113.0.0.0/8</item>
+        <item>114.0.0.0/10</item>
+        <item>114.64.0.0/11</item>
+        <item>114.96.0.0/12</item>
+        <item>114.112.0.0/15</item>
+        <item>114.114.0.0/18</item>
+        <item>114.114.64.0/19</item>
+        <item>114.114.96.0/20</item>
+        <item>114.114.112.0/23</item>
+        <item>114.114.115.0/24</item>
+        <item>114.114.116.0/22</item>
+        <item>114.114.120.0/21</item>
+        <item>114.114.128.0/17</item>
+        <item>114.115.0.0/16</item>
+        <item>114.116.0.0/14</item>
+        <item>114.120.0.0/13</item>
+        <item>114.128.0.0/9</item>
+        <item>115.0.0.0/8</item>
+        <item>116.0.0.0/6</item>
+        <item>120.0.0.0/6</item>
+        <item>124.0.0.0/7</item>
+        <item>126.0.0.0/8</item>
+        <item>128.0.0.0/3</item>
+        <item>160.0.0.0/5</item>
+        <item>168.0.0.0/8</item>
+        <item>169.0.0.0/9</item>
+        <item>169.128.0.0/10</item>
+        <item>169.192.0.0/11</item>
+        <item>169.224.0.0/12</item>
+        <item>169.240.0.0/13</item>
+        <item>169.248.0.0/14</item>
+        <item>169.252.0.0/15</item>
+        <item>169.255.0.0/16</item>
+        <item>170.0.0.0/7</item>
+        <item>172.0.0.0/12</item>
+        <item>172.32.0.0/11</item>
+        <item>172.64.0.0/10</item>
+        <item>172.128.0.0/9</item>
+        <item>173.0.0.0/8</item>
+        <item>174.0.0.0/7</item>
+        <item>176.0.0.0/4</item>
+        <item>192.0.0.8/29</item>
+        <item>192.0.0.16/28</item>
+        <item>192.0.0.32/27</item>
+        <item>192.0.0.64/26</item>
+        <item>192.0.0.128/25</item>
+        <item>192.0.1.0/24</item>
+        <item>192.0.3.0/24</item>
+        <item>192.0.4.0/22</item>
+        <item>192.0.8.0/21</item>
+        <item>192.0.16.0/20</item>
+        <item>192.0.32.0/19</item>
+        <item>192.0.64.0/18</item>
+        <item>192.0.128.0/17</item>
+        <item>192.1.0.0/16</item>
+        <item>192.2.0.0/15</item>
+        <item>192.4.0.0/14</item>
+        <item>192.8.0.0/13</item>
+        <item>192.16.0.0/12</item>
+        <item>192.32.0.0/11</item>
+        <item>192.64.0.0/12</item>
+        <item>192.80.0.0/13</item>
+        <item>192.88.0.0/18</item>
+        <item>192.88.64.0/19</item>
+        <item>192.88.96.0/23</item>
+        <item>192.88.98.0/24</item>
+        <item>192.88.100.0/22</item>
+        <item>192.88.104.0/21</item>
+        <item>192.88.112.0/20</item>
+        <item>192.88.128.0/17</item>
+        <item>192.89.0.0/16</item>
+        <item>192.90.0.0/15</item>
+        <item>192.92.0.0/14</item>
+        <item>192.96.0.0/11</item>
+        <item>192.128.0.0/11</item>
+        <item>192.160.0.0/13</item>
+        <item>192.169.0.0/16</item>
+        <item>192.170.0.0/15</item>
+        <item>192.172.0.0/14</item>
+        <item>192.176.0.0/12</item>
+        <item>192.192.0.0/10</item>
+        <item>193.0.0.0/8</item>
+        <item>194.0.0.0/7</item>
+        <item>196.0.0.0/7</item>
+        <item>198.0.0.0/12</item>
+        <item>198.16.0.0/15</item>
+        <item>198.20.0.0/14</item>
+        <item>198.24.0.0/13</item>
+        <item>198.32.0.0/12</item>
+        <item>198.48.0.0/15</item>
+        <item>198.50.0.0/16</item>
+        <item>198.51.0.0/18</item>
+        <item>198.51.64.0/19</item>
+        <item>198.51.96.0/22</item>
+        <item>198.51.101.0/24</item>
+        <item>198.51.102.0/23</item>
+        <item>198.51.104.0/21</item>
+        <item>198.51.112.0/20</item>
+        <item>198.51.128.0/17</item>
+        <item>198.52.0.0/14</item>
+        <item>198.56.0.0/13</item>
+        <item>198.64.0.0/10</item>
+        <item>198.128.0.0/9</item>
+        <item>199.0.0.0/8</item>
+        <item>200.0.0.0/7</item>
+        <item>202.0.0.0/8</item>
+        <item>203.0.0.0/18</item>
+        <item>203.0.64.0/19</item>
+        <item>203.0.96.0/20</item>
+        <item>203.0.112.0/24</item>
+        <item>203.0.114.0/23</item>
+        <item>203.0.116.0/22</item>
+        <item>203.0.120.0/21</item>
+        <item>203.0.128.0/17</item>
+        <item>203.1.0.0/16</item>
+        <item>203.2.0.0/15</item>
+        <item>203.4.0.0/14</item>
+        <item>203.8.0.0/13</item>
+        <item>203.16.0.0/12</item>
+        <item>203.32.0.0/11</item>
+        <item>203.64.0.0/10</item>
+        <item>203.128.0.0/9</item>
+        <item>204.0.0.0/6</item>
+        <item>208.0.0.0/4</item>
+    </string-array>
+    <string-array name="google">
+        <item>Google</item>
+        <item>google.com</item>
+        <item>https://www.google.com/favicon.ico</item>
+        <item>https://www.google.com/search?hl={language}&amp;ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>https://api.bing.com/osjson.aspx?query={searchTerms}&amp;market={language}</item>
+    </string-array>
+    <string-array name="google_in_list">
+        <item>search_google</item>
+        <item>ic_search_engine_google</item>
+        <item>google</item>
+    </string-array>
+    <string-array name="language_code_list">
+        <item>az_AZ</item>
+        <item>ms_MY</item>
+        <item>bs_BA</item>
+        <item>ca_ES</item>
+        <item>cs_CZ</item>
+        <item>da_DK</item>
+        <item>de_DE</item>
+        <item>et_EE</item>
+        <item>en</item>
+        <item>es</item>
+        <item>eu_ES</item>
+        <item>fr_FR</item>
+        <item>gl_ES</item>
+        <item>ha_NG</item>
+        <item>hr_HR</item>
+        <item>in_ID</item>
+        <item>it_IT</item>
+        <item>lv_LV</item>
+        <item>lt_LT</item>
+        <item>hu_HU</item>
+        <item>mt_MT</item>
+        <item>nl_NL</item>
+        <item>nb_NO</item>
+        <item>uz_UZ</item>
+        <item>pl_PL</item>
+        <item>pt</item>
+        <item>ro_RO</item>
+        <item>sq_AL</item>
+        <item>sk_SK</item>
+        <item>sl_SI</item>
+        <item>fi_FI</item>
+        <item>sv_SE</item>
+        <item>vi_VN</item>
+        <item>tr_TR</item>
+        <item>el_GR</item>
+        <item>be_BY</item>
+        <item>bg_BG</item>
+        <item>kk_KZ</item>
+        <item>mk_MK</item>
+        <item>ru_RU</item>
+        <item>sr_RS</item>
+        <item>uk_UA</item>
+        <item>ka_GE</item>
+        <item>hy_AM</item>
+        <item>iw_IL</item>
+        <item>ur</item>
+        <item>ar_EG</item>
+        <item>fa_IR</item>
+        <item>ne</item>
+        <item>mr_IN</item>
+        <item>hi_IN</item>
+        <item>as_IN</item>
+        <item>bn</item>
+        <item>pa_IN</item>
+        <item>gu_IN</item>
+        <item>ta_IN</item>
+        <item>te_IN</item>
+        <item>kn_IN</item>
+        <item>ml_IN</item>
+        <item>th_TH</item>
+        <item>my_MM</item>
+        <item>km_KH</item>
+        <item>ko_KR</item>
+        <item>ja_JP</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
     <string-array name="language_name_list">
         <item>Azərbaycan</item>
         <item>Melayu</item>
@@ -80,13 +374,20 @@
         <item>Verde</item>
         <item>Blu</item>
     </string-array>
+    <string-array name="nf_ad_feedback_reason">
+        <item>Non è interessante</item>
+        <item>Ripetitivo</item>
+        <item>Bassa qualità</item>
+        <item>Foto inappropriata</item>
+        <item>Informazioni fraudolente</item>
+    </string-array>
     <string-array name="nf_feedback_reason">
         <item>Contenuto esplicito</item>
         <item>Falsità</item>
         <item>Vecchie notizie</item>
         <item>Panoramica estremista</item>
         <item>Pubblicità subliminale</item>
-        <item>"I don't like it"</item>
+        <item>"Non mi piace"</item>
     </string-array>
     <string-array name="only_google">
         <item>Google</item>
@@ -120,7 +421,7 @@
     </string-array>
     <string-array name="pref_security_do_not_track_keys">
         <item>Attivata</item>
-        <item>Solo in modalità incognito</item>
+        <item>Solo in mod. incognito</item>
         <item>Spenta</item>
     </string-array>
     <string-array name="pref_text_zoom_choices">
@@ -141,6 +442,13 @@
         <item>Nessuno</item>
         <item>Nuovo utente</item>
     </string-array>
+    <string-array name="search_bar_search_engines_default">
+        <item>google</item>
+        <item>bing</item>
+    </string-array>
+    <string-array name="search_bar_search_engines_only_google">
+        <item>google</item>
+    </string-array>
     <string-array name="setting_swipe_up_target">
         <item>Cerca</item>
         <item>Notizie</item>
@@ -156,6 +464,19 @@
     <string-array name="shortcut_dialog_title">
         <item>Messaggio dal browser</item>
         <item>Segui le Olimpiadi con Mi</item>
+    </string-array>
+    <string-array name="sogou">
+        <item>Sogou</item>
+        <item>sogou.com</item>
+        <item>https://wap.sogou.com/favicon.ico</item>
+        <item>https://wap.sogou.com/web/sl?keyword={searchTerms}&amp;bid=sogou-mobp-95e62984b87e9064</item>
+        <item>UTF-8</item>
+        <item>https://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="sogou_in_list">
+        <item>search_sogou</item>
+        <item>ic_search_engine_sogou</item>
+        <item>sogou</item>
     </string-array>
     <string-array name="speed_result_tips">
         <item>"La connessione di rete attuale è molto lenta. Sembra che tu sia in un'area con scarsa copertura di rete."</item>
@@ -173,5 +494,18 @@
         <item>Scarica video</item>
         <item>Salva Stato WhatsApp</item>
         <item>File privati</item>
+    </string-array>
+    <string-array name="yahoo">
+        <item>Yahoo!</item>
+        <item>yahoo.com</item>
+        <item>https://search.yahoo.com/favicon.ico</item>
+        <item>https://search.yahoo.com/search;_ylt=A0oG7l7PeB5P3G0AKASl87UF?p={searchTerms}&amp;ei={inputEncoding}</item>
+        <item>UTF-8</item>
+        <item>https://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}</item>
+    </string-array>
+    <string-array name="yahoo_in_list">
+        <item>search_yahoo</item>
+        <item>ic_search_engine_yahoo</item>
+        <item>yahoo</item>
     </string-array>
 </resources>

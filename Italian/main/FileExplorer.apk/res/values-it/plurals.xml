@@ -56,9 +56,17 @@
         <item quantity="other">%1$d giorni fa</item>
         <item quantity="one">%1$d giorno fa</item>
     </plurals>
+    <plurals name="delete_files">
+        <item quantity="other">Eliminare %1$d file?</item>
+        <item quantity="one">Eliminare %1$d file?</item>
+    </plurals>
     <plurals name="delete_files_confirm">
         <item quantity="other">Elimina %1$d file</item>
         <item quantity="one">Elimina %1$d file</item>
+    </plurals>
+    <plurals name="delete_folders">
+        <item quantity="other">Eliminare %1$d cartelle?</item>
+        <item quantity="one">Eliminare %1$d cartella?</item>
     </plurals>
     <plurals name="delete_folders_confirm">
         <item quantity="other">" e %1$d cartelle?"</item>
@@ -133,8 +141,8 @@
         <item quantity="one">%d nuova notifica</item>
     </plurals>
     <plurals name="numSelectedFile">
-        <item quantity="other"> %1$d selezionati</item>
-        <item quantity="one"> %1$d selezionato</item>
+        <item quantity="other">%1$d selezionati</item>
+        <item quantity="one">%1$d selezionato</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuti fa</item>
@@ -164,6 +172,10 @@
         <item quantity="other">Trovati %1$d nuovi video</item>
         <item quantity="one">Trovato %1$d nuovo video</item>
     </plurals>
+    <plurals name="search_head_hint_all">
+        <item quantity="other">Risultati di ricerca (%1$d elementi)</item>
+        <item quantity="one">Risultati di ricerca (%1$d elemento)</item>
+    </plurals>
     <plurals name="search_head_hint_app">
         <item quantity="other">App %1$s file associati (%2$d elementi)</item>
         <item quantity="one">App %1$s file associati (%2$d elemento)</item>
@@ -191,6 +203,10 @@
     <plurals name="user_sign_limt">
         <item quantity="other">Puoi inserire %d caratteri</item>
         <item quantity="one">Puoi inserire %d carattere</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other"> Download</item>
+        <item quantity="one"> Download</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">%d video</item>

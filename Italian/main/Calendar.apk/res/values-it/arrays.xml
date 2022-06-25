@@ -59,7 +59,7 @@
     <item>10</item>
     <item>11</item>
     <item>12</item>
-    <item>13s</item>
+    <item>13</item>
     <item>14</item>
     <item>15</item>
     <item>16</item>
@@ -92,7 +92,7 @@
     <item>10</item>
     <item>11</item>
     <item>12</item>
-    <item>13s</item>
+    <item>13</item>
     <item>14</item>
     <item>15</item>
     <item>16</item>
@@ -247,6 +247,11 @@
     <item>Solo quando la suoneria è silenziata</item>
     <item>Mai</item>
   </string-array>
+  <string-array name="prefValues_alerts_vibrateWhen">
+    <item>always</item>
+    <item>silent</item>
+    <item>never</item>
+  </string-array>
   <string-array name="preferences_language_values">
     <item>en</item>
     <item>hi</item>
@@ -308,7 +313,7 @@
     <item>Feb</item>
     <item>Mar</item>
     <item>Apr</item>
-    <item>Maggio</item>
+    <item>Mag</item>
     <item>Giu</item>
     <item>Lug</item>
     <item>Ago</item>

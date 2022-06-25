@@ -352,9 +352,9 @@ Non cambiare o rinominare i file di backup."</string>
     <string name="gallery_summary">Impostaizoni galleria (foto non incluse)</string>
     <string name="grant_all_permission_content">Concedi tutti i permessi obbligatori per poter eseguire il backup e ripristinare gli elementi.</string>
     <string name="grant_all_permission_title">Permessi richiesti</string>
-    <string name="guarded_mode_dialog_backup_message">"I backup non sono consentiti in modalità Ospite"</string>
-    <string name="guarded_mode_dialog_title">"Sei in modalità Ospite"</string>
-    <string name="guarded_mode_dialog_transfer_message">"Impossibile utilizzare Mi Mover in modalità Ospite"</string>
+    <string name="guarded_mode_dialog_backup_message">"I backup non sono consentiti in mod. Ospite"</string>
+    <string name="guarded_mode_dialog_title">"Sei in mod. Ospite"</string>
+    <string name="guarded_mode_dialog_transfer_message">"Impossibile utilizzare Mi Mover in mod. Ospite"</string>
     <string name="heavenly_stems_bing">Bing</string>
     <string name="heavenly_stems_ding">Ding</string>
     <string name="heavenly_stems_geng">Geng</string>
@@ -398,10 +398,6 @@ devi caricare i dati dei vecchi dispositivi su iCloud"</string>
     <string name="icloud_need_wifi_title">E\' richiesta una rete Wi-Fi</string>
     <string name="import_again">Importa di nuovo</string>
     <string name="import_data_from_icloud">Importa dati da iCloud</string>
-    <string name="import_from_xiaomi_account_hint1">"\"1.\u0009Installa Mi Talk ed accedi.
-\u0009http://www.miliao.com
-
-2.\u0009Entra nelle impostazioni di Mi Talk e seleziona \"Backup contatti sul tuo Mi Account\""</string>
     <string name="import_from_xiaomi_account_hint2">Nota: Vai al prossimo punto se il backup è già esistente</string>
     <string name="import_from_xiaomi_account_hint_title">Usa Mi Talk per il backup dei contatti su dispositivi di altre marche</string>
     <string name="import_tip_summary">Per ragioni di compatibilità, sono supportati solo Contatti e Foto. Devi prima caricare i dati dei vecchi dispositivi su iCloud.</string>
@@ -524,9 +520,9 @@ devi caricare i dati dei vecchi dispositivi su iCloud"</string>
     <string name="more">Altro</string>
     <string name="morning">Mattina</string>
     <string name="multi_select_title">Selezionati %1$s elemento(i)</string>
-    <string name="multi_user_mode_backup_message">"Impossibile utilizzare il Backup in modalità Multi-utente. Disattiva la modalità Multi-utente per continuare."</string>
-    <string name="multi_user_mode_dialog_message">"Non puoi utilizzare Mi Mover in modalità Multi-utente. Disattiva la modalità Multi-utente per continuare."</string>
-    <string name="multi_user_mode_dialog_title">"Sei in modalità Multi-utente"</string>
+    <string name="multi_user_mode_backup_message">"Impossibile utilizzare il Backup in mod. Multi-utente. Disattiva la mod. Multi-utente per continuare."</string>
+    <string name="multi_user_mode_dialog_message">"Non puoi utilizzare Mi Mover in mod. Multi-utente. Disattiva la mod. Multi-utente per continuare."</string>
+    <string name="multi_user_mode_dialog_title">"Sei in mod. Multi-utente"</string>
     <string name="name_password_not_consistent">Nome utente o password sbagliati</string>
     <string name="never">Mai</string>
     <string name="new_backup">Backup</string>
@@ -946,7 +942,7 @@ per scaricare ed installare Mi Mover."</string>
     <string name="trans_intro_desc_10">Tocca \"Collegati tramite QR code\" sul nuovo dispositivo e scansiona il QR code per stabilire una connessione.</string>
     <string name="trans_intro_desc_3">Mi Mover usa la rete Wi-Fi per trasferire i file. Per questo non puoi connetterti ad internet tramite Wi-Fi durante il trasferimento. Puoi usare la rete dati mobile. Alcuni nuovi dispositivi (ad esempio Mi 6) potranno collegarsi comunque alla rete Wi-Fi, anche durante il collegamento.</string>
     <string name="trans_intro_desc_4">"Mi Mover usa la rete Wi-Fi per trasferire i file. Ecco perchè non puoi usare la rete WI-Fi per connetterti ad internet durante il trasferimento. Puoi comunque continuare ad utilizzare la connessione dati mobile. In ogni caso, su alcuni dispositivi più recenti (per esempio, Mi 6) è possibile connettersi ad internet usando la rete Wi-Fi anche durante i trasferimenti."</string>
-    <string name="trans_intro_desc_4_market">"Mi Mover utilizza il Wi-Fi per trasferire i file. Ecco perché non è possibile connettersi a internet utilizzando Wi-Fi su entrambi i dispositivi durante un trasferimento. È comunque possibile utilizzare i dati mobili."</string>
+    <string name="trans_intro_desc_4_market">"Mi Mover utilizza il Wi-Fi per trasferire i file. Ecco perché non è possibile connettersi a internet utilizzando Wi-Fi su entrambi i dispositivi durante un trasferimento. È comunque possibile utilizzare i dati."</string>
     <string name="trans_intro_desc_5">Esistono molte ragioni per cui potrebbe accadere: problemi di compatibilità di sistema o versione app, problemi di rete, specifici problemi di compatibilità con alcuni dispositivi, etc.</string>
     <string name="trans_intro_desc_6">I profili di alcune app (e-banking, finanza, etc.) sono associate con specifici dettagli per ragioni di sicurezza. Prova cancellando i dati dell\'app o reinstallando l\'app su di un nuovo dispositivo.</string>
     <string name="trans_intro_desc_7">I dati e la cronologia delle chat di WeChat potrebbero non venire trasferite completamente tramite Mi Mover. Vai nelle impostazioni di WeChat ed esci dal tuo account per avere più possibilità di un corretto trasferimento.</string>
@@ -1110,8 +1106,6 @@ Non uscire da quea pagina finché non è stata stabilita una connessione."</stri
     <string name="wifi_title">Impostazioni Wi-Fi</string>
     <string name="xiaomi_connect_download_manager_fail">"Connessione Download Manager fallita, controlla lo stato del Download Manager nella Gestione Applicazioni."</string>
     <string name="xiaomi_external_storage_unavailable">"Memoria non disponibile, verifica la scheda SD."</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
     <string name="xiaomi_update_dialog_message">"Presentazione versione %1$s

@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="accessibility_button_gesture_selector_titles">
+        <item>Pulsante</item>
+        <item>Gesto</item>
+    </string-array>
     <string-array name="accessibility_button_location_selector_titles">
-        <item>Floating over other apps</item>
+        <item>Fluttuante su altre app</item>
         <item>Barra di navigazione</item>
     </string-array>
     <string-array name="accessibility_button_size_selector_titles">
         <item>Piccolo</item>
         <item>Largo</item>
+    </string-array>
+    <string-array name="agps_apn_entries">
+        <item>CMWAP</item>
+        <item>CMNET</item>
     </string-array>
     <string-array name="agps_network_entries">
         <item>Rete domestica</item>
@@ -16,6 +24,10 @@
         <item>SCOTTANTI</item>
         <item>WARM</item>
         <item>COLD</item>
+    </string-array>
+    <string-array name="agps_si_mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
     </string-array>
     <string-array name="ai_item_action_array">
         <item>Nessuno</item>
@@ -28,7 +40,7 @@
         <item>Apri fotocamera frontale</item>
         <item>Apri app precedente</item>
         <item>Attiva la torcia</item>
-        <item>Attiva la Modalità Lettura</item>
+        <item>Attiva la Mod. Lettura</item>
         <item>Nessuno</item>
     </string-array>
     <string-array name="alarm_repeat_type">
@@ -42,23 +54,6 @@
         <item>Giorni feriali</item>
         <item>Fine settimana</item>
         <item>Personalizza</item>
-    </string-array>
-    <string-array name="always_enabled_app_list">
-        <item>com.android.providers.applications</item>
-        <item>com.android.providers.calendar</item>
-        <item>com.android.providers.contacts</item>
-        <item>com.jeejen.family.miui</item>
-        <item>com.android.providers.drm</item>
-        <item>com.android.providers.media</item>
-        <item>com.android.providers.telephony</item>
-        <item>com.android.providers.userdictionary</item>
-        <item>com.miui.providers.userbook</item>
-        <item>com.miui.providers.weather</item>
-        <item>com.miui.yellowpage</item>
-        <item>com.miui</item>
-        <item>com.android.htmlviewer</item>
-        <item>com.google.android.packageinstaller</item>
-        <item>com.miui.core</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animazioni disattivate</item>
@@ -78,6 +73,16 @@
         <item>PAP</item>
         <item>CHAP</item>
         <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="apn_not_allowed_entries">
+        <item>internet</item>
+        <item>ims</item>
+        <item>tethering</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
     </string-array>
     <string-array name="app_install_location_entries">
         <item>Memoria interna</item>
@@ -146,7 +151,7 @@
         <item>Proietta media</item>
         <item>Attiva VPN</item>
         <item>Imposta sfondo</item>
-        <item>Assist structure</item>
+        <item>Assistenza struttura</item>
         <item>Assistenza screenshot</item>
         <item>Lettura stato telefono</item>
         <item>Aggiungi segreteria</item>
@@ -193,42 +198,42 @@
         <item>camera</item>
         <item>accesso diretto al microfono per registrare audio</item>
         <item>riproduci audio</item>
-        <item>read clipboard</item>
-        <item>modify clipboard</item>
-        <item>media buttons</item>
-        <item>audio focus</item>
-        <item>master volume</item>
-        <item>voice volume</item>
-        <item>ring volume</item>
-        <item>media volume</item>
-        <item>alarm volume</item>
-        <item>notification volume</item>
-        <item>bluetooth volume</item>
-        <item>keep awake</item>
-        <item>monitor location</item>
-        <item>monitor high power location</item>
-        <item>get usage stats</item>
-        <item>mute/unmute microphone</item>
-        <item>show toast</item>
-        <item>project media</item>
-        <item>activate VPN</item>
-        <item>write wallpaper</item>
-        <item>assist structure</item>
-        <item>assist screenshot</item>
-        <item>read phone state</item>
+        <item>leggere gli appunti</item>
+        <item>modificare gli appunti</item>
+        <item>pulsanti multimediali</item>
+        <item>focalizzazione audio</item>
+        <item>volume principale</item>
+        <item>volume voce</item>
+        <item>volume suoneria</item>
+        <item>volume multimediale</item>
+        <item>volume sveglia</item>
+        <item>volume notifica</item>
+        <item>volume bluetooth</item>
+        <item>mantieni attivo</item>
+        <item>monitora posizione</item>
+        <item>monitoraggio posizione ad alta precisione</item>
+        <item>ottieni statistiche di utilizzo</item>
+        <item>attiva/disattiva microfono</item>
+        <item>mostra finestra toast</item>
+        <item>proietta media</item>
+        <item>attiva VPN</item>
+        <item>imposta sfondo</item>
+        <item>assistenza struttura</item>
+        <item>assistenza screenshot</item>
+        <item>leggere lo stato del telefono</item>
         <item>aggiunta di un messaggio vocale</item>
-        <item>use sip</item>
-        <item>process outgoing call</item>
-        <item>fingerprint</item>
-        <item>body sensors</item>
-        <item>read cell broadcasts</item>
-        <item>mock location</item>
-        <item>read storage</item>
-        <item>write storage</item>
-        <item>turn on screen</item>
-        <item>get accounts</item>
-        <item>run in background</item>
-        <item>accessibility volume</item>
+        <item>usa sip</item>
+        <item>processa chiamata in uscita</item>
+        <item>impronta</item>
+        <item>sensori biometrici</item>
+        <item>leggi trasmissione cella</item>
+        <item>posizione fittizia</item>
+        <item>leggi memoria</item>
+        <item>scrivi memoria</item>
+        <item>attiva lo schermo</item>
+        <item>ottieni account</item>
+        <item>esegui in background</item>
+        <item>volume accessibilità</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Limite standard</item>
@@ -237,6 +242,11 @@
         <item>Massimo 2 processi</item>
         <item>Massimo 3 processi</item>
         <item>Massimo 4 processi</item>
+    </string-array>
+    <string-array name="audio_mode_values">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
         <item>Spenta</item>
@@ -253,6 +263,11 @@
         <item>Percentuale (nell\'icona)</item>
         <item>Percentuale (accanto all\'icona)</item>
         <item>Barra in alto</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
     </string-array>
     <string-array name="bearer_entries">
         <item>Non specificato</item>
@@ -530,8 +545,8 @@
         <item>Nessuno</item>
         <item>Contorno</item>
         <item>Ombreggiatura</item>
-        <item>Raised</item>
-        <item>Depressed</item>
+        <item>Aumentato</item>
+        <item>Diminuito</item>
     </string-array>
     <string-array name="captioning_font_size_selector_summaries">
         <item>Dimensione del testo molto piccola</item>
@@ -553,6 +568,12 @@
         <item>1.0</item>
         <item>1.5</item>
         <item>2.0</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
         <item>Imposta per app</item>
@@ -584,6 +605,10 @@
         <item>cursive</item>
         <item>sans-serif-smallcaps</item>
     </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
     <string-array name="cdma_system_select_choices">
         <item>Solo domestica</item>
         <item>Automatico</item>
@@ -606,7 +631,7 @@
         <item>Conakry</item>
         <item>Dakar</item>
         <item>Dar es Salaam</item>
-        <item>Djibouti</item>
+        <item>Gibuti</item>
         <item>Freetown</item>
         <item>Gaborone</item>
         <item>Harare</item>
@@ -679,7 +704,7 @@
         <item>Port-au-Prince</item>
         <item>Porto Rico</item>
         <item>Santo Domingo</item>
-        <item>São Paulo</item>
+        <item>San Paolo</item>
         <item>St. Johns</item>
         <item>St. Kitts</item>
         <item>St. Lucia</item>
@@ -688,7 +713,7 @@
         <item>Toronto</item>
         <item>Vancouver</item>
         <item>Winnipeg</item>
-        <item>South Pole</item>
+        <item>Polo Sud</item>
         <item>Longyearbyen</item>
         <item>Almaty</item>
         <item>Amman</item>
@@ -700,14 +725,14 @@
         <item>Bangkok</item>
         <item>Beirut</item>
         <item>Calcutta</item>
-        <item>Damascus</item>
+        <item>Damasco</item>
         <item>Dhaka</item>
         <item>Dubai</item>
         <item>Gaza</item>
         <item>Hebron</item>
         <item>Ho Chi Minh</item>
         <item>Hong Kong</item>
-        <item>Jakarta</item>
+        <item>Giacarta</item>
         <item>Gerusalemme</item>
         <item>Kabul</item>
         <item>Karachi</item>
@@ -731,7 +756,7 @@
         <item>Tokyo</item>
         <item>Ulaanbaatar</item>
         <item>Bermuda</item>
-        <item>Canary Islands</item>
+        <item>Isole Canarie</item>
         <item>Capo Verde</item>
         <item>Reykjavik</item>
         <item>Adelaide</item>
@@ -739,57 +764,57 @@
         <item>Canberra</item>
         <item>Darwin</item>
         <item>Melbourne</item>
-        <item>New South Wales</item>
+        <item>Nuovo Galles Del Sud</item>
         <item>Perth</item>
         <item>Queensland</item>
         <item>Sydney</item>
         <item>Victoria</item>
         <item>Terranova</item>
         <item>Saskatchewan</item>
-        <item>Easter Island</item>
+        <item>Isola di Pasqua</item>
         <item>Amsterdam</item>
         <item>Andorra</item>
-        <item>Athens</item>
+        <item>Atene</item>
         <item>Belfast</item>
         <item>Belgrado</item>
-        <item>Berlin</item>
+        <item>Berlino</item>
         <item>Bratislava</item>
         <item>Bruxelles</item>
-        <item>Bucharest</item>
+        <item>Bucarest</item>
         <item>Budapest</item>
         <item>Chisinau</item>
         <item>Copenhagen</item>
-        <item>Dublin</item>
-        <item>Gibraltar</item>
+        <item>Dublino</item>
+        <item>Gibilterra</item>
         <item>Helsinki</item>
-        <item>Isle of Man</item>
+        <item>Isola di Man</item>
         <item>Istanbul</item>
-        <item>Lisbon</item>
-        <item>London</item>
-        <item>Luxembourg</item>
+        <item>Lisbona</item>
+        <item>Londra</item>
+        <item>Lussemburgo</item>
         <item>Madrid</item>
         <item>Malta</item>
         <item>Minsk</item>
         <item>Monaco</item>
         <item>Mosca</item>
         <item>Oslo</item>
-        <item>Paris</item>
-        <item>Prague</item>
+        <item>Parigi</item>
+        <item>Praga</item>
         <item>Riga</item>
         <item>Roma</item>
         <item>San Marino</item>
         <item>Sarajevo</item>
-        <item>Simferopol</item>
+        <item>Sinferopoli</item>
         <item>Skopje</item>
         <item>Sofia</item>
-        <item>Stockholm</item>
+        <item>Stoccolma</item>
         <item>Tallinn</item>
-        <item>Vatican City</item>
+        <item>Città del Vaticano</item>
         <item>Vienna</item>
         <item>Vilnius</item>
-        <item>Warsaw</item>
-        <item>Zagreb</item>
-        <item>Zurich</item>
+        <item>Varsavia</item>
+        <item>Zagabria</item>
+        <item>Zurigo</item>
         <item>Antananarivo</item>
         <item>Maldive</item>
         <item>Mauritius</item>
@@ -819,12 +844,12 @@
         <item>Salt Lake City</item>
         <item>San Jose</item>
         <item>Seattle</item>
-        <item>St. Louis</item>
+        <item>Saint Louis</item>
         <item>Washington D.C.</item>
         <item>Houston</item>
         <item>San Antonio</item>
         <item>Jacksonville</item>
-        <item>Baltimore</item>
+        <item>Baltimora</item>
         <item>Nashville</item>
         <item>Milwaukee</item>
         <item>Oklahoma City</item>
@@ -847,10 +872,10 @@
         <item>Osaka</item>
         <item>Lahore</item>
         <item>"Sana'a"</item>
-        <item>Barcelona</item>
-        <item>Munich</item>
-        <item>Milan</item>
-        <item>Frankfurt</item>
+        <item>Barcellona</item>
+        <item>Monaco</item>
+        <item>Milano</item>
+        <item>Francoforte</item>
         <item>Hanoi</item>
         <item>Ankara</item>
         <item>Bengaluru</item>
@@ -874,10 +899,10 @@
         <item>Gurugram</item>
         <item>Manchester</item>
         <item>Kyiv</item>
-        <item>St. Petersburg</item>
+        <item>San Pietroburgo</item>
         <item>Kraków</item>
-        <item>Wroclaw</item>
-        <item>Hamburg</item>
+        <item>Breslavia</item>
+        <item>Amburgo</item>
         <item>Oulu</item>
         <item>Haifa</item>
         <item>San Juan</item>
@@ -885,8 +910,304 @@
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
+    <string-array name="city_timezone">
+        <item>Africa/Abidjan</item>
+        <item>Africa/Accra</item>
+        <item>Africa/Addis_Ababa</item>
+        <item>Africa/Algiers</item>
+        <item>Africa/Blantyre</item>
+        <item>Africa/Brazzaville</item>
+        <item>Africa/Cairo</item>
+        <item>Africa/Casablanca</item>
+        <item>Africa/Conakry</item>
+        <item>Africa/Dakar</item>
+        <item>Africa/Dar_es_Salaam</item>
+        <item>Africa/Djibouti</item>
+        <item>Africa/Freetown</item>
+        <item>Africa/Gaborone</item>
+        <item>Africa/Harare</item>
+        <item>Africa/Johannesburg</item>
+        <item>Africa/Kampala</item>
+        <item>Africa/Khartoum</item>
+        <item>Africa/Kigali</item>
+        <item>Africa/Kinshasa</item>
+        <item>Africa/Lagos</item>
+        <item>Africa/Maseru</item>
+        <item>Africa/Mogadishu</item>
+        <item>Africa/Nairobi</item>
+        <item>Africa/Sao_Tome</item>
+        <item>Africa/Timbuktu</item>
+        <item>Africa/Tripoli</item>
+        <item>Africa/Tunis</item>
+        <item>America/Anchorage</item>
+        <item>America/Argentina/Mendoza</item>
+        <item>America/Aruba</item>
+        <item>America/Asuncion</item>
+        <item>America/Barbados</item>
+        <item>America/Belize</item>
+        <item>America/Bogota</item>
+        <item>America/Buenos_Aires</item>
+        <item>America/Cancun</item>
+        <item>America/Caracas</item>
+        <item>America/Cayman</item>
+        <item>America/Chicago</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Curacao</item>
+        <item>America/Dawson_Creek</item>
+        <item>America/Denver</item>
+        <item>America/Detroit</item>
+        <item>America/Dominica</item>
+        <item>America/Edmonton</item>
+        <item>America/El_Salvador</item>
+        <item>America/Fortaleza</item>
+        <item>America/Grand_Turk</item>
+        <item>America/Grenada</item>
+        <item>America/Guatemala</item>
+        <item>America/Guyana</item>
+        <item>America/Halifax</item>
+        <item>America/Havana</item>
+        <item>America/Indiana/Indianapolis</item>
+        <item>America/Indiana/Knox</item>
+        <item>America/Indiana/Petersburg</item>
+        <item>America/Indiana/Tell_City</item>
+        <item>America/Indiana/Vevay</item>
+        <item>America/Indiana/Vincennes</item>
+        <item>America/Indiana/Winamac</item>
+        <item>America/Jamaica</item>
+        <item>America/La_Paz</item>
+        <item>America/Lima</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Louisville</item>
+        <item>America/Managua</item>
+        <item>America/Martinique</item>
+        <item>America/Metlakatla</item>
+        <item>America/Mexico_City</item>
+        <item>America/Monterrey</item>
+        <item>America/Montevideo</item>
+        <item>America/Montreal</item>
+        <item>America/Nassau</item>
+        <item>America/New_York</item>
+        <item>America/North_Dakota/Beulah</item>
+        <item>America/North_Dakota/New_Salem</item>
+        <item>America/Panama</item>
+        <item>America/Phoenix</item>
+        <item>America/Port_of_Spain</item>
+        <item>America/Port-au-Prince</item>
+        <item>America/Puerto_Rico</item>
+        <item>America/Santo_Domingo</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/St_Johns</item>
+        <item>America/St_Kitts</item>
+        <item>America/St_Lucia</item>
+        <item>America/St_Thomas</item>
+        <item>America/Tijuana</item>
+        <item>America/Toronto</item>
+        <item>America/Vancouver</item>
+        <item>America/Winnipeg</item>
+        <item>Antarctica/South_Pole</item>
+        <item>Arctic/Longyearbyen</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Anadyr</item>
+        <item>Asia/Aqtau</item>
+        <item>Asia/Baghdad</item>
+        <item>Asia/Bahrain</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Beirut</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Damascus</item>
+        <item>Asia/Dhaka</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Gaza</item>
+        <item>Asia/Hebron</item>
+        <item>Asia/Ho_Chi_Minh</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Jakarta</item>
+        <item>Asia/Jerusalem</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Kathmandu</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Asia/Kuwait</item>
+        <item>Asia/Macau</item>
+        <item>Asia/Manila</item>
+        <item>Asia/Muscat</item>
+        <item>Asia/Phnom_Penh</item>
+        <item>Asia/Pyongyang</item>
+        <item>Asia/Qatar</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Riyadh</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Singapore</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Tel_Aviv</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Ulaanbaatar</item>
+        <item>Atlantic/Bermuda</item>
+        <item>Atlantic/Canary</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Atlantic/Reykjavik</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Canberra</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Melbourne</item>
+        <item>Australia/NSW</item>
+        <item>Australia/Perth</item>
+        <item>Australia/Queensland</item>
+        <item>Australia/Sydney</item>
+        <item>Australia/Victoria</item>
+        <item>Canada/Newfoundland</item>
+        <item>Canada/Saskatchewan</item>
+        <item>Chile/EasterIsland</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Andorra</item>
+        <item>Europe/Athens</item>
+        <item>Europe/Belfast</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Bratislava</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Bucharest</item>
+        <item>Europe/Budapest</item>
+        <item>Europe/Chisinau</item>
+        <item>Europe/Copenhagen</item>
+        <item>Europe/Dublin</item>
+        <item>Europe/Gibraltar</item>
+        <item>Europe/Helsinki</item>
+        <item>Europe/Isle_of_Man</item>
+        <item>Europe/Istanbul</item>
+        <item>Europe/Lisbon</item>
+        <item>Europe/London</item>
+        <item>Europe/Luxembourg</item>
+        <item>Europe/Madrid</item>
+        <item>Europe/Malta</item>
+        <item>Europe/Minsk</item>
+        <item>Europe/Monaco</item>
+        <item>Europe/Moscow</item>
+        <item>Europe/Oslo</item>
+        <item>Europe/Paris</item>
+        <item>Europe/Prague</item>
+        <item>Europe/Riga</item>
+        <item>Europe/Rome</item>
+        <item>Europe/San_Marino</item>
+        <item>Europe/Sarajevo</item>
+        <item>Europe/Simferopol</item>
+        <item>Europe/Skopje</item>
+        <item>Europe/Sofia</item>
+        <item>Europe/Stockholm</item>
+        <item>Europe/Tallinn</item>
+        <item>Europe/Vatican</item>
+        <item>Europe/Vienna</item>
+        <item>Europe/Vilnius</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Zagreb</item>
+        <item>Europe/Zurich</item>
+        <item>Indian/Antananarivo</item>
+        <item>Indian/Maldives</item>
+        <item>Indian/Mauritius</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Guam</item>
+        <item>Pacific/Honolulu</item>
+        <item>Pacific/Kiritimati</item>
+        <item>Pacific/Noumea</item>
+        <item>Pacific/Samoa</item>
+        <item>Pacific/Tahiti</item>
+        <item>America/Antigua</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Denver</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Denver</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Denver</item>
+        <item>MST</item>
+        <item>America/Los_Angeles</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>Asia/Riyadh</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Kolkata</item>
+        <item>Asia/Kolkata</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Riyadh</item>
+        <item>Europe/Madrid</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Rome</item>
+        <item>Europe/Berlin</item>
+        <item>Asia/Bangkok</item>
+        <item>Europe/Istanbul</item>
+        <item>Asia/Kolkata</item>
+        <item>America/Sao_Paulo</item>
+        <item>Africa/Johannesburg</item>
+        <item>Asia/Karachi</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Detroit</item>
+        <item>America/Denver</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chicago</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Kolkata</item>
+        <item>America/New_York</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Santiago</item>
+        <item>Africa/Monrovia</item>
+        <item>Asia/Colombo</item>
+        <item>America/Chihuahua</item>
+        <item>Asia/Kolkata</item>
+        <item>Europe/London</item>
+        <item>Europe/Bucharest</item>
+        <item>Europe/Moscow</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Bucharest</item>
+        <item>Asia/Jerusalem</item>
+        <item>America/Puerto Rico</item>
+        <item>America/Tegucigalpa</item>
+        <item>America/Paramaribo</item>
+        <item>America/Panama</item>
+    </string-array>
     <string-array name="code_change_values">
         <item>1</item>
+    </string-array>
+    <string-array name="color_game_led_freq_values">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2500</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Colori migliorati</item>
@@ -916,8 +1237,8 @@
     </string-array>
     <string-array name="common_password_business_names">
         <item>Schemata di blocco</item>
-        <item>Privacy password</item>
-        <item>Modalità bambino</item>
+        <item>Password privacy</item>
+        <item>Mod. bambino</item>
         <item>Gestore file</item>
         <item>Blocco app</item>
         <item>Secondo spazio</item>
@@ -940,14 +1261,19 @@
         <item>Si</item>
         <item>no</item>
     </string-array>
+    <string-array name="data_network_type_name_default">
+        <item>4G</item>
+        <item>4G+</item>
+        <item>5G</item>
+    </string-array>
     <string-array name="data_usage_data_range">
         <item>Ultimi 30 giorni</item>
         <item>Imposta ciclo di utilizzo...</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>"Oggi (dati mobili) "</item>
-        <item>"Questo mese (dati mobili) "</item>
-        <item>"Ultimo mese (dati mobili) "</item>
+        <item>"Oggi (dati) "</item>
+        <item>"Questo mese (dati) "</item>
+        <item>"Ultimo mese (dati) "</item>
         <item>"Oggi (Wi-Fi) "</item>
         <item>"Questo mese (Wi-Fi) "</item>
         <item>"Ultimo mese (Wi-Fi) "</item>
@@ -971,6 +1297,39 @@
         <item>Suoneria</item>
         <item>Media</item>
     </string-array>
+    <string-array name="device_support_pickup_by_MTK">
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>lotus</item>
+    </string-array>
+    <string-array name="disable_apptitmer_device_list">
+        <item>cactus</item>
+        <item>pine</item>
+        <item>rosy</item>
+        <item>willow</item>
+        <item>olive</item>
+        <item>tiare</item>
+        <item>cereus</item>
+        <item>riva</item>
+        <item>rolex</item>
+        <item>markw</item>
+        <item>santoni</item>
+        <item>land</item>
+        <item>vince</item>
+        <item>nikel</item>
+        <item>ugglite</item>
+        <item>ugg</item>
+        <item>kate</item>
+        <item>prada</item>
+        <item>dandelion</item>
+        <item>lime</item>
+        <item>citrus</item>
+        <item>cannon</item>
+        <item>lemon</item>
+        <item>rainbow</item>
+        <item>camellian</item>
+        <item>camellia</item>
+    </string-array>
     <string-array name="dream_timeout_entries">
         <item>Mai</item>
         <item>15 secondi</item>
@@ -980,6 +1339,12 @@
         <item>5 minuti</item>
         <item>10 minuti</item>
         <item>30 minuti</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
     </string-array>
     <string-array name="eap_ocsp_type">
         <item>Non convalidare</item>
@@ -1018,6 +1383,10 @@
         <item>"Velocizza le prestazioni del dispositivo"</item>
         <item>"Può rallentare le prestazioni del dispositivo"</item>
     </string-array>
+    <string-array name="fps_list_entries">
+        <item>120Hz</item>
+        <item>60Hz</item>
+    </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Spenta</item>
         <item>Leggero</item>
@@ -1033,6 +1402,19 @@
         <item>Non controllare mai</item>
         <item>Controlla solo per contenuti DRM</item>
         <item>Controlla sempre</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
+    </string-array>
+    <string-array name="inputdebuglog_select_level_entries">
+        <item>Livello 0</item>
+        <item>Livello 1</item>
+        <item>Livello 2</item>
+        <item>Livello 3</item>
+        <item>Livello 4</item>
+        <item>Livello 5</item>
     </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>"Non riattivare lo schermo"</item>
@@ -1078,7 +1460,7 @@
         <item>Mai</item>
     </string-array>
     <string-array name="long_press_timeout_selector_list_titles">
-        <item>Short</item>
+        <item>Breve</item>
         <item>Media</item>
         <item>Lungo</item>
     </string-array>
@@ -1121,6 +1503,14 @@
         <item>Viola</item>
         <item>Viola</item>
     </string-array>
+    <string-array name="miui_entries_font_size">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
     <string-array name="miui_entryvalues_font_size">
         <item>piccolo</item>
         <item>normale</item>
@@ -1149,10 +1539,10 @@
     </string-array>
     <string-array name="msd_pc_system_retry_linux">
         <item>Installa lo strumento: \"sudo aptitude install mtpfs libfuse-dev libmad0-dev\"</item>
-        <item>Create a directory: mkdir /media/mtp</item>
-        <item>Confirm user group permissions in the current fuse user group</item>
+        <item>Crea la cartella \"mkdir\" /media/mtp</item>
+        <item>Conferma i permessi del gruppo utente nel gruppo utente attuale</item>
         <item>Accedi di nuovo</item>
-        <item>Access mounted device: mtpfs /media/mtp via File Manager; same as local folder.</item>
+        <item>Accesso al dispositivo montato: mtpfs /media/mtp tramite File Explorer; stessa cartella locale</item>
         <item>"Disinstalla dispositivo: fusermount -u /media/mtp
 Nota: solo per Ubuntu 8.04!"</item>
     </string-array>
@@ -1464,20 +1854,20 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Riproduci video</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
-        <item>GSM/WCDMA preferred</item>
+        <item>Preferito GSM/WCDMA </item>
         <item>Solo reti GSM</item>
         <item>Solo reti WCDMA</item>
-        <item>GSM/WCDMA auto</item>
-        <item>CDMA/EvDo auto</item>
-        <item>CDMA w/o EvDo</item>
-        <item>EvDo only</item>
+        <item>Auto GSM/WCDMA</item>
+        <item>Auto CDMA/EvDo</item>
+        <item>CDMA senza EvDo</item>
+        <item>Solo EvDo</item>
         <item>CDMA/EvDo/GSM/WCDMA</item>
         <item>CDMA + LTE/EvDo</item>
         <item>GSM/WCDMA/LTE</item>
         <item>Globale</item>
         <item>LTE</item>
-        <item>LTE / WCDMA</item>
-        <item>TDSCDMA only</item>
+        <item>LTE/WCDMA</item>
+        <item>Solo TDSCDMA</item>
         <item>TDSCDMA/WCDMA</item>
         <item>LTE/TDSCDMA</item>
         <item>TDSCDMA/GSM</item>
@@ -1487,7 +1877,7 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>LTE/TDSCDMA/GSM/WCDMA</item>
         <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
         <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-        <item>NR only</item>
+        <item>Solo NR</item>
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
@@ -1571,7 +1961,7 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Servizio (In esecuzione)</item>
         <item>Servizio (riavvio)</item>
         <item>Ricevitore</item>
-        <item>Home</item>
+        <item>Casa</item>
         <item>Ultima attività</item>
         <item>Cache (attività)</item>
         <item>Cache (attività client)</item>
@@ -1583,6 +1973,10 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Bassa</item>
         <item>Critico</item>
         <item>\?</item>
+    </string-array>
+    <string-array name="remove_oldman_mode_device_list">
+        <item>davinci</item>
+        <item>raphael</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Stile mano sinistra</item>
@@ -1603,10 +1997,16 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>show_menu</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
-        <item>0.5 seconds</item>
+        <item>0.5 secondi</item>
         <item>1 secondo</item>
-        <item>1.5 seconds</item>
+        <item>1.5 secondi</item>
         <item>2 secondi</item>
+    </string-array>
+    <string-array name="screen_key_long_press_timeout_value">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
     </string-array>
     <string-array name="screen_key_position_action">
         <item>Tasto Menu a sinistra, tasto Indietro a destra</item>
@@ -1626,6 +2026,11 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Saturo</item>
         <item>Normale</item>
     </string-array>
+    <string-array name="screen_resolution_text">
+        <item>2K</item>
+        <item>1080p</item>
+        <item>720p</item>
+    </string-array>
     <string-array name="screen_saturation_title">
         <item>Brillante</item>
         <item>Normale</item>
@@ -1638,6 +2043,11 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>5 minuti</item>
         <item>10 minuti</item>
         <item>Mai</item>
+    </string-array>
+    <string-array name="screen_zoom_level">
+        <item>XS</item>
+        <item>S</item>
+        <item>L</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Chiedi</item>
@@ -1736,6 +2146,13 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>2 ore</item>
         <item>8 ore</item>
     </string-array>
+    <string-array name="special_locale_names_global">
+        <item>简体中文</item>
+        <item>繁體中文 (台灣)</item>
+        <item>繁體中文 (香港)</item>
+        <item>Español (América)</item>
+        <item>Português (Brasil)</item>
+    </string-array>
     <string-array name="startup_hips_action">
         <item>Consenti</item>
         <item>Nega</item>
@@ -1744,63 +2161,9 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Predefinita</item>
         <item>Compatto</item>
     </string-array>
-    <string-array name="stylus_language_entries">
-        <item>Afrikaans</item>
-        <item>Čeština</item>
-        <item>Dansk</item>
-        <item>Deutsch</item>
-        <item>Inglese</item>
-        <item>Français</item>
-        <item>Italiano</item>
-        <item>Magyar</item>
-        <item>Nederlands</item>
-        <item>Norsk bokmål</item>
-        <item>Polski</item>
-        <item>Português</item>
-        <item>Română</item>
-        <item>Shqip</item>
-        <item>Suomi</item>
-        <item>Svenska</item>
-        <item>Türkçe</item>
-        <item>Ελληνικά</item>
-        <item>български</item>
-        <item>Русский</item>
-        <item>Українська</item>
-        <item>العربية</item>
-        <item>ไทย</item>
-        <item>日本語</item>
-        <item>繁體中文 (台灣)</item>
-        <item>繁體中文 (香港)</item>
-        <item>简体中文</item>
-        <item>한국어</item>
-        <item>Euskara</item>
-        <item>Беларуская</item>
-        <item>Bosanski</item>
-        <item>Català</item>
-        <item>Hrvatski</item>
-        <item>Eesti</item>
-        <item>فارسی</item>
-        <item>Galego</item>
-        <item>עברית</item>
-        <item>íslenska</item>
-        <item>Indonesia</item>
-        <item>Қазақ тілі</item>
-        <item>кыргыз тили</item>
-        <item>Latviešu</item>
-        <item>Lietuvių</item>
-        <item>македонски</item>
-        <item>Melayu</item>
-        <item>монгол</item>
-        <item>srpski</item>
-        <item>slovenčina</item>
-        <item>slovenščina</item>
-        <item>español</item>
-        <item>Swahili</item>
-        <item>Tagalog</item>
-        <item>тоҷикӣ</item>
-        <item>اردو</item>
-        <item>ўзбекча</item>
-        <item>Tiếng Kinh</item>
+    <string-array name="support_accessibility_haptic_device_list">
+        <item>crux</item>
+        <item>venus</item>
     </string-array>
     <string-array name="support_settings_haptic_device_list">
         <item>apollo</item>
@@ -1836,6 +2199,26 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>evergreen</item>
         <item>xaga</item>
         <item>xagapro</item>
+        <item>plato</item>
+        <item>mayfly</item>
+        <item>daumier</item>
+        <item>diting</item>
+        <item>unicorn</item>
+    </string-array>
+    <string-array name="support_speaker_auto_clean_device_list">
+        <item>willow</item>
+        <item>ginkgo</item>
+        <item>olive</item>
+        <item>olivelite</item>
+        <item>merlin</item>
+        <item>merlinin</item>
+        <item>curtana</item>
+        <item>curtanacn</item>
+        <item>durandal</item>
+        <item>excalibur</item>
+        <item>joyeuse</item>
+        <item>lancelot</item>
+        <item>galahad</item>
     </string-array>
     <string-array name="tabs_taptic_detail">
         <item>Nitido</item>
@@ -1849,11 +2232,11 @@ Nota: solo per Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
-        <item>Europe</item>
+        <item>Europa</item>
         <item>Africa</item>
         <item>Asia</item>
         <item>Australia</item>
-        <item>Pacific</item>
+        <item>Pacifico</item>
         <item>Tutto</item>
     </string-array>
     <string-array name="track_frame_time_entries">
@@ -1872,7 +2255,7 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Estrema</item>
     </string-array>
     <string-array name="traffic_type">
-        <item>"Utilizzo dati mobili "</item>
+        <item>"Utilizzo dati "</item>
         <item>"Utilizzo Wi-Fi "</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
@@ -1884,6 +2267,10 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Scala animazione 5x</item>
         <item>Scala animazione 10x</item>
     </string-array>
+    <string-array name="triple_key_mode_values">
+        <item>02</item>
+        <item>05</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_summary">
         <item>Regola i colori in base all\'illuminazione attuale</item>
         <item>Migliora sempre i colori</item>
@@ -1893,6 +2280,22 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Auto (consigliato)</item>
         <item>Saturo</item>
         <item>Colori originali</item>
+    </string-array>
+    <string-array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+        <item>kor</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+        <item>이것은 한국어 음성 합성의 예입니다.</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>Molto lento</item>
@@ -1916,13 +2319,13 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>GSM</item>
         <item>TDSCDMA</item>
         <item>LTE</item>
-        <item>Modalità tripla</item>
+        <item>Mod. tripla</item>
     </string-array>
     <string-array name="uplmn_prefer_network_mode_w_choices">
         <item>GSM</item>
         <item>WCDMA</item>
         <item>LTE</item>
-        <item>Modalità tripla</item>
+        <item>Mod. tripla</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Tempo di utilizzo</item>
@@ -1951,7 +2354,7 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Monta scheda SD</item>
     </string-array>
     <string-array name="user_content_ratings_entries">
-        <item>Ascended being</item>
+        <item>Essere superiore</item>
         <item>Umano</item>
         <item>Neanderthal</item>
         <item>Scimpanzè</item>
@@ -1975,6 +2378,17 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Timeout</item>
         <item>Fallito</item>
     </string-array>
+    <string-array name="vpn_types">
+        <item>PPTP</item>
+        <item>L2TP/IPSec PSK</item>
+        <item>L2TP/IPSec RSA</item>
+        <item>IPSec Xauth PSK</item>
+        <item>IPSec Xauth RSA</item>
+        <item>IPSec Hybrid RSA</item>
+        <item>IKEv2/IPSec MSCHAPv2</item>
+        <item>IKEv2/IPSec PSK</item>
+        <item>IKEv2/IPSec RSA</item>
+    </string-array>
     <string-array name="vpn_types_long">
         <item>PPTP VPN</item>
         <item>VPN L2TP/IPSec con chiavi precondivise</item>
@@ -1993,6 +2407,12 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>"Impossibile avviare la sessione"</item>
         <item>Tempo scaduto. Riprova…</item>
         <item>Dispositivo connesso</item>
+    </string-array>
+    <string-array name="when_to_start_screensaver_values">
+        <item>while_charging_only</item>
+        <item>while_docked_only</item>
+        <item>either_charging_or_docked</item>
+        <item>never</item>
     </string-array>
     <string-array name="whetstone_level_entries">
         <item>Spenta</item>
@@ -2030,6 +2450,12 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Connetti manualmente</item>
         <item>Chiedi sempre</item>
     </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
@@ -2051,6 +2477,12 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>PEAP</item>
         <item>SIM</item>
     </string-array>
+    <string-array name="wifi_eap_method_target_strings">
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_eap_method_tts_strings">
+        <item>AKA prime</item>
+    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automatico</item>
         <item>Solo 5 GHz</item>
@@ -2069,8 +2501,8 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Piena</item>
     </string-array>
     <string-array name="wifi_link_turbo_mode_summary_entries">
-        <item>Aumenta la velocità utilizzando i dati mobili solo quando il segnale Wi-Fi è scadente</item>
-        <item>Combina Wi-Fi e dati mobili per aumentare la velocità di connessione</item>
+        <item>Aumenta la velocità utilizzando i dati solo quando il segnale Wi-Fi è scadente</item>
+        <item>Combina Wi-Fi e dati per aumentare la velocità di connessione</item>
     </string-array>
     <string-array name="wifi_metered_entries">
         <item>Rileva automaticamente</item>
@@ -2089,6 +2521,10 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>PIN del dispositivo peer</item>
         <item>PIN di questo dispositivo</item>
     </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
     <string-array name="wifi_peap_phase2_entries_with_sim_auth">
         <item>MSCHAPV2</item>
         <item>GTC</item>
@@ -2104,6 +2540,9 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Nessuno</item>
         <item>Manuale</item>
         <item>Configurazione Automatica Proxy</item>
+    </string-array>
+    <string-array name="wifi_security_only_wapi_cert_entries">
+        <item>WAPI CERT</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Scarsa</item>
@@ -2149,6 +2588,12 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>0</item>
         <item>1</item>
         <item>0</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
     </string-array>
     <string-array name="wifi_wapi_key_type">
         <item>WAPI ASCII</item>
