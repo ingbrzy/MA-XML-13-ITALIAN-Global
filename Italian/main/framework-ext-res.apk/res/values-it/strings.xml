@@ -13,6 +13,7 @@
     <string name="android_ringtone_default_with_actual">Suoneria predefinita (%1$s)</string>
     <string name="android_ringtone_silent">Nessuna</string>
     <string name="android_ringtone_unknown">Suoneria sconosciuta</string>
+    <string name="app_continuity_channel_name">Modifiche al layout delle app</string>
     <string name="application_cannot_open_alipay_health_code">"Couldn't open Alipay health code"</string>
     <string name="application_cannot_open_alipay_payment_code">Impossibile aprire il codice di pagamento di Alipay</string>
     <string name="application_cannot_open_alipay_scanner">Impossibile aprire lo scanner di Alipay</string>
@@ -111,6 +112,10 @@
     <string name="crystal">Cristallo</string>
     <string name="cut">Taglia</string>
     <string name="dance">Danza</string>
+    <string name="dark_mode_enable">Attiva</string>
+    <string name="dark_mode_suggest_message">"Puoi passare automaticamente alla modalità scura al tramonto per un'esperienza visiva più confortevole"</string>
+    <string name="dark_mode_suggest_title">Si sta facendo buio</string>
+    <string name="dark_mode_suggest_toast">"La modalità scura verrà automaticamente attivata al tramonto e disattivata all'alba"</string>
     <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="daydream">Daydream</string>
     <string name="default_device_name">Dispositivo sconosciuto</string>
@@ -130,6 +135,7 @@
     <string name="dewdrops">Rugiada</string>
     <string name="digitaluniverse">Universo digitale (stereo)</string>
     <string name="disable_nfc">Ricarica wireless in corso. NFC disattivato.</string>
+    <string name="disable_nfc_haptic_reverse">NFC e vibrazione disattivati per la ricarica wireless inversa</string>
     <string name="disable_nfc_reverse">Ricarica wireless inversa in corso. NFC disattivato.</string>
     <string name="echo">Eco</string>
     <string name="eighthours">8 ore</string>
@@ -137,6 +143,7 @@
     <string name="enable_livetalk_title">Attiva il pacchetto ricarica</string>
     <string name="enable_midrop">Attiva</string>
     <string name="enable_nfc">Ricarica terminata. NFC è di nuovo attivo.</string>
+    <string name="enable_nfc_haptic_reverse">Ricarica inversa interrotta. NFC e vibrazione ripristinati.</string>
     <string name="enable_nfc_reverse">Ricarica inversa terminata. NFC è di nuovo attivo.</string>
     <string name="expect">Emozione</string>
     <string name="fadein">Fade in</string>
@@ -154,6 +161,7 @@
     <string name="flip_screen_camera_tip">Ruota il dispositivo per usare la Fotocamera</string>
     <string name="flute">Flauto</string>
     <string name="fm_record_smaple_prefix_miui">Registrazione FM</string>
+    <string name="fold_small_not_split">Multi Schermo non è supportato sullo schermo esterno</string>
     <string name="force_exit_message">Chiusura forzata %1$s</string>
     <string name="force_exit_skip_message">Impossibile terminare %1$s perché è richiesto dal sistema.</string>
     <string name="fourhours">2 ore</string>
@@ -163,6 +171,7 @@
     <string name="fp_nav_center_action_choose_dlg_title">Attiva Tocco rapido</string>
     <string name="freeform_exchange_tip">"Rilascia per aprire l'app"</string>
     <string name="freeform_exchange_tip2">"Trascina nell'angolo per annullare"</string>
+    <string name="freeform_exchange_tip3">Apri le finestre a comparsa in modalità a schermo intero</string>
     <string name="frenchchic">Chic</string>
     <string name="frequent_email">E-mail usata di frequente</string>
     <string name="frequent_phrases">Frasi frequenti</string>
@@ -204,6 +213,13 @@
     <string name="international_livetalk_enable">Uso del pacchetto ricarica per le chiamate internazionali</string>
     <string name="key_btn_ok">OK</string>
     <string name="key_btn_space">Spazio</string>
+    <string name="keyboard_connect_failed">Impossibile connettere la tastiera. Riposizionala.</string>
+    <string name="keyboard_identity_reject_confirm">Ho capito</string>
+    <string name="keyboard_identity_reject_message">Sembra che la tua tastiera non sia compatibile con questo dispositivo.</string>
+    <string name="keyboard_identity_transfer_error_message">Impossibile connettere la tastiera. Riprova.</string>
+    <string name="keyboard_upgrade_failed">Impossibile aggiornare la tastiera</string>
+    <string name="keyboard_upgrade_start">Aggiornamento tastiera…</string>
+    <string name="keyboard_upgrade_success">Tastiera aggiornata correttamente</string>
     <string name="kungfu">Kung fu</string>
     <string name="leisure">Svago</string>
     <string name="livetalk_not_enable">Pacchetto ricarica esaurito</string>
@@ -235,6 +251,8 @@
     <string name="miremix">Mi (Remix)</string>
     <string name="miui_forbid_poweroff_when_device_locked">Impossibile spegnere, il dispositivo è bloccato.</string>
     <string name="miui_multiwindow_not_support_cvw">Impossibile modificare le dimensioni della finestra per questa app</string>
+    <string name="miui_multiwindow_not_support_small_window">%1$s non supporta le finestre a comparsa</string>
+    <string name="miui_multiwindow_not_support_split">%1$s non supporta Multi Schermo</string>
     <string name="miui_screen_ratio_hint">Problemi rapporto dello schermo</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Non mostrare più</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Vai alle Impostazioni</string>
@@ -262,6 +280,7 @@
     <string name="oneplus_phone">OnePlus</string>
     <string name="open_close_tip_action">Ho capito</string>
     <string name="open_close_tip_content">"Per chiudere la finestra a comparsa, tieni premuta la barra delle azioni e scorri verso l'alto"</string>
+    <string name="open_miui_optimization">"Attiva prima l'ottimizzazione MIUI"</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
     <string name="orange">Arancio</string>
@@ -309,8 +328,19 @@
     <string name="redmi_note_5">Redmi Note 5</string>
     <string name="redmi_note_7">Redmi Note 7</string>
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
+    <string name="relaunch_action">Riavvia</string>
+    <string name="relaunch_dialog_alwaysUsePrompt">Ricorda la mia scelta</string>
+    <string name="relaunch_dialog_button_cancel">Annulla</string>
+    <string name="relaunch_dialog_button_confirm">Riavvia</string>
+    <string name="relaunch_dialog_message">"Questa app può essere ridimensionata solo dopo un riavvio. Tutte le modifiche non salvate andranno perse se riavvii l'app ora. Riavviare comunque?"</string>
+    <string name="relaunch_dialog_title">Riavviare \"%s\"?</string>
+    <string name="relaunch_fold_notification_content">"Questa app potrebbe non essere visualizzata correttamente su questa schermata. Riavvia l'app per modificare il layout."</string>
+    <string name="relaunch_notification_title">Riavvia \"%s\"</string>
+    <string name="relaunch_unfold_notification_content">"Questa app potrebbe non essere visualizzata correttamente su questa schermata. Riavvia l'app per modificare il layout."</string>
     <string name="remain">Rimanente: %s</string>
     <string name="replace">Sostituisci</string>
+    <string name="rescuepartyplus_config_reset_context">Alcuni dati potrebbero essere stati cancellati. Tocca per visualizzare i dettagli.</string>
+    <string name="rescuepartyplus_config_reset_title">Sistema riparato</string>
     <string name="resolver_app_recommend_flag">Consigliati</string>
     <string name="resolver_checkbox_always">Sempre</string>
     <string name="resolver_checkbox_once">Una volta</string>
@@ -325,6 +355,11 @@
     <string name="rog_phone">ROG</string>
     <string name="samsung">Samsung</string>
     <string name="samsung_phone">Telefono Samsung</string>
+    <string name="sc_notification_warning_content">"Se l'app non viene visualizzata correttamente, puoi ripristinare la visualizzazione predefinita o modificare le preferenze di visualizzazione dell'app in Impostazioni."</string>
+    <string name="sc_notification_warning_restore">Ripristina</string>
+    <string name="sc_notification_warning_settings">Impostazioni</string>
+    <string name="sc_notification_warning_title">"Preferenze di visualizzazione dell'app"</string>
+    <string name="sc_relaunch_dialog_message">"Questa app potrebbe non essere visualizzata correttamente su questa schermata. Riavvia l'app per modificare il layout."</string>
     <string name="scanning_device_tips">"Ricerca dispositivi nelle vicinanze… Assicurati che l'altro dispositivo sia in modalità rilevabile."</string>
     <string name="screen_button_notification_text">Per attivarli, premi contemporaneamente il tasto Home ed il tasto Accensione.</string>
     <string name="screen_button_notification_title">I tasti di navigazione sono disattivati</string>
@@ -348,7 +383,7 @@
     <string name="security_permission_validate_warning">Grazie per il tuo aiuto e grazie per rendere migliore MIUI!</string>
     <string name="security_permission_wifi_and_data_opened_text">Wi-Fi e dati mobili attivati</string>
     <string name="security_permission_xiaomi_account_missed_text">Inserisci il tuo ID Mi Account</string>
-    <string name="security_share_text">Protezione privacy</string>
+    <string name="security_share_text">Protezione della privacy</string>
     <string name="select">Seleziona</string>
     <string name="select_all">Seleziona tutto</string>
     <string name="send_files_by">Condividi tramite</string>
@@ -357,6 +392,7 @@
     <string name="set_password_action">Imposta la password</string>
     <string name="set_password_message">Imposta una password per usare questa funzionalità.</string>
     <string name="set_password_title">Imposta la password</string>
+    <string name="shortcut_no_support_on_pc_mode">Questo gesto non è supportato in modalità PC</string>
     <string name="shutdown_confirm_title">Spegnere il dispositivo ora?</string>
     <string name="shutdown_progress">Spegnimento…</string>
     <string name="silence_mode">Modalità silenziosa</string>
@@ -413,8 +449,10 @@
     <string name="status_bar_toggle_wifi_ap">Hotspot</string>
     <string name="stoneskimming_preview">Passi leggeri</string>
     <string name="stop_operate_camera_frequently">Stai aprendo la fotocamera frontale troppo spesso.</string>
+    <string name="stylus_pen_mask_screenshot">Tocca lo schermo per acquisire uno screenshot</string>
+    <string name="stylus_pen_mask_text">Tocca lo schermo per iniziare a scrivere</string>
     <string name="subinfo_default_name">SIM %d</string>
-    <string name="sunlight_notification_content">Regola la luminosità automaticamente per una forte luce ambientale</string>
+    <string name="sunlight_notification_content">Regola automaticamente la luminosità in ambienti con luce intensa</string>
     <string name="sunlight_notification_title">Attiva la modalità diurna</string>
     <string name="sunrise">Alba</string>
     <string name="super_resolution_maintain_tips">La super risoluzione non è ancora disponibile.</string>
@@ -441,6 +479,7 @@
     <string name="unknown_caller">Numero sconosciuto</string>
     <string name="unrecognized_manufacture">Sconosciuto</string>
     <string name="unrecognized_model">Dispositivo sconosciuto</string>
+    <string name="unreplace_freeform_count_max">Impossibile aprire altre finestre a comparsa</string>
     <string name="user_authentication_failed">AUTENTICAZIONE FALLITA -29-</string>
     <string name="user_switching_dialog_switch_into_kid_space">Passaggio a Spazio bambino…</string>
     <string name="user_switching_dialog_switch_out_kid_space">Uscita da Spazio bambino…</string>

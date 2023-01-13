@@ -53,14 +53,14 @@
     </string-array>
     <string-array name="daily_brand">
         <item>Personalizza</item>
-        <item>Carta Mi Fan</item>
+        <item>Xiaomi Fan card</item>
         <item>Carta Xiao Tiansheng</item>
         <item>Carta Tencent King</item>
     </string-array>
     <string-array name="daily_rent_card_brands">
         <item>Personalizza</item>
         <item>Telefono Mi</item>
-        <item>Carta Mi Fan</item>
+        <item>Xiaomi Fan card</item>
         <item>Carta Tianshen</item>
         <item>Carta Tencent</item>
     </string-array>
@@ -101,6 +101,25 @@
         <item>L\'installazione di app sul tuo dispositivo senza la tua esplicita autorizzazione sarà consentita.</item>
         <item>"Sarai in grado di monitorare e registrare il contenuto dello schermo da remoto."</item>
         <item>Sarà possibile accedere alle informazioni dettagliate sul dispositivo.</item>
+    </string-array>
+    <string-array name="default_bubble_apps">
+        <item>com.tencent.mm</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.alibaba.android.rimet</item>
+        <item>com.tencent.wemeet.app</item>
+        <item>com.tencent.wework</item>
+        <item>com.ss.android.lark</item>
+        <item>com.ss.android.lark.kami</item>
+        <item>com.tencent.tim</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.immomo.momo</item>
+        <item>com.tencent.qqlite</item>
+        <item>com.p1.mobile.putong</item>
+        <item>com.android.mms</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>com.tencent.androidqqmail</item>
+        <item>com.android.email</item>
+        <item>com.lbe.security.miui</item>
     </string-array>
     <string-array name="ew_emergency_blood_type_arrays">
         <item>A</item>

@@ -27,6 +27,7 @@
         <item>rainbow</item>
         <item>camellian</item>
         <item>camellia</item>
+        <item>earth</item>
     </string-array>
     <string-array name="focus_mode_limit_time">
         <item>20</item>

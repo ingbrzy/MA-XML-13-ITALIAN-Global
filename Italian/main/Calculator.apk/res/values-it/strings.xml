@@ -33,6 +33,7 @@
     <string name="age_label_total_summary">Riassunto</string>
     <string name="age_label_weeks">Settimane</string>
     <string name="allow">Accetto</string>
+    <string name="androidx_startup">androidx.startup</string>
     <string name="angle">grad</string>
     <string name="app_name">Calcolatrice</string>
     <string name="app_notification_info">La Calcolatrice è in esecuzione in background</string>

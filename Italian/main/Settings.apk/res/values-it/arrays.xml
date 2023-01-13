@@ -1329,6 +1329,7 @@
         <item>rainbow</item>
         <item>camellian</item>
         <item>camellia</item>
+        <item>earth</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Mai</item>
@@ -2204,6 +2205,8 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>daumier</item>
         <item>diting</item>
         <item>unicorn</item>
+        <item>redwood</item>
+        <item>rembrandt</item>
     </string-array>
     <string-array name="support_speaker_auto_clean_device_list">
         <item>willow</item>
@@ -2314,6 +2317,11 @@ Nota: solo per Ubuntu 8.04!"</item>
         <item>Normale</item>
         <item>Veloce</item>
         <item>Più rapido</item>
+    </string-array>
+    <string-array name="typing_style_entries">
+        <item>Standard</item>
+        <item>Tocco</item>
+        <item>Direct touch</item>
     </string-array>
     <string-array name="uplmn_prefer_network_mode_td_choices">
         <item>GSM</item>

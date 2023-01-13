@@ -176,7 +176,6 @@
     <string name="accessibility_dialog_button_deny">Rifiuta</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Scegli le funzionalità da usare con il pulsante Accessibilità</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Scegli le funzionalità da usare con la scorciatoia dei tasti del volume</string>
-    <string name="accessibility_enable_service_encryption_warning">Se attivi %1$s, il dispositivo non utilizzerà il blocco schermo per migliorare la crittografia dei dati.</string>
     <string name="accessibility_enable_service_title">Vuoi consentire a %1$s di avere il controllo totale del tuo dispositivo?</string>
     <string name="accessibility_freeform_caption">Barra del titolo di %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">"Per spostarti tra le funzionalità, scorri verso l'alto con tre dita e tieni premuto."</string>
@@ -194,7 +193,7 @@
     <string name="accessibility_shortcut_enabling_service">Tieni premuti i tasti del volume. Servizio %1$s attivato.</string>
     <string name="accessibility_shortcut_menu_item_status_off">OFF</string>
     <string name="accessibility_shortcut_menu_item_status_on">ON</string>
-    <string name="accessibility_shortcut_multiple_service_list">"\u0009• %1$s
+    <string name="accessibility_shortcut_multiple_service_list">" • %1$s
 "</string>
     <string name="accessibility_shortcut_multiple_service_warning">"Se tieni premuti entrambi i tasti del volume per qualche secondo, vengono attivate le funzioni di accessibilità. Questa operazione potrebbe modificare il funzionamento del dispositivo.
 
@@ -213,7 +212,13 @@ Puoi associare questa scorciatoia a un'altra funzionalità in Impostazioni > Acc
     <string name="accessibility_shortcut_warning_dialog_title">Usare la scorciatoia Accessibilità?</string>
     <string name="accessibility_system_action_back_label">Indietro</string>
     <string name="accessibility_system_action_dismiss_notification_shade">Ignora area notifiche</string>
+    <string name="accessibility_system_action_dpad_center_label">D-pad - Centro</string>
+    <string name="accessibility_system_action_dpad_down_label">D-pad - Giù</string>
+    <string name="accessibility_system_action_dpad_left_label">D-pad - Sinistra</string>
+    <string name="accessibility_system_action_dpad_right_label">D-pad - Destra</string>
+    <string name="accessibility_system_action_dpad_up_label">D-pad - Su</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Scorciatoia Accessibilità</string>
+    <string name="accessibility_system_action_headset_hook_label">Hook cuffie</string>
     <string name="accessibility_system_action_home_label">Home</string>
     <string name="accessibility_system_action_lock_screen_label">Schermata di blocco</string>
     <string name="accessibility_system_action_notifications_label">Notifiche</string>
@@ -292,6 +297,15 @@ Puoi associare questa scorciatoia a un'altra funzionalità in Impostazioni > Acc
     <string name="app_not_found">Nessuna applicazione trovata in grado di gestire questa azione</string>
     <string name="app_running_notification_text">"Tocca per ulteriori informazioni o per interrompere l'app."</string>
     <string name="app_running_notification_title">%1$s è in esecuzione</string>
+    <string name="app_streaming_blocked_message">Non è possibile accedere a questa app su %1$s. Prova a usare il telefono.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Questa app richiede maggiore sicurezza. Prova a usare il telefono.</string>
+    <string name="app_streaming_blocked_message_for_permission_dialog">Al momento non è possibile accedere a questa app su %1$s. Prova a usare il telefono.</string>
+    <string name="app_streaming_blocked_title">%1$s non disponibile</string>
+    <string name="app_streaming_blocked_title_for_camera_dialog">Fotocamera non disponibile</string>
+    <string name="app_streaming_blocked_title_for_fingerprint_dialog">Continua sul telefono</string>
+    <string name="app_streaming_blocked_title_for_microphone_dialog">Microfono non disponibile</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">"È necessaria l'autorizzazione"</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Impostazioni del telefono non disponibili</string>
     <string name="app_suspended_default_message">%1$s non è al momento disponibile. Viene gestita tramite %2$s.</string>
     <string name="app_suspended_more_details">Scopri di più</string>
     <string name="app_suspended_title">App non disponibile</string>
@@ -313,6 +327,7 @@ Puoi associare questa scorciatoia a un'altra funzionalità in Impostazioni > Acc
     <string name="autofill_parish">Parrocchia</string>
     <string name="autofill_picker_accessibility_title">Opzioni di compilazione automatica</string>
     <string name="autofill_picker_no_suggestions">Nessun suggerimento di Compilazione automatica</string>
+    <string name="autofill_picker_some_suggestions">{count,plural, =1{Un suggerimento di compilazione automatica}other{# suggerimenti di compilazione automatica}}</string>
     <string name="autofill_postal_code">Codice postale</string>
     <string name="autofill_prefecture">Prefettura</string>
     <string name="autofill_province">Provincia</string>
@@ -364,6 +379,7 @@ Puoi associare questa scorciatoia a un'altra funzionalità in Impostazioni > Acc
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Per continuare devi usare i tuoi dati biometrici o il tuo blocco schermo</string>
     <string name="bluetooth_a2dp_audio_route_name">Audio Bluetooth</string>
     <string name="bluetooth_airplane_mode_toast">"Il Bluetooth rimane attivo durante l'uso della modalità aereo"</string>
+    <string name="bugreport_countdown">{count,plural, =1{Lo screenshot per la segnalazione di bug verrà acquisito tra # secondo.}other{Lo screenshot per la segnalazione di bug verrà acquisito tra # secondi.}}</string>
     <string name="bugreport_message">"Verranno raccolte informazioni sullo stato corrente del dispositivo che saranno inviate sotto forma di messaggio email. Passerà un po' di tempo prima che la segnalazione di bug aperta sia pronta per essere inviata; ti preghiamo di avere pazienza."</string>
     <string name="bugreport_option_full_summary">"Utilizza questa opzione per ridurre al minimo l'interferenza di sistema quando il dispositivo non risponde, è troppo lento oppure quando ti servono tutte le sezioni della segnalazione. Non puoi inserire altri dettagli o acquisire altri screenshot."</string>
     <string name="bugreport_option_full_title">Report completo</string>
@@ -381,11 +397,11 @@ Puoi associare questa scorciatoia a un'altra funzionalità in Impostazioni > Acc
     <string name="call_notification_ongoing_text">Chiamata in corso</string>
     <string name="call_notification_screening_text">Applicazione filtro a chiamata in arrivo</string>
     <string name="capability_desc_canCaptureFingerprintGestures">È in grado di rilevare i gesti compiuti con il sensore di impronte dei dispositivi.</string>
-    <string name="capability_desc_canControlMagnification">Controlla il livello di zoom e la posizione del display.</string>
+    <string name="capability_desc_canControlMagnification">Controlla la posizione e il livello di zoom del display.</string>
     <string name="capability_desc_canPerformGestures">Consente di toccare, far scorrere, pizzicare ed eseguire altri gesti.</string>
     <string name="capability_desc_canRequestFilterKeyEvents">Sono inclusi dati personali come numeri di carte di credito e password.</string>
-    <string name="capability_desc_canRequestTouchExploration">Gli elementi toccati verranno pronunciati ad alta voce e sarà possibile esplorare lo schermo utilizzando i gesti.</string>
-    <string name="capability_desc_canRetrieveWindowContent">Esaminare i contenuti di una finestra con cui interagisci.</string>
+    <string name="capability_desc_canRequestTouchExploration">Gli elementi toccati verranno pronunciati ad alta voce e sarà possibile esplorare lo schermo con i gesti.</string>
+    <string name="capability_desc_canRetrieveWindowContent">Esamina i contenuti di una finestra con cui interagisci.</string>
     <string name="capability_desc_canTakeScreenshot">Può acquisire uno screenshot del display.</string>
     <string name="capability_title_canCaptureFingerprintGestures">Gesti con sensore di impronte</string>
     <string name="capability_title_canControlMagnification">"Controllare l'ingrandimento del display"</string>
@@ -435,13 +451,12 @@ Puoi associare questa scorciatoia a un'altra funzionalità in Impostazioni > Acc
     <string name="conversation_single_line_name_display">%1$s:</string>
     <string name="conversation_title_fallback_group_chat">Conversazione di gruppo</string>
     <string name="conversation_title_fallback_one_to_one">Conversazione</string>
-    <string name="copied">Copia eseguita</string>
     <string name="country_detector">Rilevatore paese</string>
     <string name="country_selection_title">Area geografica preferita</string>
     <string name="create_contact_using">"Crea contatto
 utilizzando %s"</string>
     <string name="crossSimFormat_spn_cross_sim_calling">Chiamate di backup %s</string>
-    <string name="data_saver_description">"Per contribuire a ridurre l'utilizzo dei dati, la funzione Risparmio dati impedisce ad alcune app di inviare o ricevere dati in background. Un'app in uso può accedere ai dati, ma potrebbe farlo con meno frequenza. Esempio: le immagini non vengono visualizzate finché non le tocchi."</string>
+    <string name="data_saver_description">"Per contribuire a ridurre l'utilizzo dei dati, la funzionalità Risparmio dati impedisce ad alcune app di inviare o ricevere dati in background. Un'app in uso può accedere ai dati, ma potrebbe farlo con meno frequenza. Per esempio, è possibile che le immagini non vengano visualizzate finché non le tocchi."</string>
     <string name="data_saver_enable_button">Attiva</string>
     <string name="data_saver_enable_title">Attivare Risparmio dati?</string>
     <string name="data_usage_limit_body">Dati sospesi per il resto del ciclo</string>
@@ -491,6 +506,7 @@ utilizzando %s"</string>
     <string name="deprecated_target_sdk_message">Questa app è stata realizzata per una versione precedente di Android e potrebbe non funzionare correttamente. Prova a verificare la disponibilità di aggiornamenti o contatta lo sviluppatore.</string>
     <string name="description_target_unlock_tablet">Fai scorrere per sbloccare.</string>
     <string name="device_ownership_relinquished">"L'amministratore ha abbandonato il dispositivo per uso personale"</string>
+    <string name="device_policy_manager_service">Servizio Device Policy Manager</string>
     <string name="device_storage_monitor_notification_channel">Memoria dispositivo</string>
     <string name="dial_number_using">"Componi numero
 utilizzando %s"</string>
@@ -512,6 +528,22 @@ utilizzando %s"</string>
     <string name="dump_heap_system_text">"Il processo %1$s ha superato il suo limite di memoria pari a %2$s. È disponibile un dump dell'heap che puoi condividere. Presta attenzione: questo dump dell'heap potrebbe contenere informazioni personali sensibili a cui il processo ha accesso, che potrebbero includere il testo digitato."</string>
     <string name="dump_heap_text">"Il processo %1$sha superato il suo limite di memoria del processo pari a %2$s. È disponibile un dump dell'heap che puoi condividere con lo sviluppatore. Presta attenzione: questo dump dell'heap può contenere tue informazioni personali a cui l'applicazione ha accesso."</string>
     <string name="dump_heap_title">"Condividere il dump dell'heap?"</string>
+    <string name="duration_days_relative">{count,plural, =1{# giorno fa}other{# giorni fa}}</string>
+    <string name="duration_days_relative_future">{count,plural, =1{# giorno}other{# giorni}}</string>
+    <string name="duration_days_shortest">%d g</string>
+    <string name="duration_days_shortest_future">tra %d g</string>
+    <string name="duration_hours_relative">{count,plural, =1{# ora fa}other{# ore fa}}</string>
+    <string name="duration_hours_relative_future">{count,plural, =1{# ora}other{# ore}}</string>
+    <string name="duration_hours_shortest">%d h</string>
+    <string name="duration_hours_shortest_future">tra %d h</string>
+    <string name="duration_minutes_relative">{count,plural, =1{# minuto fa}other{# minuti fa}}</string>
+    <string name="duration_minutes_relative_future">{count,plural, =1{# minuto}other{# minuti}}</string>
+    <string name="duration_minutes_shortest">%d m</string>
+    <string name="duration_minutes_shortest_future">tra %d m</string>
+    <string name="duration_years_relative">{count,plural, =1{# anno fa}other{# anni fa}}</string>
+    <string name="duration_years_relative_future">{count,plural, =1{# anno}other{# anni}}</string>
+    <string name="duration_years_shortest">%d a</string>
+    <string name="duration_years_shortest_future">tra %d a</string>
     <string name="dynamic_mode_notification_channel_name">Notifica di informazioni sulla modalità Routine</string>
     <string name="dynamic_mode_notification_summary">Risparmio energetico attivo per far durare di più la batteria</string>
     <string name="dynamic_mode_notification_title">La batteria potrebbe esaurirsi prima della ricarica abituale</string>
@@ -619,6 +651,7 @@ utilizzando %s"</string>
     <string name="face_error_timeout">Riprova lo sblocco con il volto</string>
     <string name="face_error_unable_to_process">Impossibile verificare il volto. Riprova.</string>
     <string name="face_error_user_canceled">"Sblocco con il volto annullato dall'utente"</string>
+    <string name="face_error_vendor_unknown">Si è verificato un errore. Riprova.</string>
     <string name="face_icon_content_description">Icona volto</string>
     <string name="face_name_template">Volto %d</string>
     <string name="face_or_screen_lock_app_setting_name">Usa lo sblocco con il volto o il blocco schermo</string>
@@ -626,6 +659,7 @@ utilizzando %s"</string>
     <string name="face_recalibrate_notification_content">Tocca per eliminare il tuo modello del volto e poi riaggiungi il tuo volto</string>
     <string name="face_recalibrate_notification_name">Sblocco con il volto</string>
     <string name="face_recalibrate_notification_title">Problema con Sblocco con il volto</string>
+    <string name="face_sensor_privacy_enabled">Per utilizzare lo sblocco con il volto, attiva <b>"l'accesso alla fotocamera"</b> in Impostazioni > Privacy</string>
     <string name="face_setup_notification_content">Sblocca il telefono guardandolo</string>
     <string name="face_setup_notification_title">Configura lo sblocco con il volto</string>
     <string name="faceunlock_multiple_failures">Numero massimo di tentativi di sblocco con il volto superato</string>
@@ -643,17 +677,19 @@ Per eventuali domande, contatta l'amministratore della tua organizzazione."</str
     <string name="fcComplete">Codice funzione completo.</string>
     <string name="fcError">Problema di connessione o codice funzione non valido.</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
+    <string name="file_count">{count,plural, =1{{file_name} + # file}other{{file_name} + # file}}</string>
     <string name="find">Trova</string>
     <string name="find_next">Trova successivo</string>
     <string name="find_on_page">Trova nella pagina</string>
     <string name="find_previous">Trova precedente</string>
     <string name="fingerprint_acquired_already_enrolled">"Prova con un'altra impronta"</string>
-    <string name="fingerprint_acquired_imager_dirty">Pulisci il sensore</string>
+    <string name="fingerprint_acquired_imager_dirty">Pulisci il sensore di impronte digitali e riprova</string>
+    <string name="fingerprint_acquired_imager_dirty_alt">Pulisci il sensore e riprova</string>
     <string name="fingerprint_acquired_immobile">Cambia leggermente la posizione del dito ogni volta</string>
     <string name="fingerprint_acquired_insufficient">"Impossibile elaborare l'impronta. Riprova."</string>
-    <string name="fingerprint_acquired_partial">Rilevata impronta parziale</string>
+    <string name="fingerprint_acquired_partial">Premi con decisione sul sensore</string>
     <string name="fingerprint_acquired_too_bright">Troppa luce</string>
-    <string name="fingerprint_acquired_too_fast">"Tieni premuto un po' più a lungo"</string>
+    <string name="fingerprint_acquired_too_fast">Premi con decisione sul sensore</string>
     <string name="fingerprint_acquired_too_slow">Movimento del dito troppo lento. Riprova.</string>
     <string name="fingerprint_acquired_try_adjusting">Prova a regolare</string>
     <string name="fingerprint_app_setting_name">"Usa l'impronta"</string>
@@ -667,10 +703,12 @@ Per eventuali domande, contatta l'amministratore della tua organizzazione."</str
     <string name="fingerprint_error_lockout_permanent">Troppi tentativi. Sensore di impronte disattivato.</string>
     <string name="fingerprint_error_no_fingerprints">Nessuna impronta digitale registrata.</string>
     <string name="fingerprint_error_no_space">"Impossibile configurare l'impronta"</string>
+    <string name="fingerprint_error_not_match">Impronta non riconosciuta</string>
     <string name="fingerprint_error_security_update_required">Sensore temporaneamente disattivato.</string>
     <string name="fingerprint_error_timeout">Timeout impronta. Riprova.</string>
     <string name="fingerprint_error_unable_to_process">Riprova.</string>
     <string name="fingerprint_error_user_canceled">"Operazione di autenticazione dell'impronta annullata dall'utente."</string>
+    <string name="fingerprint_error_vendor_unknown">Si è verificato un errore. Riprova.</string>
     <string name="fingerprint_name_template">Dito %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">"Usa l'impronta o il blocco schermo"</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Per continuare devi usare la tua impronta o il tuo blocco schermo</string>
@@ -679,6 +717,7 @@ Per eventuali domande, contatta l'amministratore della tua organizzazione."</str
     <string name="fingerprint_recalibrate_notification_title">Impossibile utilizzare il sensore di impronte digitali</string>
     <string name="fingerprint_setup_notification_content">"Tocca per aggiungere un'impronta"</string>
     <string name="fingerprint_setup_notification_title">Configura altri modi per sbloccare</string>
+    <string name="fingerprint_udfps_error_not_match">Impronta non riconosciuta</string>
     <string name="fingerprints">Fingerprint:</string>
     <string name="floating_toolbar_close_overflow_description">Chiudi overflow</string>
     <string name="floating_toolbar_open_overflow_description">Altre opzioni</string>
@@ -689,12 +728,18 @@ Per eventuali domande, contatta l'amministratore della tua organizzazione."</str
     <string name="foreground_service_tap_for_details">"Tocca per conoscere i dettagli sull'utilizzo dei dati e della batteria"</string>
     <string name="forward_intent_to_owner">"Stai utilizzando l'app al di fuori del tuo profilo di lavoro"</string>
     <string name="forward_intent_to_work">"Stai utilizzando l'app nel tuo profilo di lavoro"</string>
-    <string name="fp_enrollment_powerbutton_intent_message">"Durante la configurazione della tua impronta hai premuto il tasto di accensione.
+    <string name="fp_power_button_bp_message">"Hai premuto il tasto di accensione; in genere questa azione disattiva lo schermo.
 
-Generalmente questa azione comporta la disattivazione dello schermo."</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Annulla</string>
-    <string name="fp_enrollment_powerbutton_intent_positive_button">Disattiva</string>
-    <string name="fp_enrollment_powerbutton_intent_title">Vuoi disattivare lo schermo?</string>
+Prova a toccare leggermente il tasto di accensione per verificare la tua impronta."</string>
+    <string name="fp_power_button_bp_negative_button">Continua</string>
+    <string name="fp_power_button_bp_positive_button">Disattiva lo schermo</string>
+    <string name="fp_power_button_bp_title">"Vuoi continuare a verificare l'impronta?"</string>
+    <string name="fp_power_button_enrollment_message">"Hai premuto il tasto di accensione; in genere questa azione disattiva lo schermo.
+
+Prova a toccare leggermente il tasto di accensione durante la configurazione della tua impronta."</string>
+    <string name="fp_power_button_enrollment_negative_button">Continua configuraz.</string>
+    <string name="fp_power_button_enrollment_positive_button">Disattiva lo schermo</string>
+    <string name="fp_power_button_enrollment_title">Vuoi continuare la configurazione?</string>
     <string name="gadget_host_error_inflating">Aggiunta del widget non riuscita.</string>
     <string name="geofencing_service">Servizio Geofencing</string>
     <string name="gigabyteShort">GB</string>
@@ -731,6 +776,7 @@ Generalmente questa azione comporta la disattivazione dello schermo."</string>
     <string name="granularity_label_line">linea</string>
     <string name="granularity_label_link">link</string>
     <string name="granularity_label_word">parola</string>
+    <string name="guest_name">Ospite</string>
     <string name="hardware">Mostra tastiera virtuale</string>
     <string name="harmful_app_warning_open_anyway">APRI COMUNQUE</string>
     <string name="harmful_app_warning_title">App dannosa rilevata</string>
@@ -783,8 +829,11 @@ Generalmente questa azione comporta la disattivazione dello schermo."</string>
     <string name="immersive_cling_title">Visualizzazione a schermo intero</string>
     <string name="importance_from_person">Importante a causa delle persone coinvolte.</string>
     <string name="importance_from_user">"Stabilisci tu l'importanza di queste notifiche."</string>
+    <string name="in_progress">In corso</string>
     <string name="inputMethod">Metodo inserimento</string>
     <string name="input_method_binding_label">Metodo inserimento</string>
+    <string name="input_method_ime_switch_button_desc">Cambia metodo di immissione</string>
+    <string name="input_method_nav_back_button_desc">Indietro</string>
     <string name="install_carrier_app_notification_button">Scarica app</string>
     <string name="install_carrier_app_notification_text">"Scarica l'app dell'operatore per attivare la nuova SIM"</string>
     <string name="install_carrier_app_notification_text_app_name">"Scarica l'app %1$s per attivare la nuova SIM"</string>
@@ -888,6 +937,7 @@ Riprova tra %2$d secondi."</string>
     <string name="language_picker_section_suggested">Suggerite</string>
     <string name="language_selection_title">Aggiungi una lingua</string>
     <string name="last_month">Ultimo mese</string>
+    <string name="last_num_days">{count,plural, =1{Ultimo giorno}other{Ultimi # giorni}}</string>
     <string name="launchBrowserDefault">"Avviare l'applicazione Browser?"</string>
     <string name="launch_warning_original">%1$s già avviata.</string>
     <string name="launch_warning_replace">%1$s è ora in esecuzione.</string>
@@ -916,7 +966,7 @@ Per rimuoverlo, tieni premuti contemporaneamente il tasto Home e il tasto di acc
     <string name="lockscreen_access_pattern_detected">Sequenza completata</string>
     <string name="lockscreen_access_pattern_start">Sequenza iniziata</string>
     <string name="lockscreen_carrier_default">Nessun servizio</string>
-    <string name="lockscreen_emergency_call">Chiamata di emergenza</string>
+    <string name="lockscreen_emergency_call">Emergenza</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">Hai erroneamente tentato di sbloccare il telefono %1$d volte. Dopo altri %2$d tentativi non riusciti, il telefono verrà sottoposto a un ripristino dati di fabbrica e tutti i dati utente andranno persi.</string>
     <string name="lockscreen_failed_attempts_almost_glogin">"%1$d tentativi errati di inserimento della sequenza di sblocco. Dopo altri %2$d tentativi falliti, ti verrà chiesto di sbloccare il telefono con i tuoi dati di accesso Google.
 
@@ -974,6 +1024,15 @@ Riprova tra %2$d secondi."</string>
     <string name="lockscreen_transport_rew_description">Riavvolgi</string>
     <string name="lockscreen_transport_stop_description">Interrompi</string>
     <string name="lockscreen_unlock_label">Sblocca</string>
+    <string name="log_access_confirmation_allow">Consenti accesso una tantum</string>
+    <string name="log_access_confirmation_body">"I log del dispositivo registrano tutto ciò che succede sul tuo dispositivo. Le app possono usare questi log per individuare problemi e correggerli.
+
+Alcuni log potrebbero contenere informazioni sensibili, quindi concedi l'accesso a tutti i log del dispositivo soltanto alle app attendibili. 
+
+Se le neghi l'accesso a tutti i log del dispositivo, questa app può comunque accedere ai propri log. Il produttore del tuo dispositivo potrebbe essere comunque in grado di accedere ad alcuni log o informazioni sul dispositivo. Scopri di più"</string>
+    <string name="log_access_confirmation_deny">Non consentire</string>
+    <string name="log_access_confirmation_title">"Consentire all'app %s di accedere a tutti i log del dispositivo?"</string>
+    <string name="log_access_do_not_show_again">Non mostrare più</string>
     <string name="low_internal_storage_view_text">Alcune funzioni di sistema potrebbero non funzionare</string>
     <string name="low_internal_storage_view_text_no_boot">Memoria insufficiente per il sistema. Assicurati di avere 250 MB di spazio libero e riavvia.</string>
     <string name="low_internal_storage_view_title">Spazio di archiviazione in esaurimento</string>
@@ -982,13 +1041,14 @@ Riprova tra %2$d secondi."</string>
     <string name="managed_profile_label_badge">%1$s lavoro</string>
     <string name="managed_profile_label_badge_2">%1$s di lavoro (2°)</string>
     <string name="managed_profile_label_badge_3">%1$s di lavoro (3°)</string>
+    <string name="matches_found">{count,plural, =1{# corrispondenza}other{# di {total}}}</string>
     <string name="maximize_button_text">Ingrandisci</string>
     <string name="me">Io</string>
     <string name="media_route_button_content_description">Trasmetti</string>
     <string name="media_route_chooser_extended_settings">Impostazioni</string>
     <string name="media_route_chooser_searching">Ricerca di dispositivi in corso…</string>
     <string name="media_route_chooser_title">Connetti al dispositivo</string>
-    <string name="media_route_chooser_title_for_remote_display">Trasmetti schermo a</string>
+    <string name="media_route_chooser_title_for_remote_display">Trasmetti schermo al dispositivo</string>
     <string name="media_route_controller_disconnect">Disconnetti</string>
     <string name="media_route_status_available">Disponibile</string>
     <string name="media_route_status_connecting">Connessione...</string>
@@ -1120,8 +1180,8 @@ Riprova tra %2$d secondi."</string>
     <string name="mime_type_spreadsheet_ext">Foglio di lavoro %1$s</string>
     <string name="mime_type_video">Video</string>
     <string name="mime_type_video_ext">Video %1$s</string>
-    <string name="miniresolver_open_in_personal">Aprire %s nel profilo personale?</string>
-    <string name="miniresolver_open_in_work">Aprire %s nel profilo di lavoro?</string>
+    <string name="miniresolver_open_in_personal">Aprire %s nel tuo profilo personale?</string>
+    <string name="miniresolver_open_in_work">Aprire %s nel tuo profilo di lavoro?</string>
     <string name="miniresolver_use_personal_browser">Usa il browser personale</string>
     <string name="miniresolver_use_work_browser">Usa il browser di lavoro</string>
     <string name="minute">min</string>
@@ -1143,6 +1203,8 @@ Riprova tra %2$d secondi."</string>
     <string name="mobile_no_internet">La rete mobile non ha accesso a Internet</string>
     <string name="month_day_year" formatted="false">%d %B %Y</string>
     <string name="more_item_label">Altro</string>
+    <string name="mte_override_notification_message">Questa funzionalità potrebbe influire su prestazioni e stabilità. Riavvia il dispositivo per disattivare la funzionalità. Se viene attivata usando arm64.memtag.bootctl, impostala prima su none.</string>
+    <string name="mte_override_notification_title">Funzionalità MTE sperimentale attivata</string>
     <string name="music_recognition_manager_service">Servizio di gestione del riconoscimento della musica</string>
     <string name="muted_by">%1$s sta disattivando alcuni suoni</string>
     <string name="nas_upgrade_notification_content">Ora le risposte e le azioni suggerite vengono fornite dalle notifiche avanzate. Le notifiche adattive Android non sono più supportate.</string>
@@ -1178,12 +1240,14 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="noon">mezzogiorno</string>
     <string name="not_checked">deselezionato</string>
     <string name="not_selected">non selezionato</string>
+    <string name="notification_action_check_bg_apps">Verifica le app attive</string>
     <string name="notification_alerted_content_description">Avviso inviato</string>
     <string name="notification_app_name_settings">Impostazioni</string>
     <string name="notification_app_name_system">Sistema</string>
     <string name="notification_appops_camera_active">Fotocamera</string>
     <string name="notification_appops_microphone_active">Microfono</string>
     <string name="notification_appops_overlay_active">si sovrappone ad altre app sullo schermo</string>
+    <string name="notification_channel_abusive_bg_apps">Attività in background</string>
     <string name="notification_channel_accessibility_magnification">Ingrandimento</string>
     <string name="notification_channel_accessibility_security_policy">"Utilizzo dell'accessibilità"</string>
     <string name="notification_channel_account">"Stato dell'account"</string>
@@ -1215,6 +1279,8 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="notification_channel_voice_mail">Messaggi vocali</string>
     <string name="notification_channel_vpn">Stato della VPN</string>
     <string name="notification_channel_wfc">Chiamate Wi-Fi</string>
+    <string name="notification_content_abusive_bg_apps">"%1$s è in esecuzione in background. Tocca per gestire l'utilizzo della batteria."</string>
+    <string name="notification_content_long_running_fgs">%1$s potrebbe influire sulla durata della batteria. Tocca per controllare le app attive.</string>
     <string name="notification_feedback_indicator">Fornisci feedback</string>
     <string name="notification_feedback_indicator_alerted">Questa notifica è stata promossa a Predefinita. Tocca per dare un feedback.</string>
     <string name="notification_feedback_indicator_demoted">Questa notifica è stata posizionata più in basso. Tocca per dare un feedback.</string>
@@ -1228,6 +1294,8 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="notification_ranker_binding_label">Servizio di classificazione delle notifiche</string>
     <string name="notification_reply_button_accessibility">Rispondi</string>
     <string name="notification_title">Errore di accesso relativo a %1$s</string>
+    <string name="notification_title_abusive_bg_apps">"Un'app sta consumando la batteria"</string>
+    <string name="notification_title_long_running_fgs">"C'è un'app ancora attiva"</string>
     <string name="notification_verified_content_description">Verificata</string>
     <string name="notification_work_profile_content_description">Profilo di lavoro</string>
     <string name="now_string_shortest">ora</string>
@@ -1238,7 +1306,7 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="old_app_action">Torna a %1$s</string>
     <string name="older">Precedente</string>
     <string name="oneMonthDurationPast">1 mese fa</string>
-    <string name="one_handed_mode_feature_name">Modalità one-hand</string>
+    <string name="one_handed_mode_feature_name">Modalità a una mano</string>
     <string name="open_permission_deny">Non sei autorizzato ad aprire questa pagina.</string>
     <string name="orgTypeCustom">Personalizzato</string>
     <string name="orgTypeOther">Altro</string>
@@ -1295,7 +1363,8 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="permdesc_bluetooth_advertise">"Consente all'app di trasmettere annunci ai dispositivi Bluetooth nelle vicinanze"</string>
     <string name="permdesc_bluetooth_connect">"Consente all'app di connettersi ai dispositivi Bluetooth accoppiati"</string>
     <string name="permdesc_bluetooth_scan">"Consente all'app di rilevare e accoppiare dispositivi Bluetooth nelle vicinanze"</string>
-    <string name="permdesc_bodySensors">"Consente all'app di accedere ai dati relativi ai sensori che monitorano le tue condizioni fisiche, ad esempio la frequenza cardiaca."</string>
+    <string name="permdesc_bodySensors">"Autorizza l'app ad accedere ai dati dei sensori del corpo, ad esempio battito cardiaco, temperatura e percentuale di ossigeno nel sangue, mentre l'app è in uso."</string>
+    <string name="permdesc_bodySensors_background">"Autorizza l'app ad accedere ai dati dei sensori del corpo, ad esempio battito cardiaco, temperatura e percentuale di ossigeno nel sangue, mentre l'app è in background."</string>
     <string name="permdesc_broadcastSticky">"Consente all'applicazione di inviare broadcast permanenti, che permangono anche al termine del broadcast. Un uso eccessivo potrebbe rendere il telefono lento o instabile causando un uso eccessivo della memoria."</string>
     <string name="permdesc_callCompanionApp">"Consente all'app di visualizzare e controllare le chiamate in corso sul dispositivo. Sono incluse informazioni quali i numeri e lo stato relativi alle chiamate."</string>
     <string name="permdesc_callPhone">"Consente all'applicazione di chiamare numeri di telefono senza il tuo intervento. Ciò può comportare chiamate o addebiti imprevisti. Tieni presente che ciò non consente all'applicazione di chiamare numeri di emergenza. Applicazioni dannose potrebbero generare dei costi effettuando chiamate senza la tua conferma."</string>
@@ -1321,7 +1390,7 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="permdesc_handoverStatus">"Consente all'applicazione di ricevere informazioni sugli attuali trasferimenti Android Beam"</string>
     <string name="permdesc_highSamplingRateSensors">"Consente all'app di campionare i dati dei sensori a una frequenza maggiore di 200 Hz"</string>
     <string name="permdesc_imagesWrite">"Consente all'app di modificare la tua raccolta di foto."</string>
-    <string name="permdesc_install_shortcut">"Consente a un'applicazione di aggiungere scorciatoie alla schermata Home automaticamente."</string>
+    <string name="permdesc_install_shortcut">"consentire a un'applicazione di aggiungere scorciatoie alla schermata Home automaticamente"</string>
     <string name="permdesc_invokeCarrierSetup">"Consente al titolare di richiamare l'app di configurazione dell'operatore-provider. Non dovrebbe essere mai necessaria per le normali applicazioni."</string>
     <string name="permdesc_killBackgroundProcesses">"Consente all'applicazione di terminare i processi in background di altre applicazioni. Ciò potrebbe causare l'interruzione di altre applicazioni."</string>
     <string name="permdesc_manageFingerprint">"Consente all'app di richiamare metodi per aggiungere e rimuovere modelli di impronte da utilizzare."</string>
@@ -1332,17 +1401,23 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="permdesc_mediaLocation">"Consente all'app di leggere le posizioni dalla tua raccolta multimediale."</string>
     <string name="permdesc_modifyAudioSettings">"Consente all'applicazione di modificare le impostazioni audio globali, come il volume e quale altoparlante viene utilizzato per l'uscita."</string>
     <string name="permdesc_modifyNetworkAccounting">"Consente all'applicazione di modificare il calcolo dell'utilizzo della rete tra le applicazioni. Da non usare per normali applicazioni."</string>
+    <string name="permdesc_nearby_wifi_devices">"Consente all'app di trasmettere annunci e connettersi a dispositivi Wi‑Fi vicini e di stabilirne la posizione relativa."</string>
     <string name="permdesc_nfc">"Consente all'applicazione di comunicare con tag, schede e lettori NFC (Near Field Communication)."</string>
     <string name="permdesc_persistentActivity">"Consente all'applicazione di rendere persistenti in memoria alcune sue parti. Ciò può limitare la memoria disponibile per altre applicazioni, rallentando il telefono."</string>
+    <string name="permdesc_postNotification">"Consente all'app di mostrare notifiche"</string>
     <string name="permdesc_preferredPaymentInfo">"Consente all'app di recuperare informazioni del servizio di pagamento NFC preferito, quali destinazione della route e identificatori applicazione registrati."</string>
     <string name="permdesc_processOutgoingCalls">"Consente all'app di rilevare il numero digitato durante una chiamata in uscita, con la possibilità di reindirizzare la telefonata a un numero diverso o interromperla del tutto."</string>
     <string name="permdesc_queryAllPackages">"Consente a un'app di visualizzare tutti i pacchetti installati."</string>
+    <string name="permdesc_readBasicPhoneState">"Consente all'app di accedere alle funzionalità di telefonia di base del dispositivo."</string>
     <string name="permdesc_readCalendar">Questa app può leggere tutti gli eventi di calendario memorizzati sul telefono e condividere o salvare i dati di calendario.</string>
     <string name="permdesc_readCallLog">Questa app può leggere la cronologia chiamate.</string>
     <string name="permdesc_readCellBroadcasts">"Consente all'applicazione di leggere i messaggi cell broadcast ricevuti dal dispositivo. Gli avvisi cell broadcast vengono trasmessi in alcune località per avvertire di eventuali situazioni di emergenza. Le app dannose potrebbero interferire con le prestazioni o con il funzionamento del dispositivo quando si riceve un messaggio cell broadcast di emergenza."</string>
     <string name="permdesc_readContacts">"Consente all'app di leggere i dati relativi ai contatti memorizzati sul telefono. Le app avranno inoltre accesso agli account memorizzati sul telefono su cui sono stati creati contatti. Potrebbero essere inclusi gli account creati da app installate. Questa autorizzazione consente alle app di salvare i dati dei tuoi contatti e app dannose potrebbero condividere i dati dei contatti a tua insaputa."</string>
     <string name="permdesc_readHistoryBookmarks">"Consente all'applicazione di leggere la cronologia di tutti gli URL che il Browser ha visitato e di tutti i segnalibri del Browser. Nota. È possibile che questa autorizzazione non sia applicabile da browser di terze parti o altre applicazioni con funzionalità di navigazione web."</string>
     <string name="permdesc_readInstallSessions">"Consente a un'applicazione di leggere le sessioni di installazione. L'app può conoscere i dettagli sulle installazioni di pacchetti attive."</string>
+    <string name="permdesc_readMediaAudio">"Consente all'app di leggere i file audio dal tuo spazio di archiviazione condiviso."</string>
+    <string name="permdesc_readMediaImages">"Consente all'app di leggere i file immagine dal tuo spazio di archiviazione condiviso."</string>
+    <string name="permdesc_readMediaVideo">"Consente all'app di leggere i file video dal tuo spazio di archiviazione condiviso."</string>
     <string name="permdesc_readNetworkUsageHistory">"Consente all'applicazione di leggere dati storici di utilizzo della rete per reti e applicazioni specifiche."</string>
     <string name="permdesc_readPhoneNumbers">"Consente all'app di accedere ai numeri di telefono del dispositivo."</string>
     <string name="permdesc_readPhoneState">"Consente all'applicazione di accedere alle funzioni telefoniche del dispositivo. Questa autorizzazione consente all'applicazione di determinare il numero di telefono e gli ID dei dispositivi, se una chiamata è attiva e il numero remoto connesso da una chiamata."</string>
@@ -1374,6 +1449,8 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="permdesc_setWallpaper">"Consente all'applicazione di impostare lo sfondo del sistema."</string>
     <string name="permdesc_setWallpaperHints">"Consente all'applicazione di impostare i suggerimenti per le dimensioni dello sfondo del sistema."</string>
     <string name="permdesc_sim_communication">"Consente all'app di inviare comandi alla SIM. Questo è molto pericoloso."</string>
+    <string name="permdesc_startReviewPermissionDecisions">"Consente all'app che ha questa autorizzazione di avviare lo schermo per esaminare le decisioni relative all'autorizzazione. Non dovrebbe mai essere necessaria per le normali app."</string>
+    <string name="permdesc_startViewAppFeatures">"Consente all'app che ha questa autorizzazione di iniziare a visualizzare le informazioni relative alle funzionalità di un'app."</string>
     <string name="permdesc_startViewPermissionUsage">"Consente al titolare di avviare l'uso delle autorizzazioni per un'app. Non dovrebbe essere mai necessaria per le normali applicazioni."</string>
     <string name="permdesc_statusBar">"Consente all'applicazione di disattivare la barra di stato o di aggiungere e rimuovere icone di sistema."</string>
     <string name="permdesc_statusBarService">"Consente di visualizzare l'applicazione nella barra di stato."</string>
@@ -1398,18 +1475,21 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="permdesc_writeHistoryBookmarks">"Consente all'applicazione di modificare la cronologia o i segnalibri del Browser memorizzati sul telefono. Ciò potrebbe consentire all'applicazione di cancellare o modificare i dati del Browser. Nota. È possibile che questa autorizzazione non sia applicabile da browser di terze parti o altre applicazioni con funzionalità di navigazione web."</string>
     <string name="permdesc_writeSettings">"Consente all'applicazione di modificare i dati delle impostazioni di sistema. Le applicazioni dannose potrebbero compromettere la configurazione di sistema."</string>
     <string name="permdesc_writeSyncSettings">"Consente a un'applicazione di modificare le impostazioni di sincronizzazione per un account. Ad esempio, può servire per attivare la sincronizzazione dell'applicazione Persone con un account."</string>
-    <string name="permgroupdesc_activityRecognition">"Consente di accedere all'attività fisica"</string>
-    <string name="permgroupdesc_calendar">accedere al calendario</string>
-    <string name="permgroupdesc_calllog">leggere e modificare il registro chiamate del telefono</string>
-    <string name="permgroupdesc_camera">scattare foto e registrare video</string>
-    <string name="permgroupdesc_contacts">accedere ai contatti</string>
-    <string name="permgroupdesc_location">accedere alla posizione di questo dispositivo</string>
-    <string name="permgroupdesc_microphone">registrare audio</string>
+    <string name="permgroupdesc_activityRecognition">"Possono accedere all'attività fisica"</string>
+    <string name="permgroupdesc_calendar">Possono accedere al calendario</string>
+    <string name="permgroupdesc_calllog">Possono leggere e modificare il registro chiamate del telefono</string>
+    <string name="permgroupdesc_camera">Possono scattare foto e registrare video</string>
+    <string name="permgroupdesc_contacts">Possono accedere ai contatti</string>
+    <string name="permgroupdesc_location">Possono accedere alla posizione di questo dispositivo</string>
+    <string name="permgroupdesc_microphone">Possono registrare audio</string>
     <string name="permgroupdesc_nearby_devices">Consente di rilevare dispositivi nelle vicinanze e di connettersi a tali dispositivi</string>
-    <string name="permgroupdesc_phone">eseguire e gestire le telefonate</string>
-    <string name="permgroupdesc_sensors">accedere ai dati dei sensori relativi ai tuoi parametri vitali</string>
-    <string name="permgroupdesc_sms">inviare e visualizzare SMS</string>
-    <string name="permgroupdesc_storage">accedere a foto, contenuti multimediali e file sul dispositivo</string>
+    <string name="permgroupdesc_notifications">Visualizzazione di notifiche</string>
+    <string name="permgroupdesc_phone">Possono eseguire e gestire le telefonate</string>
+    <string name="permgroupdesc_readMediaAural">accesso a musica e audio sul tuo dispositivo</string>
+    <string name="permgroupdesc_readMediaVisual">accesso a foto e video sul tuo dispositivo</string>
+    <string name="permgroupdesc_sensors">Possono accedere ai dati dei sensori relativi ai tuoi parametri vitali</string>
+    <string name="permgroupdesc_sms">Possono inviare e visualizzare SMS</string>
+    <string name="permgroupdesc_storage">Consente di accedere ai file sul tuo dispositivo</string>
     <string name="permgrouplab_activityRecognition">Attività fisica</string>
     <string name="permgrouplab_calendar">Calendario</string>
     <string name="permgrouplab_calllog">Registri chiamate</string>
@@ -1418,10 +1498,13 @@ Le notifiche avanzate possono accedere ai contenuti di una notifica, incluse le 
     <string name="permgrouplab_location">Posizione</string>
     <string name="permgrouplab_microphone">Microfono</string>
     <string name="permgrouplab_nearby_devices">Dispositivi nelle vicinanze</string>
+    <string name="permgrouplab_notifications">Notifiche</string>
     <string name="permgrouplab_phone">Telefono</string>
+    <string name="permgrouplab_readMediaAural">Musica e audio</string>
+    <string name="permgrouplab_readMediaVisual">Foto e video</string>
     <string name="permgrouplab_sensors">Sensori del corpo</string>
     <string name="permgrouplab_sms">SMS</string>
-    <string name="permgrouplab_storage">File e contenuti multimediali</string>
+    <string name="permgrouplab_storage">File</string>
     <string name="permission_request_notification_for_app_with_subtitle">"Autorizzazione richiesta da %1$s
 per l'account %2$s."</string>
     <string name="permission_request_notification_title">Autorizzazione richiesta</string>
@@ -1455,10 +1538,11 @@ per l'account %s."</string>
     <string name="permlab_bind_incall_service">interazione con lo schermo durante una chiamata</string>
     <string name="permlab_bluetooth">accoppiamento con dispositivi Bluetooth</string>
     <string name="permlab_bluetoothAdmin">accesso alle impostazioni Bluetooth</string>
-    <string name="permlab_bluetooth_advertise">trasmettere annunci a dispositivi Bluetooth vicini</string>
+    <string name="permlab_bluetooth_advertise">Trasmissione di annunci a dispositivi Bluetooth vicini</string>
     <string name="permlab_bluetooth_connect">Connessione a dispositivi Bluetooth accoppiati</string>
-    <string name="permlab_bluetooth_scan">Rilevamento/accopp. dispositivi Bluetooth vicini</string>
-    <string name="permlab_bodySensors">accesso ai sensori (come il cardiofrequenzimetro)</string>
+    <string name="permlab_bluetooth_scan">Rilevamento e accoppiamento di dispositivi Bluetooth vicini</string>
+    <string name="permlab_bodySensors">Accesso ai dati dei sensori del corpo, come il battito cardiaco, mentre è in uso</string>
+    <string name="permlab_bodySensors_background">Accesso ai dati dei sensori del corpo, come il battito cardiaco, in background</string>
     <string name="permlab_broadcastSticky">invio broadcast permanenti</string>
     <string name="permlab_callCompanionApp">visualizzazione e controllo delle chiamate tramite il sistema.</string>
     <string name="permlab_callPhone">chiamata diretta n. telefono</string>
@@ -1484,7 +1568,7 @@ per l'account %s."</string>
     <string name="permlab_handoverStatus">ricezione dello stato dei trasferimenti Android Beam</string>
     <string name="permlab_highSamplingRateSensors">Accesso ai dati dei sensori a una frequenza di campionamento elevata</string>
     <string name="permlab_imagesWrite">modifica della tua raccolta di foto</string>
-    <string name="permlab_install_shortcut">aggiunta di scorciatoie</string>
+    <string name="permlab_install_shortcut">Aggiunta di scorciatoie</string>
     <string name="permlab_invokeCarrierSetup">"richiamo dell'app di configurazione operatore-provider"</string>
     <string name="permlab_killBackgroundProcesses">chiusura altre applicazioni</string>
     <string name="permlab_manageFingerprint">gestione di hardware per il riconoscimento delle impronte</string>
@@ -1495,17 +1579,23 @@ per l'account %s."</string>
     <string name="permlab_mediaLocation">lettura delle posizioni dalla tua raccolta multimediale</string>
     <string name="permlab_modifyAudioSettings">modifica impostazioni audio</string>
     <string name="permlab_modifyNetworkAccounting">"modifica calcolo dell'utilizzo della rete"</string>
+    <string name="permlab_nearby_wifi_devices">Interazione con dispositivi Wi-Fi vicini</string>
     <string name="permlab_nfc">controllo Near Field Communication</string>
     <string name="permlab_persistentActivity">esecuzione permanente delle applicazioni</string>
+    <string name="permlab_postNotification">Visualizzazione di notifiche</string>
     <string name="permlab_preferredPaymentInfo">Informazioni del servizio di pagamento NFC preferito</string>
     <string name="permlab_processOutgoingCalls">reindirizzamento chiamate in uscita</string>
     <string name="permlab_queryAllPackages">Invio di query per tutti i pacchetti</string>
+    <string name="permlab_readBasicPhoneState">lettura di identità e stato telefonia</string>
     <string name="permlab_readCalendar">lettura di eventi di calendario e dettagli</string>
     <string name="permlab_readCallLog">lettura del registro chiamate</string>
     <string name="permlab_readCellBroadcasts">lettura di messaggi cell broadcast</string>
     <string name="permlab_readContacts">lettura contatti personali</string>
     <string name="permlab_readHistoryBookmarks">lettura segnalibri e cronologia web</string>
     <string name="permlab_readInstallSessions">lettura delle sessioni di installazione</string>
+    <string name="permlab_readMediaAudio">Lettura dei file audio dallo spazio di archiviazione condiviso</string>
+    <string name="permlab_readMediaImages">Lettura dei file immagine dallo spazio di archiviazione condiviso</string>
+    <string name="permlab_readMediaVideo">Lettura dei file video dallo spazio di archiviazione condiviso</string>
     <string name="permlab_readNetworkUsageHistory">lettura dati storici di utilizzo della rete</string>
     <string name="permlab_readPhoneNumbers">lettura dei numeri di telefono</string>
     <string name="permlab_readPhoneState">lettura stato e identità telefono</string>
@@ -1524,12 +1614,12 @@ per l'account %s."</string>
     <string name="permlab_reorderTasks">riordinamento applicazioni in esecuzione</string>
     <string name="permlab_requestDeletePackages">richiesta di eliminazione dei pacchetti</string>
     <string name="permlab_requestIgnoreBatteryOptimizations">richiesta di ignorare le ottimizzazioni della batteria</string>
-    <string name="permlab_requestInstallPackages">richiesta di pacchetti di installazione</string>
+    <string name="permlab_requestInstallPackages">richiesta di installazione di pacchetti</string>
     <string name="permlab_requestPasswordComplexity">richiesta di complessità del blocco schermo</string>
     <string name="permlab_route_media_output">"indirizzamento dell'uscita dei contenuti multimediali"</string>
     <string name="permlab_runInBackground">esecuzione in background</string>
-    <string name="permlab_sdcardRead">"lettura dei contenuti dell'archivio condiviso"</string>
-    <string name="permlab_sdcardWrite">"modifica/eliminazione dei contenuti dell'archivio condiviso"</string>
+    <string name="permlab_sdcardRead">"Lettura dei contenuti dell'archivio condiviso"</string>
+    <string name="permlab_sdcardWrite">"Modifica/eliminazione dei contenuti dell'archivio condiviso"</string>
     <string name="permlab_sendSms">invio e visualizzazione di SMS</string>
     <string name="permlab_setAlarm">impostazione sveglia</string>
     <string name="permlab_setInputCalibration">modifica calibrazione del dispositivo di immissione</string>
@@ -1537,6 +1627,8 @@ per l'account %s."</string>
     <string name="permlab_setWallpaper">impostazione sfondo</string>
     <string name="permlab_setWallpaperHints">regolazione dimensioni sfondo</string>
     <string name="permlab_sim_communication">invio di comandi alla SIM</string>
+    <string name="permlab_startReviewPermissionDecisions">"Inizio della visualizzazione delle decisioni relative all'autorizzazione"</string>
+    <string name="permlab_startViewAppFeatures">Inizio della visualizzazione di funzionalità delle app</string>
     <string name="permlab_startViewPermissionUsage">"avvio dell'uso dell'autorizzazione di visualizzazione"</string>
     <string name="permlab_statusBar">disattivazione o modifica della barra di stato</string>
     <string name="permlab_statusBarService">ruolo di barra di stato</string>
@@ -1689,6 +1781,10 @@ per l'account %s."</string>
     <string name="restr_pin_error_too_short">Il PIN è troppo corto. Deve avere almeno quattro cifre.</string>
     <string name="restr_pin_incorrect">Non corretto</string>
     <string name="restr_pin_try_later">Riprova più tardi</string>
+    <string name="review_notification_settings_dismiss">Ignora</string>
+    <string name="review_notification_settings_remind_me_action">Ricordamelo dopo</string>
+    <string name="review_notification_settings_text">A partire da Android 13, le app che installi devono avere la tua autorizzazione per poter inviare notifiche. Tocca per cambiare questa autorizzazione per le app esistenti.</string>
+    <string name="review_notification_settings_title">Controlla le impostazioni di notifica</string>
     <string name="revoke">Revoca</string>
     <string name="ringtone_default">Suoneria predefinita</string>
     <string name="ringtone_default_with_actual">Predefinita (%1$s)</string>
@@ -1825,6 +1921,7 @@ L'ascolto ad alto volume per lunghi periodi di tempo potrebbe danneggiare l'udit
     <string name="ssl_ca_cert_noti_by_administrator">"Dall'amministratore del tuo profilo di lavoro"</string>
     <string name="ssl_ca_cert_noti_by_unknown">Da una terza parte sconosciuta</string>
     <string name="ssl_ca_cert_noti_managed">Da %s</string>
+    <string name="ssl_ca_cert_warning">{count,plural, =1{Autorità di certificazione installata}other{Autorità di certificazione installate}}</string>
     <string name="ssl_certificate">Certificato di sicurezza</string>
     <string name="ssl_certificate_is_valid">Questo certificato è valido.</string>
     <string name="stk_cc_ss_to_dial">Richiesta SS modificata in chiamata normale</string>
@@ -1842,6 +1939,7 @@ L'ascolto ad alto volume per lunghi periodi di tempo potrebbe danneggiare l'udit
     <string name="storage_usb_drive">Unità USB</string>
     <string name="storage_usb_drive_label">Unità USB %s</string>
     <string name="submit">Invia</string>
+    <string name="supervised_user_creation_label">Aggiungi utente supervisionato</string>
     <string name="suspended_widget_accessibility">Widget %1$s disattivato</string>
     <string name="sync_binding_label">Sinc</string>
     <string name="sync_do_nothing">Non fare nulla per ora</string>
@@ -1851,6 +1949,7 @@ L'ascolto ad alto volume per lunghi periodi di tempo potrebbe danneggiare l'udit
     <string name="sync_undo_deletes">Annulla le eliminazioni</string>
     <string name="system_error_manufacturer">Si è verificato un problema interno con il dispositivo. Per informazioni dettagliate, contatta il produttore.</string>
     <string name="system_error_wipe_data">Si è verificato un problema interno con il dispositivo, che potrebbe essere instabile fino al ripristino dei dati di fabbrica.</string>
+    <string name="system_locale_title">Predefinita di sistema</string>
     <string name="taking_remote_bugreport_notification_title">Recupero della segnalazione di bug…</string>
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Ripristina le impostazioni di fabbrica per disattivare la modalità test harness.</string>
@@ -1925,6 +2024,7 @@ L'ascolto ad alto volume per lunghi periodi di tempo potrebbe danneggiare l'udit
     <string name="user_switched">Utente corrente %1$s.</string>
     <string name="user_switching_message">Passaggio a %1$s…</string>
     <string name="validity_period">Validità:</string>
+    <string name="vdm_camera_access_denied">Impossibile accedere alla fotocamera del telefono dal tuo %1$s</string>
     <string name="view_and_control_notification_content">%s può visualizzare e controllare il tuo schermo. Tocca per verificare.</string>
     <string name="view_and_control_notification_title">Controlla le impostazioni di accesso</string>
     <string name="volume_alarm">Volume sveglia</string>
@@ -2026,6 +2126,14 @@ Vuoi chiuderla?"</string>
     <string name="zen_mode_default_weekends_name">Fine settimana</string>
     <string name="zen_mode_default_weeknights_name">Notte di un giorno feriale</string>
     <string name="zen_mode_downtime_feature_name">Tempo di riposo</string>
+    <string name="zen_mode_duration_hours">{count,plural, =1{Per 1 ora}other{Per # ore}}</string>
+    <string name="zen_mode_duration_hours_short">{count,plural, =1{Per 1 h}other{Per # h}}</string>
+    <string name="zen_mode_duration_hours_summary">{count,plural, =1{Per 1 ora (fino alle ore {formattedTime})}other{Per # ore (fino alle ore {formattedTime})}}</string>
+    <string name="zen_mode_duration_hours_summary_short">{count,plural, =1{Per 1 h (fino alle ore {formattedTime})}other{Per # h (fino alle ore {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes">{count,plural, =1{Per un minuto}other{Per # minuti}}</string>
+    <string name="zen_mode_duration_minutes_short">{count,plural, =1{Per 1 min}other{Per # min}}</string>
+    <string name="zen_mode_duration_minutes_summary">{count,plural, =1{Per un minuto (fino alle ore {formattedTime})}other{Per # minuti (fino alle ore {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes_summary_short">{count,plural, =1{Per 1 min (fino alle ore {formattedTime})}other{Per # min (fino alle ore {formattedTime})}}</string>
     <string name="zen_mode_feature_name">Non disturbare</string>
     <string name="zen_mode_forever">Fino alla disattivazione</string>
     <string name="zen_mode_forever_dnd">Fino alla disattivazione di Non disturbare</string>

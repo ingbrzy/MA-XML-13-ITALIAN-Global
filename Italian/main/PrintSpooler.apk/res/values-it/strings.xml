@@ -35,8 +35,10 @@
     <string name="all_printers">Tutte le stampanti…</string>
     <string name="all_printers_label">Tutte le stampanti</string>
     <string name="all_services_title">Tutti i servizi</string>
+    <string name="am">AM</string>
     <string name="app_activity_main_title">Stampa</string>
     <string name="app_label">Spooler di stampa</string>
+    <string name="app_name">blur</string>
     <string name="blocked_notification_title_template">Stampa bloccata %1$s</string>
     <string name="button_delete">Elimina</string>
     <string name="button_ok">OK</string>
@@ -208,6 +210,10 @@
     <string name="label_pages">Pagine</string>
     <string name="label_paper_size">Dimensioni pagina</string>
     <string name="label_paper_size_summary">Dimensioni pagina: </string>
+    <string name="mediasize_standard_china">3</string>
+    <string name="mediasize_standard_iso">0</string>
+    <string name="mediasize_standard_japan">2</string>
+    <string name="mediasize_standard_north_america">1</string>
     <string name="midnight">Notte</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleziona</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleziona tutto</string>
@@ -288,6 +294,7 @@
     <string name="page_description_template">Pagina %1$d di %2$d</string>
     <string name="pages_range_example">es. 1—5, 8, 11—13</string>
     <string name="please_choose_printer">Selezionare prima una stampante.</string>
+    <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" copiato negli appunti.</string>
     <string name="print_add_printer">Aggiungi stampante</string>
     <string name="print_button">Stampa</string>
@@ -371,6 +378,8 @@
     <string name="solar_term_winter_begins">L\'inverno è arrivato</string>
     <string name="solar_term_winter_solstice">Solstizio d\'inverno</string>
     <string name="start_print">Stampa</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_template">Riepilogo, %1$s copie, dimensione pagina %2$s</string>
     <string name="sunday">Domenica</string>
     <string name="sunday_short">Dom</string>

@@ -25,6 +25,7 @@
     <string name="abc_shareactionprovider_share_with_application">Condividi con %s</string>
     <string name="abc_slice_error">"Connessione fallita"</string>
     <string name="abc_slice_more">Altro</string>
+    <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">Consenti</string>
     <string name="abc_slice_permission_checkbox">Consenti a %1$s di mostrare porzioni di altre app</string>
     <string name="abc_slice_permission_deny">Nega</string>
@@ -589,6 +590,7 @@ Frequenza Campione"</string>
     <string name="build_number_clip_data_label">Numero build</string>
     <string name="build_number_copy_toast">Numero build copiato negli appunti.</string>
     <string name="button_convert_fbe">Pulisci e converti…</string>
+    <string name="cache_db_name">app_icons.db</string>
     <string name="cached_apps_freezer_device_default">Predefinito del dispositivo</string>
     <string name="cached_apps_freezer_disabled">Disabilitato</string>
     <string name="cached_apps_freezer_enabled">Attivato</string>
@@ -702,6 +704,8 @@ Frequenza Campione"</string>
     <string name="compat_mode_on">Ingrandisci per riempire lo schermo</string>
     <string name="config_navBarLayout">sinistra,indietro;home;recenti, destra</string>
     <string name="config_navBarLayout_left">sinistra,indietro;home;recenti, destra</string>
+    <string name="config_navBarLayout_reverse_left">left[.5W],back[1WC];home;recent[1WC],right[.5W]</string>
+    <string name="config_navBarLayout_reverse_right">left[.5W],back[1WC];home;recent[1WC],right[.5W]</string>
     <string name="config_navBarLayout_right">sinistra,indietro;home;recenti, destra</string>
     <string name="confirm">OK</string>
     <string name="confirm_enable_oem_unlock_text">ATTENZIONE: La protezione dispositivo non funzionerà su questo dispositivo mentre questa opzione sarà attiva.</string>
@@ -847,6 +851,9 @@ Se riattivi i dati, l'operatore potrebbe addebitarti un costo."</string>
     <string name="device_locked_without_biometric_face">"Impossibile sbloccare questo dispositivo con i dati del viso quando si utilizza un blocco schermo di terze parti"</string>
     <string name="device_locked_without_biometric_finger">"Impossibile sbloccare questo dispositivo con impronte digitali quando si utilizza un blocco schermo di terze parti"</string>
     <string name="device_services">Servizi Del Dispositivo</string>
+    <string name="dialog_forget_password_cancel">Annulla</string>
+    <string name="dialog_forget_password_message">Se hai dimenticato il tuo codice PUK, puoi disabilitare questa eSIM per non perdere l\'accesso al tuo dispositivo. Dopo di che, è possibile contattare il vostro corriere per ottenere aiuto.</string>
+    <string name="dialog_forget_password_ok">Disattiva</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">"Nota: dopo un reboot, questa app non può avviarsi finché non sblocchi il telefono"</string>
     <string name="disable_carrier_button_text">Disattiva eSIM</string>
@@ -1027,6 +1034,7 @@ Inserisci il PIN per sbloccare."</string>
     <string name="force_rtl_layout_all_locales_summary">Forza direzione disposizione ad RTL per tutte le località</string>
     <string name="forced_resizable_secondary_display">Le app porrebbero non funzionare sullo schermo secondario.</string>
     <string name="forget_password_string">Password dimenticata</string>
+    <string name="forget_password_string_for_esim"><u>Hai dimenticato il codice PUK</u></string>
     <string name="friday">Venerdì</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
@@ -1281,6 +1289,8 @@ Utilizza solo l'alimentatore in dotazione."</string>
     <string name="keyguard_indication_charging_time_wireless">%2$s • Ricarica in mod. wireless (%1$s al completamento)</string>
     <string name="keyguard_indication_trust_disabled">Il dispositivo rimarrà bloccato finché non lo sbloccherai manualmente</string>
     <string name="keyguard_indication_trust_unlocked">Mantenuto sbloccato da Agente di Attendibilità</string>
+    <string name="keyguard_indication_trust_unlocked_plugged_in">"%1$s
+%2$s"</string>
     <string name="keyguard_instructions_when_pattern_disabled">Premi Menu per sbloccare.</string>
     <string name="keyguard_invalid_sim_puk_hint">Il codice PUK deve contenere %1$d cifre.</string>
     <string name="keyguard_left_mi_wallet">Mi Wallet</string>
@@ -1476,6 +1486,11 @@ d MMMM"</string>
     <string name="material_hour_suffix">"%1$s in punto"</string>
     <string name="material_minute_selection">Seleziona i minuti</string>
     <string name="material_minute_suffix">%1$s minuti</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0,05, 0, 0,133333, 0,06, 0,166666, 0,4 C 0,208333, 0,82, 0,25, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
     <string name="material_slider_range_end">Fine intervallo,</string>
     <string name="material_slider_range_start">Inizio intervallo,</string>
     <string name="material_timepicker_clock_mode_description">Passa alla mod. orologio per inserire l\'ora.</string>
@@ -1522,16 +1537,16 @@ d MMMM"</string>
     <string name="miui_keyboard_shortcut_system_dock">Mostra barra inferiore app</string>
     <string name="miui_keyboard_shortcut_system_quickly_recent">Passa tra le app recenti</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Sbloccato da dispositivo Bluetooth</string>
-    <string name="miui_lock_screen_date">EEEE dd/MM</string>
-    <string name="miui_lock_screen_date_12">EEEE dd/MM</string>
-    <string name="miui_lock_screen_date_two_lines">"EEEE
-dd/MM"</string>
-    <string name="miui_lock_screen_date_two_lines_12">"EEEE
-dd/MM"</string>
-    <string name="miui_lock_screen_large_date">"EEE
-dd/MM"</string>
-    <string name="miui_lock_screen_large_date_12">"EEE
-dd/MM"</string>
+    <string name="miui_lock_screen_date">EEE, dd MMM</string>
+    <string name="miui_lock_screen_date_12">EEE, dd MMM</string>
+    <string name="miui_lock_screen_date_two_lines">"MMM dd
+EEE"</string>
+    <string name="miui_lock_screen_date_two_lines_12">"MMM dd
+EEE"</string>
+    <string name="miui_lock_screen_large_date">"AEE
+M/d"</string>
+    <string name="miui_lock_screen_large_date_12">"AEE
+M/d"</string>
     <string name="miui_notification_menu_aggregate_feedback">Segnalazione</string>
     <string name="miui_notification_menu_allow">Consenti</string>
     <string name="miui_notification_menu_feedback_success">Grazie per la segnalazione!</string>
@@ -1544,6 +1559,8 @@ dd/MM"</string>
     <string name="miui_notification_menu_snooze">Sospendi</string>
     <string name="miui_notification_menu_title_not_allow">Limitazione</string>
     <string name="miui_notification_menu_unfold">Segna come importante</string>
+    <string name="miui_notification_slide_menu_msg_ongoing">Limitare le notifiche permanenti per \"%1$s\" ora?</string>
+    <string name="miui_notification_slide_menu_ongoing">Limita notifiche permanenti</string>
     <string name="miui_screen_rotation_freeze_message">Orientamento dello schermo bloccato in mod. orizzontale</string>
     <string name="miui_snooze_always_float">"Non nascondere"</string>
     <string name="miui_snooze_cancel">Annulla</string>
@@ -1585,6 +1602,7 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"E' tutto per ora"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Attendi…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Impossibile caricare gli elementi"</string>
+    <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Dati Mobili</string>
     <string name="mobile_data_always_on">Dati cellulare sempre attivi</string>
     <string name="mobile_data_always_on_summary">Mantenere sempre attivi i dati, anche quando il Wi-Fi è attivo (per un cambio di rete rapido).</string>
@@ -1825,6 +1843,7 @@ Se hai domande, contatta %2$s."</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="notification_header_default_channel">Notifiche</string>
     <string name="notification_hidden_text">Contenuti nascosti</string>
+    <string name="notification_menu_accessibility">%1$s %2$s</string>
     <string name="notification_menu_gear_description">Controlli notifiche</string>
     <string name="notification_menu_settings_action">Impostazioni</string>
     <string name="notification_menu_snooze_action">Ricordamelo</string>
@@ -1837,6 +1856,7 @@ Se hai domande, contatta %2$s."</string>
     <string name="notification_section_header_gentle">Silenzia</string>
     <string name="notification_section_header_incoming">Nuovo</string>
     <string name="notification_silence_title">Silenzia</string>
+    <string name="notification_summary_message_format">%1$s: %2$s</string>
     <string name="notification_tap_again">Tocca nuovamente ed apri</string>
     <string name="notification_unblockable_desc">"Queste notifiche non possono essere modificate."</string>
     <string name="notification_vpn_connected">VPN connessa</string>
@@ -1956,6 +1976,7 @@ Se hai domande, contatta %2$s."</string>
     <string name="power_remaining_less_than_duration_only">Meno di %1$s rimanente</string>
     <string name="power_remaining_more_than_subtext">Più di %1$s rimanente (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Più di %1$s rimanente</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_suggestion_battery_run_out">La batteria potrebbe esaurirsi tra %1$s</string>
     <string name="pref_show_lunar_calendar_title">Mostra il calendario cinese tradizionale sulla schermata di blocco</string>
     <string name="preference_copied">\"%1$s\" copiato negli appunti.</string>
@@ -1975,6 +1996,7 @@ Se hai domande, contatta %2$s."</string>
     <string name="profile_owned_footer">Il profilo potrebbe essere monitorato</string>
     <string name="qs_alarm_tile_no_alarm">Nessuna sveglia</string>
     <string name="qs_bill_message_balance">%1$s %2$s rimanenti</string>
+    <string name="qs_bill_message_unit_cny">CNY</string>
     <string name="qs_control_big_tile_state_closed">Spenta</string>
     <string name="qs_control_big_tile_state_closing">Disattivazione…</string>
     <string name="qs_control_big_tile_state_connected">Connesso</string>
@@ -2013,7 +2035,9 @@ Se hai domande, contatta %2$s."</string>
     <string name="quick_settings">Impostazioni Veloci</string>
     <string name="quick_settings_autobrightness_label">Luminosità</string>
     <string name="quick_settings_batterysaver_label">Risparmio energetico</string>
+    <string name="quick_settings_bluetooth_connected_tip">Connesso tramite Bluetooth con successo</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Nessun dispositivo abbinato disponibile</string>
+    <string name="quick_settings_bluetooth_disconnected_tip">Tutti i dispositivi Bluetooth rimarranno disconnessi oggi</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d dispositivi)</string>
     <string name="quick_settings_bluetooth_off_label">Bluetooth disattivato</string>
@@ -2097,6 +2121,7 @@ Se hai domande, contatta %2$s."</string>
     <string name="quick_settings_inversion_label">Inverti colori</string>
     <string name="quick_settings_location_label">Posizione</string>
     <string name="quick_settings_location_off_label">Posizione disattivata</string>
+    <string name="quick_settings_low_battery_toast_text">"Impossibile usare torcia elettrica. La batteria è troppo bassa."</string>
     <string name="quick_settings_media_device_label">Dispositivo multimediale</string>
     <string name="quick_settings_mic_label">Accesso al Mic</string>
     <string name="quick_settings_more_settings">Altre impostazioni</string>
@@ -2129,6 +2154,11 @@ Se hai domande, contatta %2$s."</string>
     <string name="quick_settings_screen_record_label">Registrazione schermo</string>
     <string name="quick_settings_screen_record_start">Avvia</string>
     <string name="quick_settings_screen_record_stop">Interrompi</string>
+    <string name="quick_settings_screen_rotation_inner_locked">Schermo interno ruotato spento</string>
+    <string name="quick_settings_screen_rotation_inner_unlocked">Schermo interno ruotato acceso</string>
+    <string name="quick_settings_screen_rotation_outer_landscape_locked">Schermo esterno bloccato in modalità orizzontale</string>
+    <string name="quick_settings_screen_rotation_outer_portrait_locked">Schermo esterno bloccato in modalità verticale</string>
+    <string name="quick_settings_screen_rotation_outer_unlocked">Schermo esterno ruotato acceso</string>
     <string name="quick_settings_screenbutton_label">Tasti</string>
     <string name="quick_settings_screenlock_label">Schemata di blocco</string>
     <string name="quick_settings_screenshot_label">Screenshot</string>
@@ -2397,6 +2427,7 @@ d MMM"</string>
     <string name="storage_category">Archiviazione</string>
     <string name="stream_accessibility">Accessibilità</string>
     <string name="stream_alarm">Sveglia</string>
+    <string name="stream_assistant">Assistente</string>
     <string name="stream_bluetooth_sco">Bluetooth</string>
     <string name="stream_dtmf">Doppia frequenza multitono</string>
     <string name="stream_music">Media</string>
@@ -2411,6 +2442,7 @@ d MMM"</string>
     <string name="structure_face_data_input_error_away_screen">Sposta il telefono un po\' più lontano dal volto</string>
     <string name="structure_face_data_input_error_expose_features">"Non riesco a vedere alcune parti del volto"</string>
     <string name="structure_face_data_input_error_overly_light">L\'illuminazione è troppo intensa ora</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Domenica</string>
     <string name="sunday_short">Dom</string>
     <string name="sunday_shortest">Dom</string>
@@ -2491,11 +2523,13 @@ Il tuo telefono potrebbe diventare troppo caldo se:
     <string name="tip_close_flares">"Non riceverai notifiche sul comportamento delle app durante questa sessione"</string>
     <string name="title_convert_fbe">Converti a file basato su crittografia</string>
     <string name="title_usb_accessory">Accessorio USB</string>
+    <string name="toast_for_first_use_three_gesture">Scorri orizzontalmente con quattro dita per passare tra le app</string>
     <string name="today">Oggi</string>
     <string name="tomorrow">domani</string>
     <string name="torch_high_temperature_warning">"Il tuo dispositivo è surriscaldato. Non puoi usare la torcia ora."</string>
     <string name="touch_filtered_warning">A causa di un\'app che interferisce con la richiesta dei permessi, le Impostazioni non possono verificare la tua risposta.</string>
     <string name="track_frame_time">Profilo rendering GPU</string>
+    <string name="traffic_unit_byte">B</string>
     <string name="traffic_unit_gigabyte">GB</string>
     <string name="traffic_unit_kilobyte">KB</string>
     <string name="traffic_unit_megabyte">MB</string>
@@ -2877,6 +2911,7 @@ Sembra che l'archiviazione delle credenziali non sia stato attivato."</string>
     <string name="zen_alarm_warning_indef">"Non sentirai la tua prossima sveglia %1$s a meno che non venga disattivata prima di allora"</string>
     <string name="zen_alarms_introduction">"Non sarai disturbato da suoni e vibrazioni, eccetto dalle sveglie."</string>
     <string name="zen_interruption_level_priority">Solo priorità</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
     <string name="zen_mode_duration_always_prompt_title">Chiedi sempre</string>
     <string name="zen_mode_duration_settings_title">Durata</string>
     <string name="zen_mode_enable_dialog_turn_on">Attiva</string>
