@@ -79,6 +79,8 @@
     <string name="cm_terms_title">"Contratto con l'operatore di rete mobile"</string>
     <string name="compass_introduction">"Puoi utilizzare questa app per la navigazione, per visualizzare le coordinate, la pressione atmosferica e l'altitudine."</string>
     <string name="congratulation_label">È tutto pronto!</string>
+    <string name="congratulation_pre_label">Solo un secondo…</string>
+    <string name="congratulation_pre_title">Preparazione sistema…</string>
     <string name="congratulation_swipe">"Scorri verso l'alto per entrare nel sistema"</string>
     <string name="congratulation_title">Configurazione completata</string>
     <string name="content_description_complete">Completato</string>
@@ -259,6 +261,7 @@ Features are subject to change. Some of the features above may not be available 
     <string name="midnight">Notte</string>
     <string name="mint_keyboard_oobe_checkbox">"Ho letto e accettato l'Informativa sulla privacy di Mint Keyboard"</string>
     <string name="mint_keyboard_oobe_terms">Informativa sulla privacy di Mint Keyboard</string>
+    <string name="miui14_start_up_slogan">Ready. Steady. Live.</string>
     <string name="miui_privacy_policy_no_network">"Non sei connesso ad internet. Visualizza l'Informativa sulla Privacy su %s."</string>
     <string name="miui_provision">Configurazione iniziale</string>
     <string name="miui_terms_no_network">"Non sei connesso a Internet. Visualizza l'Accordo utente su %s."</string>

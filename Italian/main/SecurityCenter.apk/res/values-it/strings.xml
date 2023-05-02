@@ -2,7 +2,7 @@
 <resources>
     <string name="HIPS_Perm_Access_Gallery">Accesso alla Galleria</string>
     <string name="HIPS_Perm_Access_Gallery_Desc">Consente a questa app di accedere agli elementi nella tua Galleria</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">开启/关闭蓝牙</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Accendi/Spegni Bluetooth</string>
     <string name="HIPS_Perm_CallLog_Desc">Modifica registro chiamate</string>
     <string name="HIPS_Perm_Call_Desc">Eseguire chiamate</string>
     <string name="HIPS_Perm_Contact_Desc">Modifica contatti</string>
@@ -24,7 +24,7 @@
     <string name="HIPS_Perm_Read_Contact_Desc">Dettagli contatti</string>
     <string name="HIPS_Perm_Read_SMS_Desc">Leggere i messaggi SMS</string>
     <string name="HIPS_Perm_SendSMS_Desc">Inviare messaggi SMS</string>
-    <string name="HIPS_Perm_WIFI_Connectivity_Desc">开启/关闭WLAN</string>
+    <string name="HIPS_Perm_WIFI_Connectivity_Desc">Accendi/Spegni WiFi</string>
     <string name="HIPS_Perm_add_voicemail_Desc">Aggiungere messaggi vocali di sistema</string>
     <string name="HIPS_Perm_get_accounts_Desc">Accedere agli account memorizzati sul dispositivo</string>
     <string name="HIPS_Perm_process_nfc_Desc">Utilizzare l\'NFC</string>
@@ -578,7 +578,7 @@
     <string name="app_permission_use_group_storage">Archiviazione</string>
     <string name="app_permission_use_group_storage_des">Accesso e salvataggio in memoria</string>
     <string name="app_permission_use_neccesary">Permessi richiesti</string>
-    <string name="app_permission_use_no_neccesary">可选权限</string>
+    <string name="app_permission_use_no_neccesary">Permessi facoltativi</string>
     <string name="app_permission_use_title">Permessi</string>
     <string name="app_predict_black_list_empty">Nessun oggetto</string>
     <string name="app_predict_black_list_setting_title">Suggerimenti app nella lista blocchi</string>
@@ -974,7 +974,7 @@
     <string name="behavior_widget_read_contact">Acceduto ai contatti</string>
     <string name="behavior_widget_read_write_external_storage">Acceduto ai file</string>
     <string name="best_booster_status">La velocità di gioco è la migliore in questo momento.</string>
-    <string name="best_warning_dialog_button">我知道了</string>
+    <string name="best_warning_dialog_button">Ok</string>
     <string name="best_warning_dialog_title">Suggerimenti</string>
     <string name="bg_network_exception_title">Connessione in background limitata</string>
     <string name="bh_buy_order_fail_tips_text">Si è verificato un errore. Aspetta un minuto o due e riprova.</string>
@@ -1313,7 +1313,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per pot
     <string name="confirm_open">Attiva</string>
     <string name="confirm_open_shut_down_password_content">Imposta un blocco schermo prima di attivare la conferma di spegnimento.</string>
     <string name="confirm_open_shut_down_password_title">Imposta blocco schermo</string>
-    <string name="confirm_package_type">确认套餐类型</string>
+    <string name="confirm_package_type">Conferma piano</string>
     <string name="confirm_prompt_all_permission">Chiedere i permessi per tutte le app?</string>
     <string name="confirm_reject_all_permission">Impedire a tutte le app l\'utilizzo di questa funzionalità?</string>
     <string name="confirm_take">Ottieni</string>
@@ -2784,7 +2784,7 @@ Utilizza solo l'alimentatore in dotazione."</string>
 
 L'operatore potrebbe addebitarti costi aggiuntivi se continuerai ad utilizzare la connessione dati."</string>
     <string name="leisure_usage_dialog_title">Hai superato la soglia del traffico dati, la connessione è disattivata</string>
-    <string name="limit_speed_by_quota">流量不限量使用，超出阈值会降速</string>
+    <string name="limit_speed_by_quota">Dati insufficienti，il superamento comporta l'abbassamento della velocità</string>
     <string name="list_empty_text">Vuoto</string>
     <string name="load_only_under_wlan">Mostra solo con connessione Wi-Fi</string>
     <string name="loading">Attendi…</string>
@@ -2912,7 +2912,7 @@ dall'operatore"</string>
     <string name="main_toolbar_recharge_record">Cronologia ricariche</string>
     <string name="main_toolbar_statistic">Statistiche di utilizzo dati</string>
     <string name="main_traffic_detail">Utilizzo dati</string>
-    <string name="make_sure_package_type">确认您的流量类型</string>
+    <string name="make_sure_package_type">Conferma il tuo piano dati</string>
     <string name="man_add_application">Aggiungi manualmente app in avvio automatico</string>
     <string name="manage_hybrid_permissions">"Gestisci i permessi delle app"</string>
     <string name="managed_user_title">Tutte le app attive</string>
@@ -3497,7 +3497,7 @@ Puoi disattivare l'opzione \"Regolare automaticamente le statistiche di utilizzo
     <string name="optimize_result_title_uninstall_apps">App</string>
     <string name="optimize_result_toast_system_default_settings">Impostazioni predefinite ripristinate</string>
     <string name="optimize_result_toast_system_no_item_selected">Nessun elemento selezionato</string>
-    <string name="optional_permissions">可选权限</string>
+    <string name="optional_permissions">Permessi opzionali</string>
     <string name="optional_permissions_desc">"Questi permessi sono richiesti quando stai utilizzando funzionalità aggiuntive."</string>
     <string name="optmizingbar_optimize_done">Ottimizzato</string>
     <string name="optmizingbar_ready">Ottimizzazione…</string>
@@ -4496,7 +4496,7 @@ Ritirare il consenso?"</string>
     <string name="quick_replay_list_title">Applicazioni disponibili</string>
     <string name="quick_reply_title">Risposte veloci</string>
     <string name="quite_all_string">Annulla</string>
-    <string name="quite_track_value_string_click_add_button">点击添加小部件</string>
+    <string name="quite_track_value_string_click_add_button">Premi per aggiungere i widget</string>
     <string name="random_expression">速抢模式</string>
     <string name="reach_daily_limit_value_body">Riduci l\'utilizzo dati giornaliero.</string>
     <string name="reach_daily_limit_value_title">Limite giornaliero raggiunto</string>
@@ -5733,20 +5733,20 @@ La formattazione cancellerà il contenuto esistente sulla ^2. Per evitare di per
     <string name="top_load_fail_detail">"Impossibile caricare, tocca per provare di nuovo"</string>
     <string name="top_no_network_detial">"Impossibile caricare, controlla la connessione di rete e riprova"</string>
     <string name="track_auto_collapsed">自动收起</string>
-    <string name="track_click_bubble_message">点击贴边气泡</string>
-    <string name="track_inner_screen">内屏</string>
+    <string name="track_click_bubble_message">Cliccare sulla notifica pop-up</string>
+    <string name="track_inner_screen">Schermo Interno</string>
     <string name="track_manual_collapsed">手动收起</string>
-    <string name="track_no">否</string>
-    <string name="track_outer_screen">外屏</string>
-    <string name="track_phone">手机</string>
-    <string name="track_screen_horizontal">横屏</string>
+    <string name="track_no">no</string>
+    <string name="track_outer_screen">Schermo esterno</string>
+    <string name="track_phone">Telefono</string>
+    <string name="track_screen_horizontal">Schermo orizzontale</string>
     <string name="track_screen_vertical">&lt;unk&gt; &lt;unk&gt;</string>
-    <string name="track_sidebar_drag_center">全局侧边栏_拖拽应用至屏幕中央</string>
-    <string name="track_sidebar_drag_left">全局侧边栏_拖拽应用至屏幕左侧</string>
-    <string name="track_sidebar_drag_right">全局侧边栏_拖拽应用至屏幕右侧</string>
-    <string name="track_switch_off">关</string>
-    <string name="track_switch_on">开</string>
-    <string name="track_yes">是</string>
+    <string name="track_sidebar_drag_center">Trascina l'applicazione nella parte centrale dello schermo</string>
+    <string name="track_sidebar_drag_left">Trascina l'applicazione nella parte sinistra dello schermo</string>
+    <string name="track_sidebar_drag_right">Trascina l'applicazione nella parte destra dello schermo</string>
+    <string name="track_switch_off">Off</string>
+    <string name="track_switch_on">On</string>
+    <string name="track_yes">sì</string>
     <string name="traffic_advanced_settings">Impostazioni Avanzate Traffico</string>
     <string name="traffic_alarm">Imposta sveglia</string>
     <string name="traffic_alert_auto_modify_notification_sumarry">Piano mensile cambiato in %s.</string>
@@ -5782,7 +5782,7 @@ Aggiunti dati extra"</string>
 
 I dati rimanenti includono dati che sono stati erogati il mese precedente."</string>
     <string name="traffic_limit_error_alert_title">Avviso limite dati %s</string>
-    <string name="traffic_limit_input">固定流量额度（选填）</string>
+    <string name="traffic_limit_input">Imposta la soglia di traffico (Opzionale)</string>
     <string name="traffic_none">Nessuno</string>
     <string name="traffic_over_purchase_link">"Hai raggiunto il limite di utilizzo dei dati del tuo piano.&lt;br/&gt;Se superi il limite di utilizzo dei dati del tuo piano, il tuo operatore potrebbe addebitarti costi aggiuntivi.&lt;br/&gt;&lt;br/&gt;&lt;font color='#ccffffff'&gt;&lt;U&gt;Tocca per ricaricare il tuo saldo.&lt;/U&gt;&lt;/font&gt;"</string>
     <string name="traffic_provider_no_sim">"SIM non installata"</string>
@@ -5842,7 +5842,7 @@ I dati rimanenti includono dati che sono stati erogati il mese precedente."</str
     <string name="uninstall_danagerous_msg">\"%s\" potrebbe danneggiare il dispositivo, diminuire le prestazioni o causare riavvii.</string>
     <string name="uninstall_danagerous_title">Disinstalla app pericolose</string>
     <string name="unknown_operator">"Puoi chiamare %2$s per confermare i dettagli del tuo piano con %1$s."</string>
-    <string name="unknown_package">不清楚自己的套餐是什么？</string>
+    <string name="unknown_package">Non sai qual è il tuo piano dati?</string>
     <string name="unlike">Non ora</string>
     <string name="unlimited_cellular_data_monthly">Piano illimitato</string>
     <string name="unlock_failed">Errore interno</string>
@@ -6122,10 +6122,10 @@ Prova ad upscalare la risoluzione!"</string>
     <string name="whitelist_prefix_add_hint">Aggiungi alla lista eccezioni tutti i numeri con prefisso</string>
     <string name="widget_appbehavior_apps_count">28</string>
     <string name="widget_appbehavior_apps_title">应用A等3个应用</string>
-    <string name="widget_back_guide_appbehavior_summary">隐私安全,了然于心</string>
-    <string name="widget_back_guide_appbehavior_title">隐私保护</string>
-    <string name="widget_back_guide_power_summary">查看全部设备的电量</string>
-    <string name="widget_button_text">添加小部件</string>
+    <string name="widget_back_guide_appbehavior_summary">Abbiamo a cuore la tua privacy</string>
+    <string name="widget_back_guide_appbehavior_title">Protezione della privacy</string>
+    <string name="widget_back_guide_power_summary">Controlla il livello della batteria di tutti i dispositivi</string>
+    <string name="widget_button_text">Aggiungi Widget</string>
     <string name="widget_cleaner_size_unit">MB</string>
     <string name="widget_health_size">86</string>
     <string name="widget_power_size">90</string>
@@ -6174,5 +6174,5 @@ Prova ad upscalare la risoluzione!"</string>
     <string name="xunyou_server_expired">Sessione scaduta.</string>
     <string name="yesterday">Ieri</string>
     <string name="yuan">CNY</string>
-    <string name="zhifubao_not_found">您的应用版本过低或者未安装</string>
+    <string name="zhifubao_not_found">La versione dell'app è troppo vecchia oppure non è installata</string>
 </resources>

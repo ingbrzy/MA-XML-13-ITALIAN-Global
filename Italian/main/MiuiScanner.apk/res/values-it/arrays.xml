@@ -2,7 +2,7 @@
 <resources>
     <string-array name="ArrayLangCodes">
         <item>zh-Hans</item>
-        <item>en</item>
+        <item>it</item>
         <item>fr</item>
         <item>de</item>
         <item>es</item>
@@ -12,7 +12,7 @@
     <string-array name="ArrayLangCodesNew">
         <item>auto</item>
         <item>zh-Hans</item>
-        <item>en</item>
+        <item>it</item>
         <item>fr</item>
         <item>de</item>
         <item>es</item>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 ora fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 ora fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">"Mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">Tra 1 ora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"Tra mezz'ora"</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Adesso</item>
+        <item quantity="one">Adesso</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Poco fa</item>
+        <item quantity="one">Poco fa</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="age_restriction">
+        <item quantity="other">Classificazione %1$d+</item>
+        <item quantity="one">Classificazione %1$d+</item>
+    </plurals>
+    <plurals name="app_detail_download_count">
+        <item quantity="other">%1$s download</item>
+        <item quantity="one">%1$s download</item>
+    </plurals>
+    <plurals name="app_detail_sub_count">
+        <item quantity="other">%1$s preordini</item>
+        <item quantity="one">%1$s preordine</item>
+    </plurals>
+    <plurals name="app_selected_recall_dialog">
+        <item quantity="other">%1$d app selezionate</item>
+        <item quantity="one">%1$d app selezionata</item>
+    </plurals>
+    <plurals name="click_to_use_debug_mode">
+        <item quantity="other">Passa alla modalità di debug con %1$d passaggi</item>
+        <item quantity="one">Passa alla modalità di debug con %1$d passaggio</item>
+    </plurals>
+    <plurals name="collapse_update_apps_hint_v1">
+        <item quantity="other">Tocca per mostrare tutte le app (%1$d)</item>
+        <item quantity="one">Tocca per mostrare tutte le app (%1$d)</item>
+    </plurals>
+    <plurals name="comment_push_merged_message_desc_multiple">
+        <item quantity="other">Da %1$d persone, fra cui @%2$s e @%3$s</item>
+        <item quantity="one">Da %1$d persona, fra cui @%2$s e @%3$s</item>
+    </plurals>
+    <plurals name="comment_push_merged_message_title">
+        <item quantity="other">Hai %1$d messaggi non letti</item>
+        <item quantity="one">Hai %1$d messaggio non letto</item>
+    </plurals>
+    <plurals name="comment_score_count">
+        <item quantity="other">%1$s valutazioni</item>
+        <item quantity="one">%1$s valutazione</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">%1$s giorni</item>
+        <item quantity="one">%1$s giorno</item>
+    </plurals>
+    <plurals name="delete_download_history_confirm">
+        <item quantity="other">Eliminare %1$s elementi selezionati?</item>
+        <item quantity="one">Eliminare %1$s elemento selezionato?</item>
+    </plurals>
+    <plurals name="detail_comment_comment_limit_5">
+        <item quantity="other">I commenti devono contenere almeno %1$d caratteri</item>
+        <item quantity="one">I commenti devono contenere almeno %1$d carattere</item>
+    </plurals>
+    <plurals name="detail_comment_tip_max_num">
+        <item quantity="other">Le recensioni possono contenere fino a %1$d caratteri</item>
+        <item quantity="one">Le recensioni possono contenere fino a %1$d carattere</item>
+    </plurals>
+    <plurals name="download_list_delete_all_confirm_message">
+        <item quantity="other">Eliminare %1$d download fra cui %2$s?</item>
+        <item quantity="one">Eliminare %1$d download fra cui %2$s?</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Avanti di %d secondi</item>
+        <item quantity="one">Avanti di %d secondo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Indietro di %d secondi</item>
+        <item quantity="one">Indietro di %d secondo</item>
+    </plurals>
+    <plurals name="game_sub_list_online_sub_count">
+        <item quantity="other">%s preordini</item>
+        <item quantity="one">%s preordine</item>
+    </plurals>
+    <plurals name="guide_recommend_serval_apps_selected">
+        <item quantity="other">%1$d app selezionate</item>
+        <item quantity="one">%1$d app selezionata</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">"Mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">Tra 1 ora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"Tra mezz'ora"</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Adesso</item>
+        <item quantity="one">Adesso</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="install_all_description">
+        <item quantity="other">Installare comunque %1$s app tra cui %2$s?</item>
+        <item quantity="one">Installare comunque %1$s app tra cui %2$s?</item>
+    </plurals>
+    <plurals name="install_on_data_description">
+        <item quantity="other">Scaricare app utilizzando la connessione dati potrebbe generare costi aggiuntivi. Scaricare comunque %1$s app tra cui %2$s?</item>
+        <item quantity="one">Scaricare app utilizzando la connessione dati potrebbe generare costi aggiuntivi. Scaricare comunque %1$s app tra cui %2$s?</item>
+    </plurals>
+    <plurals name="install_on_metered_wifi_description">
+        <item quantity="other">Sei connesso a un hotspot Wi-Fi. Scaricare app può generare costi di dati aggiuntivi per il dispositivo a cui sei connesso. Scaricare comunque %1$s app fra cui %2$s?</item>
+        <item quantity="one">Sei connesso a un hotspot Wi-Fi. Scaricare app può generare costi di dati aggiuntivi per il dispositivo a cui sei connesso. Scaricare comunque %1$s app fra cui %2$s?</item>
+    </plurals>
+    <plurals name="items_selected">
+        <item quantity="other">%1$s elementi selezionati</item>
+        <item quantity="one">%1$s elemento selezionato</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Poco fa</item>
+        <item quantity="one">Poco fa</item>
+    </plurals>
+    <plurals name="mi_protect_dialog_manual_inspect_desc">
+        <item quantity="other">Eseguiamo %d test di conformità manuali sulle app più popolari</item>
+        <item quantity="one">Eseguiamo %d test di conformità manuale sulle app più popolari</item>
+    </plurals>
+    <plurals name="mini_card_gp_num_reviews">
+        <item quantity="other">%s recensioni</item>
+        <item quantity="one">%s recensione</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementi selezionati</item>
+        <item quantity="one">%d elemento selezionato</item>
+    </plurals>
+    <plurals name="native_install_count">
+        <item quantity="other">%s download</item>
+        <item quantity="one">%s download</item>
+    </plurals>
+    <plurals name="notif_apps_has_new_update">
+        <item quantity="other">Puoi aggiornare &lt;font color=#ff5f32>&lt;xliff:g id=app_count>%d&lt;/xliff:g>&lt;/font> app</item>
+        <item quantity="one">Puoi aggiornare &lt;font color=#ff5f32>&lt;xliff:g id=app_count>%d&lt;/xliff:g>&lt;/font> app</item>
+    </plurals>
+    <plurals name="notification_installing">
+        <item quantity="other">Installazione di %1$s app</item>
+        <item quantity="one">Installazione di %1$s app</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="text_points">
+        <item quantity="other">%1$3d monete</item>
+        <item quantity="one">%1$3d moneta</item>
+    </plurals>
+    <plurals name="today_voted_text_bottom">
+        <item quantity="other">Votazione conclusa. %1$d persone hanno votato.</item>
+        <item quantity="one">Votazione conclusa. %1$d persona ha votato.</item>
+    </plurals>
+    <plurals name="today_voting_text_bottom_1">
+        <item quantity="other">"%1$d persone hanno votato. "</item>
+        <item quantity="one">"%1$d persona ha votato. "</item>
+    </plurals>
+    <plurals name="today_voting_text_bottom_2">
+        <item quantity="other">I risultati saranno annunciati tra %1$d ore.</item>
+        <item quantity="one">I risultati saranno annunciati tra %1$d ora.</item>
+    </plurals>
+    <plurals name="uninstall_all_v1">
+        <item quantity="other">Disinstalla %1$s app</item>
+        <item quantity="one">Disinstalla %1$s app</item>
+    </plurals>
+    <plurals name="update_notification_bubble_text">
+        <item quantity="other">%1$d aggiornamenti</item>
+        <item quantity="one">%1$d aggiornamento</item>
+    </plurals>
+    <plurals name="update_on_data_description">
+        <item quantity="other">Aggiornare app utilizzando la connessione dati potrebbe generare costi aggiuntivi. Aggiornare comunque %1$s app tra cui %2$s?</item>
+        <item quantity="one">Aggiornare app utilizzando la connessione dati potrebbe generare costi aggiuntivi. Aggiornare comunque %1$s app tra cui %2$s?</item>
+    </plurals>
+    <plurals name="update_on_metered_wifi_description">
+        <item quantity="other">Sei connesso a un hotspot Wi-Fi. Aggiornare app può generare costi di dati aggiuntivi per il dispositivo a cui sei connesso. Aggiornare comunque %1$s app fra cui %2$s?</item>
+        <item quantity="one">Sei connesso a un hotspot Wi-Fi. Aggiornare app può generare costi di dati aggiuntivi per il dispositivo a cui sei connesso. Aggiornare comunque %1$s app fra cui %2$s?</item>
+    </plurals>
+    <plurals name="update_time_relative_to_today">
+        <item quantity="other">%1$d giorni fa</item>
+        <item quantity="one">%1$d giorno fa</item>
+    </plurals>
+    <plurals name="upgrade_all_description">
+        <item quantity="other">Aggiornare %1$s app tra cui %2$s?</item>
+        <item quantity="one">Aggiornare %1$s app tra cui %2$s?</item>
+    </plurals>
+</resources>
