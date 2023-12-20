@@ -27,17 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Condividi con</string>
     <string name="abc_shareactionprovider_share_with_application">Condividi tramite %s</string>
     <string name="abc_toolbar_collapse_description">Comprimi</string>
-    <string name="accept">Accetto</string>
     <string name="actionbar_button_up_description">Indietro</string>
     <string name="afternoon">Pomeriggio</string>
     <string name="am">AM</string>
-    <string name="call_notification_answer_action">Rispondi</string>
-    <string name="call_notification_answer_video_action">Video</string>
-    <string name="call_notification_decline_action">Rifiuta</string>
-    <string name="call_notification_hang_up_action">Riaggancia</string>
-    <string name="call_notification_incoming_text">Chiamata in arrivo</string>
-    <string name="call_notification_ongoing_text">Chiamata in corso</string>
-    <string name="call_notification_screening_text">Applicazione filtro a chiamata in arrivo</string>
     <string name="clearable_edittext_clear_description">Cancella</string>
     <string name="close">Chiudi</string>
     <string name="date_picker_label_day" />
@@ -45,7 +37,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Calendario cinese tradizionale</string>
     <string name="date_time_picker_dialog_title">Imposta data e ora</string>
-    <string name="decline">Rifiuto</string>
     <string name="early_morning">Mattino</string>
     <string name="empty" />
     <string name="eras_ad">d.C.</string>
@@ -173,7 +164,6 @@
     <string name="morning">Buongiorno</string>
     <string name="night">Sera</string>
     <string name="noon">Mezzogiorno</string>
-    <string name="ok">OK</string>
     <string name="pm">PM</string>
     <string name="saturday">Sabato</string>
     <string name="saturday_short">Sab</string>
@@ -238,12 +228,5 @@
     <string name="wednesday">Mercoledì</string>
     <string name="wednesday_short">Mer</string>
     <string name="wednesday_shortest">Mer</string>
-    <string name="wifi_p2p_enter_pin_message">Inserisci il PIN richiesto:</string>
-    <string name="wifi_p2p_from_message">Da:</string>
-    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Accetta entro # secondo.}many{Accetta entro # secondi.}other{Accetta entro # secondi.}}</string>
-    <string name="wifi_p2p_invitation_sent_title">Invito inviato</string>
-    <string name="wifi_p2p_invitation_to_connect_title">Invito a connettersi</string>
-    <string name="wifi_p2p_show_pin_message">PIN:</string>
-    <string name="wifi_p2p_to_message">A:</string>
     <string name="yesterday">Ieri</string>
 </resources>
