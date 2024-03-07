@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="a_hour_ago">
-        <item quantity="one">un\'ora fa</item>
-        <item quantity="other">un\'ora fa</item>
+        <item quantity="other">1 ora fa</item>
+        <item quantity="one">1 ora fa</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">un\'ora fa</item>
-        <item quantity="other">un\'ora fa</item>
+        <item quantity="other">%d ora fa</item>
+        <item quantity="one">%d ora fa</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">mezz\'ora fa</item>
-        <item quantity="other">mezz\'ora fa</item>
+        <item quantity="other">"Mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="one">Tra 1 ora</item>
-        <item quantity="other">Tra 1 ora</item>
+        <item quantity="other">Fra %d ora</item>
+        <item quantity="one">Fra %d ora</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
-        <item quantity="one">Tra mezz\'ora</item>
-        <item quantity="other">Tra mezz\'ora</item>
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"Tra mezz'ora"</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Subito</item>
-        <item quantity="other">adesso</item>
+        <item quantity="other">Adesso</item>
+        <item quantity="one">Adesso</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">tra %d minuti</item>
-        <item quantity="one">tra 1 minuto</item>
+        <item quantity="other">Fra %d min</item>
+        <item quantity="one">Fra %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Proprio adesso</item>
-        <item quantity="other">ora</item>
+        <item quantity="other">Poco fa</item>
+        <item quantity="one">Poco fa</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d minuti fa</item>
-        <item quantity="one">1 minuto fa</item>
+        <item quantity="other">%d min fa</item>
+        <item quantity="one">%d min fa</item>
     </plurals>
     <plurals name="btn_clear_records">
         <item quantity="other">Elimina %d registrazioni</item>
@@ -53,28 +53,28 @@
         <item quantity="one">Eliminare %d registrazione?</item>
     </plurals>
     <plurals name="half_hour_ago">
-        <item quantity="one">mezz\'ora fa</item>
-        <item quantity="other">mezz\'ora fa</item>
+        <item quantity="other">"Mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
     </plurals>
     <plurals name="in_a_hour">
-        <item quantity="one">Tra 1 ora</item>
         <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">Tra 1 ora</item>
     </plurals>
     <plurals name="in_half_hour">
-        <item quantity="one">Tra mezz\'ora</item>
-        <item quantity="other">Tra mezz\'ora</item>
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"Tra mezz'ora"</item>
     </plurals>
     <plurals name="in_less_than_one_minute">
-        <item quantity="one">Subito</item>
-        <item quantity="other">adesso</item>
+        <item quantity="other">Adesso</item>
+        <item quantity="one">Adesso</item>
     </plurals>
     <plurals name="in_num_minutes">
         <item quantity="other">tra %d minuti</item>
         <item quantity="one">tra 1 minuto</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Proprio adesso</item>
-        <item quantity="other">ora</item>
+        <item quantity="other">Poco fa</item>
+        <item quantity="one">Poco fa</item>
     </plurals>
     <plurals name="local_records_count">
         <item quantity="other">%d elementi</item>
@@ -89,8 +89,8 @@
         <item quantity="one">%d nuova notifica</item>
     </plurals>
     <plurals name="notification_warning">
-        <item quantity="other">Memoria in esaurimento (meno di %d minuti)</item>
-        <item quantity="one">Memoria in esaurimento (meno di %d minuto)</item>
+        <item quantity="other">"Spazio d'archiviazione in esaurimento (meno di %d minuti)"</item>
+        <item quantity="one">"Spazio d'archiviazione in esaurimento (meno di %d minuto)"</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuti fa</item>
@@ -101,20 +101,16 @@
         <item quantity="one">%d registrazione scaricata</item>
     </plurals>
     <plurals name="recovery_failed_dialog_message">
-        <item quantity="other">"Impossibile ripristinare %d elementi a causa di un errore sconosciuto."</item>
-        <item quantity="one">"Impossibile ripristinare %d elemento a causa di un errore sconosciuto."</item>
-    </plurals>
-    <plurals name="search_alll_records_hint">
-        <item quantity="other">Cerca tra %d registrazioni</item>
-        <item quantity="one">Cerca tra %d registrazione</item>
+        <item quantity="other">Impossibile ripristinare %d elementi, errore sconosciuto.</item>
+        <item quantity="one">Impossibile ripristinare %d elemento, errore sconosciuto.</item>
     </plurals>
     <plurals name="search_app_records_hint">
-        <item quantity="other">Cerca tra %d registrazioni</item>
-        <item quantity="one">Cerca tra %d registrazione</item>
+        <item quantity="other">%d registrazioni</item>
+        <item quantity="one">%d registrazione</item>
     </plurals>
     <plurals name="search_call_records_hint">
-        <item quantity="other">Cerca tra %d registrazioni chiamate</item>
-        <item quantity="one">Cerca tra %d registrazione chiamata</item>
+        <item quantity="other">%d registrazioni di chiamata</item>
+        <item quantity="one">%d registrazione di chiamata</item>
     </plurals>
     <plurals name="search_fm_records_hint">
         <item quantity="other">%d registrazioni radio</item>
@@ -128,21 +124,17 @@
         <item quantity="other">Trovate %d registrazioni</item>
         <item quantity="one">Trovata %d registrazione</item>
     </plurals>
-    <plurals name="text_btn_list_with_message">
-        <item quantity="other">%d nuove registrazioni</item>
-        <item quantity="one">%d nuova registrazione</item>
-    </plurals>
     <plurals name="time_left_for_clear_file">
         <item quantity="other">%d giorni rimanenti</item>
         <item quantity="one">%d giorno rimanente</item>
     </plurals>
     <plurals name="trash_box_delete_items">
-        <item quantity="other">Eliminare %d registrazioni selezionate in modo permanente?</item>
-        <item quantity="one">Eliminare %d registrazione selezionata in modo permanente?</item>
+        <item quantity="other">Eliminare definitivamente %d registrazioni selezionate?</item>
+        <item quantity="one">Eliminare definitivamente %d registrazione selezionata?</item>
     </plurals>
     <plurals name="trash_box_tip">
-        <item quantity="other">Gli elementi eliminati possono essere memorizzati nel cestino per %d giorni</item>
-        <item quantity="one">Gli elementi eliminati possono essere memorizzati nel cestino per %d giorno</item>
+        <item quantity="other">Gli elementi eliminati possono essere archiviati nel cestino fino a %d giorni</item>
+        <item quantity="one">Gli elementi eliminati possono essere archiviati nel cestino fino a %d giorno</item>
     </plurals>
     <plurals name="unsynced_records_count">
         <item quantity="other">%d non sincronizzati</item>

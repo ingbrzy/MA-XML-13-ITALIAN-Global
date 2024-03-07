@@ -2,15 +2,15 @@
 <resources>
     <string-array name="color_mode_labels">
         <item>Bianco e nero</item>
-        <item>Colore</item>
+        <item>A colori</item>
     </string-array>
     <string-array name="duplex_mode_labels">
         <item>Nessuno</item>
-        <item>Bordo lungo</item>
-        <item>Bordo corto</item>
+        <item>Lato lungo</item>
+        <item>Lato corto</item>
     </string-array>
     <string-array name="orientation_labels">
-        <item>Ritratto</item>
+        <item>Verticale</item>
         <item>Orizzontale</item>
     </string-array>
 </resources>

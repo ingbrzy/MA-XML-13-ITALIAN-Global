@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="debug_mode_protocol_entries">
-        <item>Predefinito</item>
-        <item>MiPlay</item>
-        <item>Miracast</item>
-        <item>AirKan</item>
-        <item>LeLink</item>
-        <item>DLNA</item>
+    <string-array name="settings_search_connect_car">
+        <item>Combina app</item>
+        <item>Interconnettività/Combina app</item>
+        <item>Funzionalità auto</item>
+    </string-array>
+    <string-array name="settings_search_connection_home">
+        <item>Interconnettività</item>
+        <item>Interconnettività/Interconnettività</item>
+        <item>Interconnettività dei dispositivi, Servizi di interconnettività tra dispositivi, Xiaomi, AIoT Xiaomi, AIoT, Screen Combo, connessione intelligente, Mi Smart Hub, Interconnettività, Duo, telefono Xiaomi, laptop Xiaomi, Multischermo, Duet, proiezione, combina app, trasferisci, trasferisci app, Mirror, Ecosistema Xiaomi, connessione del dispositivo</item>
+    </string-array>
+    <string-array name="settings_search_connection_privacy">
+        <item>Privacy</item>
+        <item>Interconnettività/Privacy</item>
+        <item>Privacy e interconnettività, Privacy</item>
+    </string-array>
+    <string-array name="settings_search_connection_service">
+        <item>Interconnettività Xiaomi</item>
+        <item>Interconnettività/Interconnettività Xiaomi</item>
+        <item>Servizi di interconnettività Xiaomi, Interconnettività Xiaomi</item>
+    </string-array>
+    <string-array name="settings_search_relay_app">
+        <item>Trasferisci app</item>
+        <item>Interconnettività/Trasferisci app</item>
+        <item>Trasferisci app, trasferisci, trasferimento</item>
+    </string-array>
+    <string-array name="settings_search_relay_call">
+        <item>Chiamate</item>
+        <item>Interconnettività/Chiamate</item>
+        <item>Chiamate</item>
+    </string-array>
+    <string-array name="settings_search_relay_network">
+        <item>Assistenza di rete</item>
+        <item>Interconnettività/Assistenza di rete</item>
+        <item>Assistenza di rete, tethering, condivisione hotspot</item>
+    </string-array>
+    <string-array name="settings_search_share_Launcher">
+        <item>Schermata Home+</item>
+        <item>Interconnettività/Schermata Home+</item>
+        <item>Schermata Home+, Mi Smart Hub, condivisione dello schermo</item>
+    </string-array>
+    <string-array name="settings_search_share_clipboard">
+        <item>Appunti</item>
+        <item>Interconnettività/Appunti</item>
+        <item>Appunti</item>
+    </string-array>
+    <string-array name="settings_search_share_notify">
+        <item>Notifiche tra dispositivi</item>
+        <item>Interconnettività/Notifiche</item>
+        <item>Notifiche tra dispositivi</item>
     </string-array>
 </resources>
