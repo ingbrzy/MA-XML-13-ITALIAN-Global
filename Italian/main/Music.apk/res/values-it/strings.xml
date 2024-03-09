@@ -368,7 +368,6 @@
     <string name="download_method">Scarica</string>
     <string name="download_paused_in_power_save_mode">I download saranno messi in pausa quando Risparmio energetico è attivo</string>
     <string name="download_processing">Download in corso…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">Qualità download</string>
     <string name="download_quality_summary">Impostazioni aggiuntive per i brani scaricati</string>
     <string name="download_song_quality_title">Qualità dei brani scaricati</string>
@@ -464,9 +463,7 @@
     <string name="exo_media_action_repeat_all_description">Ripeti tutto</string>
     <string name="exo_media_action_repeat_off_description">Non ripetere nulla</string>
     <string name="exo_media_action_repeat_one_description">Ripeti uno</string>
-    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Versione alternativa</string>
     <string name="exo_track_role_closed_captions">Sottotitoli</string>
     <string name="exo_track_role_commentary">Commenti</string>
@@ -884,7 +881,6 @@
     <string name="mtrl_picker_a11y_next_month">Passa al mese successivo</string>
     <string name="mtrl_picker_a11y_prev_month">Passa al mese precedente</string>
     <string name="mtrl_picker_announce_current_selection">Selezione attuale: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Seleziona data</string>
     <string name="mtrl_picker_date_header_unselected">Data selezionata</string>
@@ -1245,7 +1241,6 @@
     <string name="privacy_authorize_revoking">Revoca autorizzazione…</string>
     <string name="privacy_desc">Informativa sulla privacy (obbligatorio)</string>
     <string name="privacy_policy">Informativa sulla privacy</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=it_IT</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Music needs to collect necessary personal information to provide you with online streaming services. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy of Mi Music in the Settings at any time.
 Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before using Mi Music.
 If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you.&lt;/Data>"</string>
@@ -1422,7 +1417,6 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="start_to_download">Download in corso…</string>
     <string name="start_to_play">Preparing to play…</string>
     <string name="start_update">Installazione nuova versione…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Spazio per le app clonate</string>
     <string name="storage_space_permissions_for_display">Accesso alla memoria del dispositivo: per scansionare, visualizzare e riprodurre file locali</string>
     <string name="streamloadingtext">Connecting to %s</string>
@@ -1706,7 +1700,6 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="upload_playlist_to_hungama_title">Sincronizza i brani online con hungama per accedervi su altri dispositivi collegati al tuo Xiaomi Account.</string>
     <string name="upload_playlist_to_hungama_toast">I brani online saranno sincronizzati con hungama</string>
     <string name="user_agreement">Accordo utente</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=it_IT</string>
     <string name="user_experience_program_open">A causa delle restrizioni sul copyright, per riprodurre i brani scaricati devi iscriverti al Programma Esperienza Utente. Puoi farlo in Impostazioni > Password e sicurezza > Privacy > Iscriviti al Programma Esperienza Utente.</string>
     <string name="user_playlist_plaza">Playlist</string>
     <string name="user_privacy_dialog_negative_text">Annulla</string>

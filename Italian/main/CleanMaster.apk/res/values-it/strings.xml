@@ -304,7 +304,6 @@
     <string name="download">Scarica</string>
     <string name="downloading">Download in corso</string>
     <string name="early_morning">Mattino</string>
-    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Vuoto</string>
     <string name="empty_content_no_privacy">Vuoto</string>
     <string name="empty_content_no_similar_image">Nessuna foto</string>
@@ -492,7 +491,6 @@
     <string name="hints_garbage_cleanup_result_safe">Sembra tutto a posto</string>
     <string name="hints_garbage_handle_item_content">%1$d elementi, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Vuoto</string>
-    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Raramente usata</string>
     <string name="hints_installed_app_near">Usata di recente</string>
     <string name="hints_installed_app_never">Mai usata</string>

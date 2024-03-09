@@ -862,7 +862,6 @@ La registrazione a due telefoni ti consente inoltre di connetterti a un altro di
     <string name="edit_temple">Tempie</string>
     <string name="edit_touch_up">Trucco</string>
     <string name="emoticon">Pacchetto adesivi</string>
-    <string name="empty" />
     <string name="eras_ad">d.C.</string>
     <string name="eras_bc">a.C.</string>
     <string name="error_fail_to_start_audio_capture">"Impossibile catturare l'audio"</string>
@@ -1593,7 +1592,6 @@ Mantiene il soggetto nitido offuscano lo sfondo."</string>
     <string name="pref_camera_auxiliary_close">Disattivata</string>
     <string name="pref_camera_auxiliary_exposure_feedback">"Verifica dell'esposizione"</string>
     <string name="pref_camera_auxiliary_focus_peak">Focus peaking</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Alta</string>
     <string name="pref_camera_beautify_entry_low">Bassa</string>
     <string name="pref_camera_beautify_entry_normal">Media</string>
